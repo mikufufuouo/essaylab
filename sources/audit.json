@@ -1,0 +1,22 @@
+{
+  "prompt_count": 101,
+  "counts_by_type": {
+    "gaokao": 16,
+    "district_mock": 45,
+    "school_exam": 33,
+    "other_region_mock": 1,
+    "personal_question": 6
+  },
+  "source_note_count": 4,
+  "paragraph_count": 318,
+  "nonblank_paragraph_count": 279,
+  "all_nonblank_paragraphs_accounted_for": true,
+  "empty_heading_excluded": "26二模",
+  "personal_information_gap_variants": 3,
+  "source_warnings": [
+    "行知的选择幸福/痛苦题，不能误写为晋元。",
+    "深圳一模单列，某校来源未知。",
+    "学校年份按原标签保留，不推断学年或确切日期。",
+    "作文片段与原书引语不自动视为已核实事实。"
+  ]
+}
