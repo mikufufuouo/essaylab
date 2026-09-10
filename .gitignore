@@ -11,5 +11,6 @@ dist/
 inbox/
 sources/*
 !sources/audit.json
+!sources/paragraphs.json
 tmp/
 试运行/
