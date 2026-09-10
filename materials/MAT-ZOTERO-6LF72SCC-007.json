@@ -1,0 +1,284 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-007",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "parent_capture_id": null,
+  "capture": {
+    "text_original": "自然的秩序被打破了，我们建立起了理性的新秩序，这就是古今之 变的第三点。\n\n个人主观价值绝对提升，自然秩序被打破，理性秩序建立，这些都是古今之变的一部分。简单地说，古今之变，就是自然变成了不自然。\n\n这并不是说客观世界从自然变成了不自然，而是说我们看待世界的方式改变了。\n\n但现在我们不再相信有什么上天注定的意义，我们相 信意义是由人赋予的。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "22–23（PDF 第 23–24 页；非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "LAFI2GUZ",
+        "attachment_key": "6LF72SCC",
+        "page_label": "23",
+        "page_index": 22,
+        "sort_index": "00022|000644|00559",
+        "position": {
+          "rects": [
+            [
+              105.045,
+              217.635,
+              536.415,
+              232.635
+            ],
+            [
+              72.585,
+              199.635,
+              152.385,
+              214.635
+            ]
+          ],
+          "pageIndex": 22
+        },
+        "text": "自然的秩序被打破了，我们建立起了理性的新秩序，这就是古今之 变的第三点。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "B248UPIJ",
+        "attachment_key": "6LF72SCC",
+        "page_label": "23",
+        "page_index": 22,
+        "sort_index": "00022|000759|00649",
+        "position": {
+          "rects": [
+            [
+              102.585,
+              127.635,
+              536.355,
+              142.635
+            ]
+          ],
+          "pageIndex": 22
+        },
+        "text": "个人主观价值绝对提升，自然秩序被打破，理性秩序建立，这些都",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "42RSCIX9",
+        "attachment_key": "6LF72SCC",
+        "page_label": "23",
+        "page_index": 22,
+        "sort_index": "00022|000788|00667",
+        "position": {
+          "rects": [
+            [
+              72.825,
+              109.635,
+              527.385,
+              124.635
+            ]
+          ],
+          "pageIndex": 22
+        },
+        "text": "是古今之变的一部分。简单地说，古今之变，就是自然变成了不自然。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "ZHF6T332",
+        "attachment_key": "6LF72SCC",
+        "page_label": "23",
+        "page_index": 22,
+        "sort_index": "00022|000819|00685",
+        "position": {
+          "rects": [
+            [
+              102.645,
+              91.635,
+              535.83,
+              106.635
+            ]
+          ],
+          "pageIndex": 22
+        },
+        "text": "这并不是说客观世界从自然变成了不自然，而是说我们看待世界的",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "7Z54TGR3",
+        "attachment_key": "6LF72SCC",
+        "page_label": "23",
+        "page_index": 22,
+        "sort_index": "00022|000848|00703",
+        "position": {
+          "rects": [
+            [
+              72.645,
+              73.635,
+              152.385,
+              88.635
+            ]
+          ],
+          "pageIndex": 22
+        },
+        "text": "方式改变了。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "TI3CFQ25",
+        "attachment_key": "6LF72SCC",
+        "page_label": "24",
+        "page_index": 23,
+        "sort_index": "00023|000008|00073",
+        "position": {
+          "rects": [
+            [
+              192.465,
+              703.635,
+              535.77,
+              718.635
+            ],
+            [
+              72.585,
+              685.635,
+              212.385,
+              700.635
+            ]
+          ],
+          "pageIndex": 23
+        },
+        "text": "但现在我们不再相信有什么上天注定的意义，我们相 信意义是由人赋予的。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-09-complete.json",
+    "grouping_reason": "高亮是新秩序与古今之变的总结，需结合未划出的春运、工业化与陌生人合作说明它如何发生。",
+    "context_note": "本卡高亮集中在总结句，机制和代价来自明确单列的第23页正文，未假装这些内容也被用户划出。",
+    "context_excerpts": [
+      {
+        "id": "CTX-ORGANIZE",
+        "page_index": 22,
+        "text": "春运之所以变成一种“新传统”，是因为现在太多人在外地工作，春节时会大规模返乡。而离开故乡到外地工作和生活，在以前是不自然的，有违传统的。这种新传统的出现，是因为现代化改变了我们的社会生产和组织方式。以前我们与熟人合作，这很自然。但后来出现了效率更高的方法，大量劳动力被汇聚起来集中生产。于是有了工业化和城市化，人们开始聚集到城市中，和陌生人广泛地合作。",
+        "method": "pdf_text"
+      },
+      {
+        "id": "CTX-COST",
+        "page_index": 22,
+        "text": "现代工商业因此而发展，但新的问题出现了。理性计算的逻辑会一直向前推进，导向一些我们不喜欢的后果，比如“工作996，生病ICU”，人变成了工业链条上可磨损的零件。",
+        "method": "pdf_text"
+      }
+    ]
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": "作者把春运看作现代生产与生活方式产生的“新传统”：人口离乡工作、集中生产与城市化，使人与陌生人广泛合作。理性组织提高效率，却也可能让不断扩张的计算逻辑忽视人的处境。“自然变成不自然”在这里指观念和组织方式变化，并非客观自然界消失。",
+    "primary_theme": "T09",
+    "secondary_themes": [
+      "T05"
+    ],
+    "classification_reason": "重点是效率与计算尺度怎样进入生活，主归 T09；陌生人合作和共同生活的组织变化次归 T05。",
+    "concept_candidates": [],
+    "argument_structure": [
+      {
+        "role": "补上总结前的机制",
+        "summary": "离乡工作使春运成为新传统；效率更高的集中生产推动城市化和陌生人合作。",
+        "annotation_keys": [],
+        "context_keys": [
+          "CTX-ORGANIZE"
+        ]
+      },
+      {
+        "role": "概括新秩序",
+        "summary": "作者称之为自然秩序被打破、理性的新秩序建立。",
+        "annotation_keys": [
+          "LAFI2GUZ"
+        ],
+        "context_keys": []
+      },
+      {
+        "role": "指出代价而非只赞美效率",
+        "summary": "计算逻辑持续扩张时，可能把人视为可消耗的零件。",
+        "annotation_keys": [],
+        "context_keys": [
+          "CTX-COST"
+        ]
+      },
+      {
+        "role": "限定“自然”的含义",
+        "summary": "三方面转变共同改变人看待世界和赋予意义的方式，不是说客观世界变成非自然。",
+        "annotation_keys": [
+          "B248UPIJ",
+          "42RSCIX9",
+          "ZHF6T332",
+          "7Z54TGR3",
+          "TI3CFQ25"
+        ],
+        "context_keys": []
+      }
+    ],
+    "argument_uses": [
+      {
+        "claim": "效率指标可以服务共同生活，但不能替代对人的处境和生活目的的判断。",
+        "relation": "qualifies",
+        "role": "mechanism",
+        "reasoning": "集中生产和陌生人协作表明理性组织有实际价值；计算逻辑的扩张又说明，当手段不再接受目的审视时，人可能被降为成本项目。",
+        "conditions": [
+          "指出具体指标优化了什么，又遗漏了谁的哪些需要。"
+        ],
+        "limits": [
+          "不能推出所有量化管理都伤害人。",
+          "不能把“自然”直接等同于好、“不自然”等同于坏。",
+          "书中的工作时长表达是问题举例，不是经本项目核验的普遍因果规律。"
+        ],
+        "evidence_status": "interpretive"
+      }
+    ],
+    "related_prompts": [
+      {
+        "id": "PR-0035",
+        "reason": "回应以精细标尺丈量生活却可能遗忘生活本身：衡量手段既能提高效率，也需要接受生活目的的检验。",
+        "limits": [
+          "它提醒效率指标的边界，不能据此断言一切量化都伤害生活。"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-09：按用户要求整理本次全部批注；重复划线在阅读正文中去重，原始快照保留。",
+    "已回读对应 PDF 上下文并检查组合关系；未逐字视觉核验全部高亮，原文核对状态仍为 unchecked。",
+    "作者的论证解释与面向作文的用法分开；未进行人物史实或原著引文的独立核验。",
+    "用户授权整理本批内容，但尚未逐张认可整理结果。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "title": "理性的新秩序：效率如何改变共同生活",
+  "collection_role": "reading",
+  "question": "效率怎样帮助生活，又可能遗漏人的哪些需要？",
+  "summary": "理性组织提高效率，也可能让计算尺度遮蔽人的需要，因此手段仍须接受生活目的的检验。"
+}

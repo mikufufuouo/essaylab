@@ -1,0 +1,148 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-024",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "title": "官僚制：非个人化的效率逻辑",
+  "summary": "本书所说的官僚制依靠明确分工和规则，把复杂个案转为可计算的指标；银行贷款的例子说明系统效率与个人感受可能发生冲突。",
+  "parent_capture_id": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "capture": {
+    "text_original": "工具理性的不断扩张,塑造了现代社会一种无处不在的文化观念。 我们高度重视理性计算、永无止境地追求高效率。\n\n这种强大能力源自官僚制的基本特征,“非个人 化”(impersonal),也就是“对事不对人”。为了追求效率,人被简化成 一些指标,和任务无关的个人因素则忽略不计。这样做的好处是,如此 一来,无法被计算的复杂个人,就变成了可以计算的数据。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "42–43（PDF 第 43–44 页；含补充上下文，非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "BSZPV9XR",
+        "attachment_key": "6LF72SCC",
+        "page_label": "43",
+        "page_index": 42,
+        "sort_index": "00042|000519|00480",
+        "position": {
+          "pageIndex": 42,
+          "rects": [
+            [
+              102,
+              299.391,
+              537,
+              311.76
+            ],
+            [
+              72,
+              281.391,
+              402,
+              293.76
+            ]
+          ]
+        },
+        "text": "工具理性的不断扩张,塑造了现代社会一种无处不在的文化观念。 我们高度重视理性计算、永无止境地追求高效率。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "HZYXIIS9",
+        "attachment_key": "6LF72SCC",
+        "page_label": "44",
+        "page_index": 43,
+        "sort_index": "00043|000412|00345",
+        "position": {
+          "pageIndex": 43,
+          "rects": [
+            [
+              102,
+              468.505,
+              408.656,
+              482.01
+            ],
+            [
+              72,
+              450.505,
+              533.59,
+              464.01
+            ],
+            [
+              72,
+              433.641,
+              537,
+              446.01
+            ],
+            [
+              72,
+              415.641,
+              462,
+              428.01
+            ]
+          ]
+        },
+        "text": "这种强大能力源自官僚制的基本特征,“非个人 化”(impersonal),也就是“对事不对人”。为了追求效率,人被简化成 一些指标,和任务无关的个人因素则忽略不计。这样做的好处是,如此 一来,无法被计算的复杂个人,就变成了可以计算的数据。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-10-complete.json",
+    "grouping_reason": "前段提出工具理性塑造制度，后段给出非个人化机制；两段共同解释效率逻辑，不把“非个人化”简化为纯粹贬义。 补充正文保留本组的例子、机制或限定，使概括能够在卡内回查。",
+    "context_excerpts": [
+      {
+        "id": "CTX-024-1",
+        "page_index": 42,
+        "text": "韦伯认为，这导致了一个显著的后果，就是社会制度的官僚化：不仅是在政府，而且在社会的各个领域，包括学校、军队、公司……官僚制这种组织形式占据了重要地位。官僚制最典型的体现是行政管理系统，不仅用在政府公务员体制，只要有管理需求的地方，成熟的管理体制都是官僚制。它的特点就是有一个等级严密的上下级结构关系，整个系统有明确的分工，每个职位都有一套严格的任务清单，每个人按照规定的流程和规则行事。",
+        "method": "pdf_text"
+      },
+      {
+        "id": "CTX-024-2",
+        "page_index": 43,
+        "text": "一个理想的官僚系统规则合理，纪律严明，人尽其责，照章办事；系统运转精确、稳定，具有很高的可预测性，效率高，执行力极强。",
+        "method": "pdf_text"
+      },
+      {
+        "id": "CTX-024-3",
+        "page_index": 43,
+        "text": "举个银行的例子。银行处理贷款业务的时候，不必去细心考虑每个客户的复杂情况：这个人贷款是为了上学、为家人治病，或者是为了事业发展？银行要采集的是指标：贷款数额、信用记录、抵押保障、还贷能力等。把个人情况变成数据，通过计算，系统就能够高效地处理大量任务，保证效率和收益。官僚制对个人化的因素完全漠不关心，这对具体的个人而言可能冷酷无情，但就整个系统来说，这样可以在短时间内处理大量个案，实现效率最优化。如果反过来，这个系统耐心细致考虑每个人的具体情况甚至感受，做到体贴入微，这对你个人而言服务周到了，但整个系统就需要投入更大的资源，甚至无法运转陷入瘫痪。",
+        "method": "pdf_text"
+      }
+    ],
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。"
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": null,
+    "primary_theme": null,
+    "secondary_themes": [],
+    "classification_reason": null,
+    "concept_candidates": [],
+    "argument_uses": [],
+    "related_prompts": [],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-10：以新增 Zotero 批注为基础整理；原始片段、颜色、位置与空白 comment 均保留在本卡。",
+    "已按附件、PDF 页索引与页内排序补读本地 PDF 上下文；原始摘录中的异常字不作静默改写。",
+    "本卡为 AI 整理草稿；尚未获得逐卡内容认可。",
+    "2026-09-10 质量复核后重整：回读相关源段，检查卡片边界、指代、概括依据和断句；不是读者逐卡认可，source_match 仍为 unchecked。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null
+}

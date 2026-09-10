@@ -1,0 +1,103 @@
+{
+  "id": "MAT-89bf04ded5bbbb8b",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "import_fingerprint": "89bf04ded5bbbb8b4b1b7823be196adac6dbe23524fad9f2f12b5d0722206d71",
+  "parent_capture_id": "CAP-89bf04ded5bbbb8b",
+  "source_match": {
+    "status": "matched",
+    "basis": "已比对PDF第9页渲染图、高亮逐行QuadPoints及文字层字符；按实际选区保留截断位置。仅核对转录，不核验书中论述或作者归属。",
+    "checked_by": "Codex",
+    "checked_at": "2026-09-08"
+  },
+  "capture": {
+    "text_original": "理性化的现代世界将会瓦解传统社会的\n原则与规范，这对个体的人生信仰以及公",
+    "context_before": "性困境”或者“现代性危\n机”。关注现代思想中的反思性和批判性特征，是本书的核心视角。\n在前言之后的导论中，我们会解释“现代”的概念，阐述古代到现代\n的转变特征，让你对“现代性问题”的基本轮廓能有初步的把握。\n之后，我们开始进入第一章，核心人物是马克斯•韦伯。我们的旅\n行以韦伯为起点，因为他透彻地阐明了现代世界的基本特征——“理性\n化”。同时，韦伯敏锐地指出，",
+    "context_after": "共的社会政治秩序都形成了严\n峻挑战。由此，你会更为清晰地看到现代性问题的面貌，理解这一问题\n所包含的相互交织的两个维度：人生难题与社会困境。此后的三章沿着\n这两个维度分别展开。\n第二章以尼采、弗洛伊德与萨特的思想为主线，从人生难题的维\n度，探讨了“现代人的精神危机”的来由和应对这种危机可能有的困难。\n第三章转向社会困境的主题，讲解鲍曼、波普尔、哈耶克、伯林、",
+    "context_note": "上下文来自同页文字层前后各最多180字，可能截断；没有自动扩充原始高亮。",
+    "extraction_method": "pdf_annotation",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": null,
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "8",
+        "bbox": [
+          72.94499969482422,
+          271.364990234375,
+          527.4860229492188,
+          304.364990234375
+        ],
+        "coordinate_unit": "PDF point; MuPDF top-left; page index starts at 0",
+        "asset_path": "../刘擎西方现代思想讲义 (刘擎) (Z-Library).pdf"
+      }
+    },
+    "highlight": {
+      "color_raw": "#ff6666",
+      "color_normalized": "red",
+      "capture_type": "expression"
+    }
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": "结合前句与后文，刘擎在概述韦伯的一个判断：现代世界的理性化会瓦解传统原则和规范，给个体人生信仰与公共社会政治秩序带来挑战。高亮在“公”字处停止，完整的公共维度来自后文。",
+    "primary_theme": "T03",
+    "secondary_themes": [
+      "T05"
+    ],
+    "classification_reason": "核心是共同规范变化如何影响人生信仰与公共秩序，分别涉及价值依据和共同生活。不直接套用工具理性侵入生活的结论，也不把红色当成名人原话认证。",
+    "concept_candidates": [
+      {
+        "name": "理性化",
+        "status": "explicit_in_excerpt",
+        "reason": "高亮明确包含该术语；不能从本片段推出它与工具理性完全同义。"
+      }
+    ],
+    "argument_uses": [
+      {
+        "claim": "个人意义和公共秩序的困难，有时与共同规范的变化有关。",
+        "relation": "supports",
+        "role": "mechanism",
+        "reasoning": "结合未高亮上下文，作者把传统规范瓦解与个体信仰、公共秩序面临挑战联系起来。可展开价值依据如何变化的机制讨论，但仍只是书中对韦伯思想的概述。",
+        "conditions": [
+          "明确这是刘擎对韦伯的转述，而非韦伯原著引语",
+          "分析具体社会时需说明哪些规范发生了变化"
+        ],
+        "limits": [
+          "不能推出理性化只有坏处",
+          "不能由传统规范变化推出不存在任何合理评价标准",
+          "本段没有提供可独立验证的历史案例"
+        ],
+        "evidence_status": "interpretive"
+      }
+    ],
+    "related_prompts": [
+      {
+        "id": "PR-0026",
+        "reason": "提示意义产生还与共享规范有关，补充纯粹从个人内心解释意义的视角。"
+      },
+      {
+        "id": "PR-0050",
+        "reason": "提供多元世界中自我坚持面临何种价值背景的线索，不能替代坚持什么、怎样修正的具体论证。"
+      }
+    ],
+    "open_questions": [
+      "本次红色用于测试；当前片段更像理论概述，不因颜色就成为可脱离语境的金句。",
+      "继续阅读韦伯章节后，还需核对理性化的含义及其不同后果。"
+    ]
+  },
+  "review_notes": [
+    "PDF 第 9 页（零基索引 8），印刷页码未知。",
+    "按逐行 QuadPoints 与文字层字符中心匹配；未使用 OCR，未经人工认可。",
+    "原始批注：inbox/captures/CAP-89bf04ded5bbbb8b.json",
+    "本批由用户说明为四色测试，不将颜色解释为其赞同程度或真实阅读意图。",
+    "素材依赖上下文；没有在高亮原文中补字。",
+    "标题与作者据用户说明及文件名记录；PDF书目元数据为空，版次与印刷页码未补造。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "collection_role": "technical_test"
+}

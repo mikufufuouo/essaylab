@@ -1,0 +1,344 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-023",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "title": "工具理性与价值理性：手段计算与目的权衡",
+  "summary": "工具理性围绕既定目标计算成本收益和最优手段，价值理性则追问目标本身是否值得；前者因标准较统一而更容易扩张。",
+  "parent_capture_id": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "capture": {
+    "text_original": "韦伯同时代的社会学家齐美尔有一个比喻:金钱有一点像上帝,上 帝对所有人一视同仁,每个人都可以用上帝的名义做自己的事情。\n\n工具理性是做什么的?它的作用是找到做事的手段,就是一件事怎 么做才是最有效的。\n\n工具理 性的关键就在于“计算”:针对确定的目标,计算成本和收益,找到最优化的手段。工具理性不关心目的,只关心达成目的的手段是不是最优 的。\n\n价值理性又是什么呢?\n\n我考虑的不是手段,而是目的。我需要决定要不要去做这件事。\n\n也就是说,工具理性问题有客观标准,我们容易达成一致;价值理 性问题标准不一,很难找到确定的答案。在社会层面,这一点更明显: 价值观念问题我们有许多分歧;但在具体方法上,我们都认同工具理性 计算出来的方案。  那么结果是什么呢?工具理性的计算有客观公认的标准,所以可以 普遍化,成为一种通用逻辑。而价值理性的权衡没有公认的标准,是多 元化的,所以在现代社会难以普遍化。结果就是,在现代化的过程中,工具理性大行其道’压倒了价值理性。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "41–42（PDF 第 42–43 页；含补充上下文，非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "M9SLUDZE",
+        "attachment_key": "6LF72SCC",
+        "page_label": "42",
+        "page_index": 41,
+        "sort_index": "00041|000296|00372",
+        "position": {
+          "pageIndex": 41,
+          "rects": [
+            [
+              102,
+              407.391,
+              537,
+              419.76
+            ],
+            [
+              72,
+              389.391,
+              507,
+              401.76
+            ]
+          ]
+        },
+        "text": "韦伯同时代的社会学家齐美尔有一个比喻:金钱有一点像上帝,上 帝对所有人一视同仁,每个人都可以用上帝的名义做自己的事情。",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "7H3DBWEN",
+        "attachment_key": "6LF72SCC",
+        "page_label": "42",
+        "page_index": 41,
+        "sort_index": "00041|000451|00541",
+        "position": {
+          "pageIndex": 41,
+          "rects": [
+            [
+              102,
+              237.891,
+              537,
+              250.26
+            ],
+            [
+              72,
+              219.891,
+              207,
+              232.26
+            ]
+          ]
+        },
+        "text": "工具理性是做什么的?它的作用是找到做事的手段,就是一件事怎 么做才是最有效的。",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "HZVXLKUC",
+        "attachment_key": "6LF72SCC",
+        "page_label": "42",
+        "page_index": 41,
+        "sort_index": "00041|000569|00595",
+        "position": {
+          "pageIndex": 41,
+          "rects": [
+            [
+              490.313,
+              182.755,
+              535.313,
+              196.26
+            ],
+            [
+              72,
+              164.755,
+              535.313,
+              178.26
+            ]
+          ]
+        },
+        "text": "工具理 性的关键就在于“计算”:针对确定的目标,计算成本和收益,找到最优",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "TCGEAT3V",
+        "attachment_key": "6LF72SCC",
+        "page_label": "42",
+        "page_index": 41,
+        "sort_index": "00041|000605|00631",
+        "position": {
+          "pageIndex": 41,
+          "rects": [
+            [
+              72,
+              147.891,
+              522,
+              160.26
+            ],
+            [
+              72,
+              129.891,
+              102,
+              142.26
+            ]
+          ]
+        },
+        "text": "化的手段。工具理性不关心目的,只关心达成目的的手段是不是最优 的。",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "VAAG2KZY",
+        "attachment_key": "6LF72SCC",
+        "page_label": "42",
+        "page_index": 41,
+        "sort_index": "00041|000637|00667",
+        "position": {
+          "pageIndex": 41,
+          "rects": [
+            [
+              102,
+              111.891,
+              252,
+              124.26
+            ]
+          ]
+        },
+        "text": "价值理性又是什么呢?",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "UECSDEND",
+        "attachment_key": "6LF72SCC",
+        "page_label": "42",
+        "page_index": 41,
+        "sort_index": "00041|000718|00703",
+        "position": {
+          "pageIndex": 41,
+          "rects": [
+            [
+              402,
+              75.891,
+              537,
+              88.26
+            ]
+          ]
+        },
+        "text": "我考虑的不是手段,",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "N3FIUU6P",
+        "attachment_key": "6LF72SCC",
+        "page_label": "43",
+        "page_index": 42,
+        "sort_index": "00042|000000|00075",
+        "position": {
+          "pageIndex": 42,
+          "rects": [
+            [
+              72,
+              703.875,
+              357,
+              716.244
+            ]
+          ]
+        },
+        "text": "而是目的。我需要决定要不要去做这件事。",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "A3WFUWGA",
+        "attachment_key": "6LF72SCC",
+        "page_label": "43",
+        "page_index": 42,
+        "sort_index": "00042|000301|00273",
+        "position": {
+          "pageIndex": 42,
+          "rects": [
+            [
+              102,
+              505.641,
+              537,
+              518.01
+            ],
+            [
+              72,
+              487.641,
+              537,
+              500.01
+            ],
+            [
+              72,
+              469.641,
+              537,
+              482.01
+            ],
+            [
+              72,
+              451.641,
+              192,
+              464.01
+            ],
+            [
+              102,
+              433.641,
+              537,
+              446.01
+            ],
+            [
+              72,
+              415.641,
+              537,
+              428.01
+            ],
+            [
+              72,
+              397.641,
+              537,
+              410.01
+            ]
+          ]
+        },
+        "text": "也就是说,工具理性问题有客观标准,我们容易达成一致;价值理 性问题标准不一,很难找到确定的答案。在社会层面,这一点更明显: 价值观念问题我们有许多分歧;但在具体方法上,我们都认同工具理性 计算出来的方案。  那么结果是什么呢?工具理性的计算有客观公认的标准,所以可以 普遍化,成为一种通用逻辑。而价值理性的权衡没有公认的标准,是多 元化的,所以在现代社会难以普遍化。结果就是,在现代化的过程中,",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "X7HQQ5K8",
+        "attachment_key": "6LF72SCC",
+        "page_label": "43",
+        "page_index": 42,
+        "sort_index": "00042|000491|00399",
+        "position": {
+          "pageIndex": 42,
+          "rects": [
+            [
+              72,
+              378.505,
+              316.992,
+              392.01
+            ]
+          ]
+        },
+        "text": "工具理性大行其道’压倒了价值理性。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-10-complete.json",
+    "grouping_reason": "齐美尔关于金钱的比喻引出工具理性；随后各段连续界定两种理性并说明工具理性在现代社会更易普遍化。 补充正文保留本组的例子、机制或限定，使概括能够在卡内回查。",
+    "context_excerpts": [
+      {
+        "id": "CTX-023-1",
+        "page_index": 41,
+        "text": "之前说到，在现代，每个人都有自己的一套价值标准，社会中存在各种各样的价值取向。但你有没有注意到，其实我们也有高度一致的地方：谈到钱这个话题，我们的态度就很一致。我们都承认，不论追求什么，金钱都能有所帮助。难道我们都是拜金主义者吗？我觉得未必。科学家、诗人或者沉浸在恋爱中的年轻人，他们最看重的东西可能是科学、是艺术、是爱情，但他们也都会承认，钱是很有用的。",
+        "method": "pdf_text"
+      },
+      {
+        "id": "CTX-023-2",
+        "page_index": 41,
+        "text": "打个比方，我在外地开会，家人打电话来说要我赶紧回家。我一计算，飞机最快，机票的价格也能接受，于是就订了航班。这里运用的就是工具理性。",
+        "method": "pdf_text"
+      },
+      {
+        "id": "CTX-023-3",
+        "page_index": 41,
+        "text": "还是同一个例子，在外地开会，家里人让我赶紧回家。但这次，订机票之前我突然想：不对，还是得先问一下到底是什么事，看看值不值得为这事回一趟家。",
+        "method": "pdf_text"
+      },
+      {
+        "id": "CTX-023-4",
+        "page_index": 42,
+        "text": "举个最简单的例子，找工作。工作并不只是为了钱，还要考虑很多因素：你擅长这份工作吗？你喜欢这份工作吗？甚至，这份工作代表的事业是你愿意追求的吗？这些问题，算是算不出来的。价值理性，就是用理性来判断目标本身是不是有价值。但因为我们要考虑许多主观因素，所以就很难有标准答案。",
+        "method": "pdf_text"
+      }
+    ],
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。"
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": null,
+    "primary_theme": null,
+    "secondary_themes": [],
+    "classification_reason": null,
+    "concept_candidates": [],
+    "argument_uses": [],
+    "related_prompts": [],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-10：以新增 Zotero 批注为基础整理；原始片段、颜色、位置与空白 comment 均保留在本卡。",
+    "已按附件、PDF 页索引与页内排序补读本地 PDF 上下文；原始摘录中的异常字不作静默改写。",
+    "本卡为 AI 整理草稿；尚未获得逐卡内容认可。",
+    "2026-09-10 质量复核后重整：回读相关源段，检查卡片边界、指代、概括依据和断句；不是读者逐卡认可，source_match 仍为 unchecked。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null
+}

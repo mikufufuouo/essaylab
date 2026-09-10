@@ -1,0 +1,32 @@
+{
+  "source_id": "SRC-002",
+  "decisions": [
+    {"row":1,"id":"PR-0102","action":"new","title":"2026虹口二模 独立思考与共同思考","record_type":"district_mock","district":"虹口","school":null,"exam":"二模","primary":"T04","secondary":["T05","T01"],"tension":"独立判断与共同思考","reason":"独立指判断责任还是拒绝他人参与？讨论共同推敲如何帮助认识，以及何时反而造成从众。"},
+    {"row":2,"id":"PR-0103","action":"new","title":"2026杨浦二模 认知冲突","record_type":"district_mock","district":"杨浦","school":null,"exam":"二模","primary":"T04","secondary":["T07"],"tension":"新旧信息冲突与学习、混乱","reason":"冲突能够触发修正，也可能超出理解能力；区分冲突发生、证据检验和重新组织认识的条件。"},
+    {"row":3,"id":"PR-0104","action":"new","title":"2026宝山二模 自私与利他","record_type":"district_mock","district":"宝山","school":null,"exam":"二模","primary":"T05","secondary":["T03"],"tension":"个体牺牲、群体利益与对外竞争","reason":"先区分个体与物种、内部与外部的层次；自然现象的描述不能直接推出人应怎样做，题干生物学概括也需另行核验。"},
+    {"row":4,"id":"PR-0105","action":"new","title":"2026松江二模 共情与道德","record_type":"district_mock","district":"松江","school":null,"exam":"二模","primary":"T05","secondary":["T03"],"tension":"共情促进道德与妨碍道德","reason":"共情怎样激发关怀，又会不会造成亲疏偏向？区分道德行动的情感动力与判断是否公正的依据。"},
+    {"row":5,"id":"PR-0106","action":"new","title":"2026奉贤二模 成为自己与警惕成为自己","record_type":"district_mock","district":"奉贤","school":null,"exam":"二模","primary":"T01","secondary":["T07"],"tension":"自我认同与自我固化","reason":"成为自己是形成主体性，还是把当前偏好固定为本质？讨论自我坚持如何保留反思和成长的空间。"},
+    {"row":6,"id":"PR-0107","action":"new","title":"2026静安二模 离开对话与尊严","record_type":"district_mock","district":"静安","school":null,"exam":"二模","primary":"T05","secondary":["T06","T01"],"tension":"继续对话与退出以维护尊严","reason":"对话失去意义是主观挫败还是交流条件已被破坏？区分保护边界、拒绝羞辱与回避不同意见。"},
+    {"row":7,"id":"PR-0108","action":"new","title":"2026四校联考 时代精神与人的存在、缺席","record_type":"school_exam","district":null,"school":"上海市四校联考（成员未注明）","exam":"高三上学期期中联考","primary":"T05","secondary":["T07","T08"],"tension":"时代精神如何通过人的存在与缺席显现","reason":"缺席可能指未参与、被排除或缺少人的活动，需要先澄清含义；再讨论哪些被看见或被忽略的生活体现时代。"},
+    {"row":8,"id":"PR-0109","action":"new","title":"2025华二三模 期待与成就","record_type":"school_exam","district":null,"school":"华东师范大学第二附属中学","exam":"高三下三模","primary":"T05","secondary":["T02","T01"],"tension":"他人期待的高低与个体成就","reason":"期待通过支持、反馈或压力影响行动，不宜把期待越高与成就越大视作无条件因果；也需区分期待与实现期待的资源。"},
+    {"row":9,"id":"PR-0110","action":"new","title":"2025 人工智能与人的独特价值","record_type":"school_exam","district":null,"school":"上海市敬业中学","exam":"高三三模","primary":"T03","secondary":["T01","T09"],"tension":"技术能力的发展与人的价值依据","reason":"先说明独特价值指能力优势、主体经验还是伦理地位；不能仅凭某项任务表现的高低决定人的全部价值。"},
+    {"row":10,"id":"PR-0110","action":"exact_duplicate","record_type":"district_mock","district":"浦东","school":null,"exam":"高三三模","reason":"与第9条题干逐字一致，合并题目并保留两个独立来源标签；不据此确认两场考试实际使用同一试题。"},
+    {"row":11,"id":"PR-0111","action":"new","title":"2025格致 工具延伸与称量灵魂","record_type":"school_exam","district":null,"school":"格致中学","exam":"高三下开学摸底","primary":"T09","secondary":["T03","T08"],"tension":"工具扩展能力与衡量内在体验","reason":"工具帮助人做什么，与工具能否衡量体验和意义是两件事；追问指标对不可完全量化的生活有何作用与边界。"},
+    {"row":12,"id":"PR-0112","action":"new","title":"2025四校三月联考 感动流泪与AI比较","record_type":"school_exam","district":null,"school":"大同、南模、控江、曹杨二中","exam":"高三下三月联考","primary":"T03","secondary":["T09","T01"],"tension":"情感体验与人机优劣的比较标准","reason":"感动和流泪为何被当作胜出的标准？区分情感表达、主观体验与人的价值，不预设一次比较足以决定全部高下。"},
+    {"row":13,"id":"PR-0113","action":"new","title":"2025延安 为什么与怎么办","record_type":"school_exam","district":null,"school":"延安中学","exam":"高三上九月考试","primary":"T02","secondary":["T04"],"tension":"追问原因与寻找办法","reason":"解释原因和寻找办法怎样相互支持？需结合问题的紧迫性与可理解程度，而非把发问方式直接等同于行动能力。"},
+    {"row":14,"id":"PR-0114","action":"new","title":"2025大同 见过太阳与忍受黑暗","record_type":"school_exam","district":null,"school":"大同中学","exam":"高三上期中","primary":"T09","secondary":["T04","T10"],"tension":"新的认识、期待与对原处境的忍受","reason":"看到另一种可能为何会改变忍受的尺度？区分对比带来的不满足与促使行动的理想，不将不知道直接视为幸福。"},
+    {"row":15,"id":"PR-0115","action":"new","title":"2025上海中学 三思与再思","record_type":"school_exam","district":null,"school":"上海中学","exam":"高三上九月考试","primary":"T02","secondary":["T04"],"tension":"审慎思考与行动的适当时机","reason":"思考次数不直接等于判断质量；应结合风险、可逆性与已有信息讨论审慎何时必要、何时变成迟疑。引文归属尚未外部核验。"},
+    {"row":16,"id":"PR-0116","action":"new","title":"2025交附嘉定 银幕哪吒与身边哪吒","record_type":"school_exam","district":null,"school":"交大附中嘉定分校","exam":"高二下开学考试","primary":"T05","secondary":["T01","T08"],"tension":"欣赏自主形象与承担现实交往代价","reason":"观看人物时的认同与实际共处时的需求为何不同？区分主体性和忽视他人边界，也分析叙事选择对评价的影响。"},
+    {"row":17,"id":"PR-0117","action":"new","title":"2025华二投稿 科学中被超越","record_type":"writing_submission","district":null,"school":"华东师范大学第二附属中学","exam":"高三上作文投稿（非已核验考试）","primary":"T04","secondary":["T07","T03"],"tension":"科学成果被超越的必然性与目标意义","reason":"区分个人成就的持续被认可与知识共同发展的目标；被修正或超越怎样也可能体现既有工作的贡献？"},
+    {"row":18,"id":"PR-0118","action":"new","title":"2025上海四校自招 运动与生命","record_type":"admission_question","district":null,"school":"上海四校（成员未注明）","exam":"自招","primary":"T02","secondary":["T07"],"tension":"运动、时间感与生命体验","reason":"先区分物理运动与行动、变化的比喻意义，再讨论参与如何形成生命体验；不能把一切运动直接等同于生命价值。"},
+    {"row":19,"id":"PR-0119","action":"new","title":"2025华二紫竹自招 应当做与愿意做","record_type":"admission_question","district":null,"school":"华二紫竹","exam":"自招","primary":"T06","secondary":["T05","T03"],"tension":"规范要求与个人意愿","reason":"责任与愿望为何冲突，又如何形成可认同的选择？与PR-0048高度近似，但措辞及来源标签不同，保留独立条目并互相关联。"},
+    {"row":20,"id":"PR-0120","action":"new","title":"2025南模自招 起点与成就发展","record_type":"admission_question","district":null,"school":"南模中学","exam":"自招","primary":"T02","secondary":["T05","T03"],"tension":"起点差异与后续成就、发展","reason":"起点怎样影响机会与能力，又是否决定终点？区分资源条件、个人行动和评价尺度；题干中的李白叙述不自动视为已核实事实。"},
+    {"row":21,"id":"PR-0121","action":"new","title":"2026上海四校自招 科学解释与美感","record_type":"admission_question","district":null,"school":"上海四校（成员未注明）","exam":"自招","primary":"T04","secondary":["T03"],"tension":"理解科学机制与保有审美体验","reason":"解释一种现象是否会消除其美感，取决于怎样理解和体验美；不因了解机制就预设必然祛魅，也不补猜题干所指哲学家。"}
+  ],
+  "similar_pairs": [
+    {"left":"PR-0119","right":"PR-0048","kind":"wording_variant","reason":"核心设问与结构高度近似，但措辞、年份和来源不同，未证实为同一试题，不合并。"},
+    {"left":"PR-0113","right":"PR-0057","kind":"related_question","reason":"都涉及理解与行动；本题比较为什么和怎么办的提问取向，旧题比较分析与解决的重要性，保留各自设问。"},
+    {"left":"PR-0109","right":"PR-0031","kind":"related_question","reason":"本题检验期待与成就的因果关系，旧题讨论是否应受他人期待影响，侧重点不同。"},
+    {"left":"PR-0112","right":"PR-0110","kind":"related_question","reason":"均讨论AI与人的价值，但前者给出感动流泪即胜出的具体判断，后者是开放的问题，不能合并。"}
+  ]
+}

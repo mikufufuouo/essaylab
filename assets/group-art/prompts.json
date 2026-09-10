@@ -1,0 +1,29 @@
+{
+  "base": "Use case: photorealistic-natural. Asset type: permanent visual identity for one thought collection in EssayLab, a quiet Chinese literary reading library. Generate a single landscape image, aspect ratio 3:2, no typography whatsoever. Art direction: refined abstract still-life photographed on matte warm ivory uncoated paper, subtle analog photographic grain and printed pigment, tactile believable physical materials, soft overcast daylight, restrained contemporary literary journal art, low saturation, gently poetic and materially real, not a diagram. Composition: the LEFT 60 percent of the entire frame must be almost empty uninterrupted warm ivory paper (#f3f0e7), extremely low detail, no objects, no marks, no noticeable shadows: real selectable dark text will later overlay that area. The motif is confined to the RIGHT 36 percent, centered near x=82%, y=48%, visible silhouette and distinct material relationships, naturally crop a little on the right edge. Background joins continuously across the frame, absolutely no panel division or border. Flat overhead or very shallow angle, intimate editorial macro scale. Avoid dramatic light, shiny surfaces, CGI, 3D render aesthetics, stock photos, vintage sepia, messy scratches, fake torn scrapbook edges, gradients as graphic effects, gears, cages, symbols, icons, books, pens, faces, letters, numerals, logos, watermarks. No text anywhere. ",
+  "subjects": [
+    [
+      "modern-turns",
+      "Subject: two broad delicate translucent vellum sheets, one warm chalk white and one pale ochre, gently curled in two diverging directions, intersecting at one restrained point. The two directions read as different ways of opening, no arrows. One strong bifurcating silhouette on the far right. Light straw and muted ochre accents, subtle edge shadows."
+    ],
+    [
+      "disenchantment",
+      "Subject: an extremely fine mist-blue translucent scrim or thin gauze veil, partially lifted from a pale smooth rectangular plaster plane; a softly blurred boundary becomes sharp beneath the veil. One strong pale blue vertical translucent veil silhouette on the far right, suggest uncovering and the remaining emptiness, not magical disappearance. Mist blue and cool grey accents."
+    ],
+    [
+      "values",
+      "Subject: three small translucent irregular mineral-pigment sheets in dusty mauve, muted terracotta, and grey blue, overlapping near their edges but each maintaining a distinct visible boundary. Asymmetrical compact constellation on the far right, several subtly different shapes; overlap makes subdued complex colors. Not a Venn diagram, no perfect circles, no icons."
+    ],
+    [
+      "rationality",
+      "Subject: a large flat matte pale olive paper fragment with a single very straight precise incision; one fine soft dark olive linen thread bends away from that incision into a loose gentle asymmetric curve. Precise edge against organic line. Both motif and thread entirely on the far right. No rulers, machinery or gears. Grey olive accent."
+    ],
+    [
+      "iron-cage",
+      "Subject: layered folded graphite-grey fibrous paper sculpted into dense offset parallel planes surrounding one small irregular warm empty opening. The opening feels simultaneously sheltered and constricted. A compact strong stepped dark silhouette on far right. Physical folds and soft shadow, not a cage, not prison bars, not architecture or a 3D render. Charcoal and warm grey accent."
+    ],
+    [
+      "reflection",
+      "Subject: one small thin worn pale limestone fragment, rounded irregular triangular form and a quiet soft crescent shadow, lying near a large faint diffused patch of daylight on paper. Wide openness, weathered real stone grain, gentle warm sand and chalk palette, asymmetric horizonless composition. Motif on far right. No zen garden, no stacked stones, no sunset."
+    ]
+  ]
+}

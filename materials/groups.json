@@ -1,0 +1,64 @@
+{
+  "material_groups": [
+    {
+      "id": "GRP-modern-turns",
+      "title": "现代的两种转向",
+      "summary": "人如何重新理解自然与自己，又为何在获得自由和力量的同时遇到新的困境。",
+      "material_ids": [
+        "MAT-ZOTERO-6LF72SCC-009",
+        "MAT-ZOTERO-6LF72SCC-031",
+        "MAT-ZOTERO-6LF72SCC-010"
+      ]
+    },
+    {
+      "id": "GRP-disenchantment",
+      "title": "祛魅：从神秘世界到意义问题",
+      "summary": "从人与世界的旧式联系出发，看理性化如何改变信仰，以及清醒之后为何仍有意义问题。",
+      "material_ids": [
+        "MAT-ZOTERO-6LF72SCC-015",
+        "MAT-ZOTERO-6LF72SCC-016",
+        "MAT-ZOTERO-6LF72SCC-017"
+      ]
+    },
+    {
+      "id": "GRP-values",
+      "title": "事实、价值与诸神之争",
+      "summary": "先区分事实与价值，再理解价值多元带给个人和公共生活的自由与冲突。",
+      "material_ids": [
+        "MAT-ZOTERO-6LF72SCC-019",
+        "MAT-ZOTERO-6LF72SCC-021",
+        "MAT-ZOTERO-6LF72SCC-022"
+      ]
+    },
+    {
+      "id": "GRP-rationality",
+      "title": "工具理性：手段与目的",
+      "summary": "从两种理性的区分，看效率如何塑造制度，又如何反过来挤压最初的目的。",
+      "material_ids": [
+        "MAT-ZOTERO-6LF72SCC-023",
+        "MAT-ZOTERO-6LF72SCC-024",
+        "MAT-ZOTERO-6LF72SCC-025"
+      ]
+    },
+    {
+      "id": "GRP-iron-cage",
+      "title": "现代的铁笼",
+      "summary": "非个人化让社会高效运转，也把人变成零件；理解它的两种弊端，还要看到束缚与保障来自同一机制。",
+      "material_ids": [
+        "MAT-ZOTERO-6LF72SCC-026",
+        "MAT-ZOTERO-6LF72SCC-027",
+        "MAT-ZOTERO-6LF72SCC-028",
+        "MAT-ZOTERO-6LF72SCC-029"
+      ]
+    },
+    {
+      "id": "GRP-reflection",
+      "title": "反思现代：从看清到从容",
+      "summary": "理解现代生活的成就和内在问题，既不盲目乐观，也不因看见弊端而陷入悲观。",
+      "material_ids": [
+        "MAT-ZOTERO-6LF72SCC-013",
+        "MAT-ZOTERO-6LF72SCC-030"
+      ]
+    }
+  ]
+}

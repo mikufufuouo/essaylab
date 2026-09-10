@@ -1,0 +1,366 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-022",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "title": "价值冲突：公共生活没有单一裁判",
+  "summary": "刘擎在介绍韦伯时，以相互冲突的道德立场说明科学不能提供唯一的价值裁判；但作者也保留了异议：这些分歧是否绝对无法化解，仍可讨论。",
+  "parent_capture_id": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "capture": {
+    "text_original": "这是个人精神层面的问题。在社会层面，价值多元化也带来了棘手的问题。\n\n公共生活中有许多激烈对立的议题，本质都是价值观之间的冲突。\n\n这两种观点背后都有它的道德依据， 像这样的价值观念冲突很难用理性化解，我们不能确定无疑地说，哪个 道德依据一定“更正确”。\n\n诸神之争的本质是现代社会中 价值观念之间的冲突。现代社会的主导思想是科学,科学属于“实然”领 域,旨在发现世界的真相“是”什么,只能做出相应的事实判断。\n\n但支撑人类生活意 义的重要观念和原则,包括宗教信仰、人生理想、道德规范以及审美趣 味等等,都属于“应然”领域的价值判断,而科学无法解决价值判断问 题,它给不出一个确定的回答。\n\n韦伯说:“个人必须决定,在他自己看来,哪一个是上帝,哪一个 是魔鬼。”这种选择无法获得理性论证的担保,因此具有很强的主观 性。现代人虽然拥有很大的自由,拥有选择自己生活理想和政治立场的 权利,但这种自由也可能成为沉重的负担。我们可能变得茫然失措、不 知如何选择,或者采取所谓“决断论”的方式,听凭自己的意志、随心所 欲地断然抉择。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "39–39（PDF 第 40–40 页；含补充上下文，非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "I8STDMF4",
+        "attachment_key": "6LF72SCC",
+        "page_label": "40",
+        "page_index": 39,
+        "sort_index": "00039|000000|00073",
+        "position": {
+          "pageIndex": 39,
+          "rects": [
+            [
+              102.645,
+              703.635,
+              536.355,
+              718.635
+            ]
+          ]
+        },
+        "text": "这是个人精神层面的问题。在社会层面，价值多元化也带来了棘手",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "4E9VYCNL",
+        "attachment_key": "6LF72SCC",
+        "page_label": "40",
+        "page_index": 39,
+        "sort_index": "00039|000029|00091",
+        "position": {
+          "rects": [
+            [
+              73.815,
+              685.635,
+              122.385,
+              700.635
+            ]
+          ],
+          "pageIndex": 39
+        },
+        "text": "的问题。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "Z3G5E6TU",
+        "attachment_key": "6LF72SCC",
+        "page_label": "40",
+        "page_index": 39,
+        "sort_index": "00039|000033|00109",
+        "position": {
+          "pageIndex": 39,
+          "rects": [
+            [
+              103.05,
+              667.635,
+              527.385,
+              682.635
+            ]
+          ]
+        },
+        "text": "公共生活中有许多激烈对立的议题，本质都是价值观之间的冲突。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "2LXIB5M5",
+        "attachment_key": "6LF72SCC",
+        "page_label": "40",
+        "page_index": 39,
+        "sort_index": "00039|000168|00181",
+        "position": {
+          "rects": [
+            [
+              297.645,
+              595.635,
+              526.275,
+              610.635
+            ],
+            [
+              72.585,
+              577.635,
+              536.355,
+              592.635
+            ],
+            [
+              72.525,
+              559.635,
+              225.697,
+              574.635
+            ]
+          ],
+          "pageIndex": 39
+        },
+        "text": "这两种观点背后都有它的道德依据， 像这样的价值观念冲突很难用理性化解，我们不能确定无疑地说，哪个 道德依据一定“更正确”。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "QTBMS3E5",
+        "attachment_key": "6LF72SCC",
+        "page_label": "40",
+        "page_index": 39,
+        "sort_index": "00039|000586|00453",
+        "position": {
+          "pageIndex": 39,
+          "rects": [
+            [
+              342,
+              325.641,
+              537,
+              338.01
+            ],
+            [
+              72,
+              306.505,
+              535.313,
+              320.01
+            ],
+            [
+              72,
+              288.505,
+              490.313,
+              302.01
+            ]
+          ]
+        },
+        "text": "诸神之争的本质是现代社会中 价值观念之间的冲突。现代社会的主导思想是科学,科学属于“实然”领 域,旨在发现世界的真相“是”什么,只能做出相应的事实判断。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "I5JAZHFG",
+        "attachment_key": "6LF72SCC",
+        "page_label": "40",
+        "page_index": 39,
+        "sort_index": "00039|000686|00507",
+        "position": {
+          "pageIndex": 39,
+          "rects": [
+            [
+              417,
+              271.641,
+              537,
+              284.01
+            ],
+            [
+              72,
+              253.641,
+              537,
+              266.01
+            ],
+            [
+              72,
+              234.505,
+              520.313,
+              248.01
+            ],
+            [
+              72,
+              217.641,
+              282,
+              230.01
+            ]
+          ]
+        },
+        "text": "但支撑人类生活意 义的重要观念和原则,包括宗教信仰、人生理想、道德规范以及审美趣 味等等,都属于“应然”领域的价值判断,而科学无法解决价值判断问 题,它给不出一个确定的回答。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "9XN7QA8W",
+        "attachment_key": "6LF72SCC",
+        "page_label": "40",
+        "page_index": 39,
+        "sort_index": "00039|000805|00597",
+        "position": {
+          "pageIndex": 39,
+          "rects": [
+            [
+              102,
+              180.505,
+              528.656,
+              194.01
+            ],
+            [
+              72,
+              162.505,
+              132,
+              176.01
+            ]
+          ]
+        },
+        "text": "韦伯说:“个人必须决定,在他自己看来,哪一个是上帝,哪一个 是魔鬼。",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "2K5EBC2A",
+        "attachment_key": "6LF72SCC",
+        "page_label": "40",
+        "page_index": 39,
+        "sort_index": "00039|000837|00615",
+        "position": {
+          "pageIndex": 39,
+          "rects": [
+            [
+              132,
+              162.505,
+              138.66,
+              176.01
+            ]
+          ]
+        },
+        "text": "”",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "8R99QMQH",
+        "attachment_key": "6LF72SCC",
+        "page_label": "40",
+        "page_index": 39,
+        "sort_index": "00039|000864|00633",
+        "position": {
+          "pageIndex": 39,
+          "rects": [
+            [
+              138.656,
+              162.505,
+              513.656,
+              176.01
+            ],
+            [
+              72,
+              145.641,
+              537,
+              158.01
+            ],
+            [
+              72,
+              127.641,
+              537,
+              140.01
+            ],
+            [
+              72,
+              108.505,
+              535.313,
+              122.01
+            ],
+            [
+              72,
+              91.641,
+              162,
+              104.01
+            ]
+          ]
+        },
+        "text": "这种选择无法获得理性论证的担保,因此具有很强的主观 性。现代人虽然拥有很大的自由,拥有选择自己生活理想和政治立场的 权利,但这种自由也可能成为沉重的负担。我们可能变得茫然失措、不 知如何选择,或者采取所谓“决断论”的方式,听凭自己的意志、随心所 欲地断然抉择",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "9IYNZPDS",
+        "attachment_key": "6LF72SCC",
+        "page_label": "40",
+        "page_index": 39,
+        "sort_index": "00039|000963|00687",
+        "position": {
+          "pageIndex": 39,
+          "rects": [
+            [
+              162,
+              91.641,
+              177,
+              104.01
+            ]
+          ]
+        },
+        "text": "。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-10-complete.json",
+    "grouping_reason": "这组将个人层面的价值困境推进到公共层面，并保留自由选择也可能成为负担的限定。",
+    "context_excerpts": [
+      {
+        "id": "CTX-022-1",
+        "page_index": 39,
+        "text": "比如，美国政治辩论中有一个争议不休的问题：堕胎的合法化。有人依据宗教信条，认为堕胎就等于谋杀生命；有人认为这个问题的本质是“怀孕女性有没有权利处置自己的身体”，而人的身体理当由自己支配，这是个人的基本权利。",
+        "method": "pdf_text"
+      },
+      {
+        "id": "CTX-022-2",
+        "page_index": 39,
+        "text": "但在这里我要留一个小伏笔。这个问题是不是真像韦伯说得那么绝对？半个世纪之后，一位同样来自德国的哲学家哈贝马斯ᨀ出了不同的看法，我们之后会具体讲到他的思想。",
+        "method": "pdf_text"
+      }
+    ],
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。"
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": null,
+    "primary_theme": null,
+    "secondary_themes": [],
+    "classification_reason": null,
+    "concept_candidates": [],
+    "argument_uses": [],
+    "related_prompts": [],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-10：以新增 Zotero 批注为基础整理；原始片段、颜色、位置与空白 comment 均保留在本卡。",
+    "已按附件、PDF 页索引与页内排序补读本地 PDF 上下文；原始摘录中的异常字不作静默改写。",
+    "本卡为 AI 整理草稿；尚未获得逐卡内容认可。",
+    "2026-09-10 质量复核后重整：回读相关源段，检查卡片边界、指代、概括依据和断句；不是读者逐卡认可，source_match 仍为 unchecked。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null
+}

@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "description": "仅识别原始颜色，不按颜色推断内容类型。历史测试记录保持原貌；新素材按论证关系组合。",
+  "palette": {
+    "#ffd400": {
+      "color": "yellow",
+      "capture_type": "unknown"
+    },
+    "#2ea8e5": {
+      "color": "blue",
+      "capture_type": "unknown"
+    },
+    "#5fb236": {
+      "color": "green",
+      "capture_type": "unknown"
+    },
+    "#ff6666": {
+      "color": "red",
+      "capture_type": "unknown"
+    }
+  }
+}

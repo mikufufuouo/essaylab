@@ -1,0 +1,426 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-015",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "title": "魅惑世界：意义来自人与宇宙的联系",
+  "summary": "文本把古代的魅惑世界写成一个人与宇宙可联系、可沟通的整体，人由此获得安身立命的意义根据。",
+  "parent_capture_id": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "capture": {
+    "text_original": "第一个命题，也是韦伯被人引用最多的一个术语，叫作“世界的祛魅”，也有人翻译成“除魅”（disenchantment）\n\n这个词字面的意思就是“世界被祛除了魅惑性、神秘性”，人对自然世界的认识发生了改变。换句话说，以前人对自然的认识中有一种神秘性，后来被去除了。\n\n一个到处都是神灵的世界对那个时代的人到底意味着什么呢？\n\n意义非常重大。它意味着人和世界之间是可以建立起某种联系的，甚至是可以沟通和互动的。漫天神灵，就意味着到处是人类问题的解决方案。渔船出海，祭奠一下妈祖；打仗出征，到神庙去占卜一下；生不出孩子，去求送子观音。虽然未必有用，但至少有路可走，心里是安稳的。\n\n这些冥冥之中难以言说的神秘事物，组成了古代精神极为重要的一部分，让人类与整个宇宙紧密相连为一个整体，构成宇宙秩序\n\n。古代人从这种整体秩序中确立了生存的意义，获得所谓“安身立命”的根据。在这个意义上，古代的人类是“嵌入”在整体宇宙之中的。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "32–33（PDF 第 33–34 页；含补充上下文，非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "82ZERLJB",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000090|00226",
+        "position": {
+          "rects": [
+            [
+              102.585,
+              551.385,
+              528.011,
+              566.385
+            ]
+          ],
+          "pageIndex": 32
+        },
+        "text": "第一个命题，也是韦伯被人引用最多的一个术语，叫作“世界的祛",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "HGMFBPTP",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000119|00244",
+        "position": {
+          "pageIndex": 32,
+          "rects": [
+            [
+              72.525,
+              533.385,
+              357.58,
+              548.385
+            ]
+          ]
+        },
+        "text": "魅”，也有人翻译成“除魅”（disenchantment）",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "D9VY88A8",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000149|00262",
+        "position": {
+          "rects": [
+            [
+              102.645,
+              515.385,
+              534.547,
+              530.385
+            ]
+          ],
+          "pageIndex": 32
+        },
+        "text": "这个词字面的意思就是“世界被祛除了魅惑性、神秘性”，人对自然",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "427ZHKBF",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000179|00280",
+        "position": {
+          "pageIndex": 32,
+          "rects": [
+            [
+              72.585,
+              497.385,
+              536.415,
+              512.385
+            ]
+          ]
+        },
+        "text": "世界的认识发生了改变。换句话说，以前人对自然的认识中有一种神秘",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "7Z556ULI",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000210|00298",
+        "position": {
+          "rects": [
+            [
+              72.585,
+              479.385,
+              197.385,
+              494.385
+            ]
+          ],
+          "pageIndex": 32
+        },
+        "text": "性，后来被去除了。",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "RWHLXY9E",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000472|00539",
+        "position": {
+          "rects": [
+            [
+              102.825,
+              237.885,
+              499.2,
+              252.885
+            ]
+          ],
+          "pageIndex": 32
+        },
+        "text": "一个到处都是神灵的世界对那个时代的人到底意味着什么呢？",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "HMNERU4R",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000499|00557",
+        "position": {
+          "pageIndex": 32,
+          "rects": [
+            [
+              102.99,
+              219.885,
+              526.275,
+              234.885
+            ]
+          ]
+        },
+        "text": "意义非常重大。它意味着人和世界之间是可以建立起某种联系的，",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "XDCRWWZD",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000528|00575",
+        "position": {
+          "pageIndex": 32,
+          "rects": [
+            [
+              72.585,
+              201.885,
+              536.415,
+              216.885
+            ]
+          ]
+        },
+        "text": "甚至是可以沟通和互动的。漫天神灵，就意味着到处是人类问题的解决",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "RM9PPZL5",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000559|00593",
+        "position": {
+          "rects": [
+            [
+              72.645,
+              183.885,
+              536.175,
+              198.885
+            ]
+          ],
+          "pageIndex": 32
+        },
+        "text": "方案。渔船出海，祭奠一下妈祖；打仗出征，到神庙去占卜一下；生不",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "WHUV7E6H",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000590|00611",
+        "position": {
+          "pageIndex": 32,
+          "rects": [
+            [
+              73.875,
+              165.885,
+              536.415,
+              180.885
+            ]
+          ]
+        },
+        "text": "出孩子，去求送子观音。虽然未必有用，但至少有路可走，心里是安稳",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "QETABX89",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000621|00629",
+        "position": {
+          "rects": [
+            [
+              73.815,
+              147.885,
+              92.385,
+              162.885
+            ]
+          ],
+          "pageIndex": 32
+        },
+        "text": "的。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "3JCP8EFZ",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000623|00647",
+        "position": {
+          "pageIndex": 32,
+          "rects": [
+            [
+              102.645,
+              129.885,
+              536.175,
+              144.885
+            ]
+          ]
+        },
+        "text": "这些冥冥之中难以言说的神秘事物，组成了古代精神极为重要的一",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "HS9L5TYY",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000652|00665",
+        "position": {
+          "rects": [
+            [
+              72.765,
+              111.885,
+              476.115,
+              126.885
+            ]
+          ],
+          "pageIndex": 32
+        },
+        "text": "部分，让人类与整个宇宙紧密相连为一个整体，构成宇宙秩序",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "W4FUJTGK",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000687|00683",
+        "position": {
+          "pageIndex": 32,
+          "rects": [
+            [
+              149.043,
+              93.885,
+              506.463,
+              108.885
+            ]
+          ]
+        },
+        "text": "。古代人从这种整体秩序中确立了生存的意义，获得所",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "6NPCSXYY",
+        "attachment_key": "6LF72SCC",
+        "page_label": "33",
+        "page_index": 32,
+        "sort_index": "00032|000711|00701",
+        "position": {
+          "rects": [
+            [
+              72.645,
+              75.885,
+              532.695,
+              90.885
+            ]
+          ],
+          "pageIndex": 32
+        },
+        "text": "谓“安身立命”的根据。在这个意义上，古代的人类是“嵌入”在整体宇宙",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "I4G3A3GG",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000000|00073",
+        "position": {
+          "pageIndex": 33,
+          "rects": [
+            [
+              72.705,
+              703.869,
+              122.385,
+              718.869
+            ]
+          ]
+        },
+        "text": "之中的。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-10-complete.json",
+    "grouping_reason": "先解释“祛魅”所祛除的神秘性，再用古人可与世界联系的描述说明其意义；中间的章节标题另作导航，不伪装成原文连续句。",
+    "context_excerpts": [
+      {
+        "id": "CTX-015-1",
+        "page_index": 32,
+        "text": "这种神秘性原初是怎么形成的呢？其实很好理解。你想想那些生活在前现代社会的古人，就会发现，无论是在哪个文明中，古人都相信有各种神仙、鬼怪、精灵。不只是人有灵魂，动物也有灵性，石头草木也有灵，万物都有灵。",
+        "method": "pdf_text"
+      },
+      {
+        "id": "CTX-015-2",
+        "page_index": 32,
+        "text": "构成宇宙秩序（cosmos）。",
+        "method": "pdf_text"
+      }
+    ],
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。 “宇宙秩序”后原书还有未高亮的（cosmos），因此此处保留摘录间隔；补充正文显示原词及完整标点。"
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": null,
+    "primary_theme": null,
+    "secondary_themes": [],
+    "classification_reason": null,
+    "concept_candidates": [],
+    "argument_uses": [],
+    "related_prompts": [],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-10：以新增 Zotero 批注为基础整理；原始片段、颜色、位置与空白 comment 均保留在本卡。",
+    "已按附件、PDF 页索引与页内排序补读本地 PDF 上下文；原始摘录中的异常字不作静默改写。",
+    "本卡为 AI 整理草稿；尚未获得逐卡内容认可。",
+    "2026-09-10 质量复核后重整：回读相关源段，检查卡片边界、指代、概括依据和断句；不是读者逐卡认可，source_match 仍为 unchecked。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null
+}

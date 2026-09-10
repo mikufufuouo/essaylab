@@ -1,0 +1,214 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-025",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "title": "片面理性化：手段压倒目的",
+  "summary": "刘擎指出，先赚钱再追求理想的长期实践可能反过来塑造人，使手段取代原目标；金钱可以通向价值，却不能替代人对价值本身的追求。",
+  "parent_capture_id": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "capture": {
+    "text_original": "工具理性的问题是什么呢?它发展得太强大了,压倒、淹没了价值 理性。社会的理性化发展,变成了工具理性的单方面扩张,理性化变成 了不平衡的“片面的理性化”。在实践中,对手段的追求压倒了对目的的 追求。\n\n“诗与远方”带给我们的东西,真的能用金钱替代吗?\n\n但齐美尔还有一句 话:“金钱只是通向最终价值的桥梁,而人是无法栖居在桥上的。”\n\n在这座桥上,我们真的能找到安身立命的感觉,找到生命的意义感吗?这个 问题只能留给你自己",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "44–44（PDF 第 45–45 页；含补充上下文，非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "BTB9HDWQ",
+        "attachment_key": "6LF72SCC",
+        "page_label": "45",
+        "page_index": 44,
+        "sort_index": "00044|000080|00178",
+        "position": {
+          "pageIndex": 44,
+          "rects": [
+            [
+              102,
+              600.891,
+              537,
+              613.26
+            ],
+            [
+              72,
+              582.891,
+              537,
+              595.26
+            ],
+            [
+              72,
+              563.755,
+              535.313,
+              577.26
+            ],
+            [
+              72,
+              546.891,
+              117,
+              559.26
+            ]
+          ]
+        },
+        "text": "工具理性的问题是什么呢?它发展得太强大了,压倒、淹没了价值 理性。社会的理性化发展,变成了工具理性的单方面扩张,理性化变成 了不平衡的“片面的理性化”。在实践中,对手段的追求压倒了对目的的 追求。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "XNJQGPU4",
+        "attachment_key": "6LF72SCC",
+        "page_label": "45",
+        "page_index": 44,
+        "sort_index": "00044|000646|00556",
+        "position": {
+          "pageIndex": 44,
+          "rects": [
+            [
+              162,
+              221.755,
+              505.313,
+              235.26
+            ]
+          ]
+        },
+        "text": "“诗与远方”带给我们的东西,真的能用金钱替代吗?",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "IE55J783",
+        "attachment_key": "6LF72SCC",
+        "page_label": "45",
+        "page_index": 44,
+        "sort_index": "00044|000702|00592",
+        "position": {
+          "pageIndex": 44,
+          "rects": [
+            [
+              370.313,
+              203.755,
+              490.313,
+              217.26
+            ],
+            [
+              72,
+              185.755,
+              505.316,
+              199.26
+            ]
+          ]
+        },
+        "text": "但齐美尔还有一句 话:“金钱只是通向最终价值的桥梁,而人是无法栖居在桥上的。”",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "3G9BWMQY",
+        "attachment_key": "6LF72SCC",
+        "page_label": "45",
+        "page_index": 44,
+        "sort_index": "00044|000731|00592",
+        "position": {
+          "pageIndex": 44,
+          "rects": [
+            [
+              505.313,
+              185.755,
+              535.313,
+              199.26
+            ]
+          ]
+        },
+        "text": "在这",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "SU799U6S",
+        "attachment_key": "6LF72SCC",
+        "page_label": "45",
+        "page_index": 44,
+        "sort_index": "00044|000734|00610",
+        "position": {
+          "pageIndex": 44,
+          "rects": [
+            [
+              72,
+              168.891,
+              537,
+              181.26
+            ],
+            [
+              72,
+              150.891,
+              207,
+              163.26
+            ]
+          ]
+        },
+        "text": "座桥上,我们真的能找到安身立命的感觉,找到生命的意义感吗?这个 问题只能留给你自己",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-10-complete.json",
+    "grouping_reason": "本页先指出工具理性单方面扩张，再以金钱只是通向最终价值的桥梁说明手段与目的不可混同；末两条是同一句的连续断句。 补充正文保留本组的例子、机制或限定，使概括能够在卡内回查。",
+    "context_excerpts": [
+      {
+        "id": "CTX-025-1",
+        "page_index": 44,
+        "text": "比如，对于“人生目标”这种大问题，我们会发现，太沉重也太困难了。于是我们犯了拖延症，把目标问题不断向后推，先去加强工具和手段，转到工具理性的逻辑上来。就像现在流行说：先实现“财务自由”，再去追求“诗和远方”。但在实现财务自由的漫长过程中，我们关心的都是成本收益计算、效率最大化这些问题。结果是，这个漫长的过程会反过来塑造我们自身，最后我们变得只会赚钱。赚钱这件事，本来是手段，但我们为了找到实现目标的最优手段花费了太多的时间精力，陷入太深，以至于忽视了，甚至放弃了最初的目标。",
+        "method": "pdf_text"
+      },
+      {
+        "id": "CTX-025-2",
+        "page_index": 44,
+        "text": "这就回到了开头的话题：为什么现代人的价值取向是多元的，但是对金钱的态度又很一致。并不是因为现代人都是拜金主义者，而是因为按照工具理性的逻辑，金钱就是一个最通用的工具。",
+        "method": "pdf_text"
+      }
+    ],
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。 最后一条高亮停在“留给你自己”，未划到句号；不把补写句号当作采集原文。"
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": null,
+    "primary_theme": null,
+    "secondary_themes": [],
+    "classification_reason": null,
+    "concept_candidates": [],
+    "argument_uses": [],
+    "related_prompts": [],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-10：以新增 Zotero 批注为基础整理；原始片段、颜色、位置与空白 comment 均保留在本卡。",
+    "已按附件、PDF 页索引与页内排序补读本地 PDF 上下文；原始摘录中的异常字不作静默改写。",
+    "本卡为 AI 整理草稿；尚未获得逐卡内容认可。",
+    "2026-09-10 质量复核后重整：回读相关源段，检查卡片边界、指代、概括依据和断句；不是读者逐卡认可，source_match 仍为 unchecked。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null
+}

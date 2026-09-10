@@ -1,0 +1,120 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-013",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "title": "思想成年：看清自己的生活，也反思它的缺陷",
+  "summary": "刘擎把成年理解为认识并反思自己，并用这一标准说明韦伯如何既解释现代社会的成就，也揭示根植于现代化本身的问题。",
+  "parent_capture_id": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "capture": {
+    "text_original": "人到了怎么样的境界可以称为真正的成年？我认为大概有两个标 志：第一是明白自己，对自己的过往有真正的理解；第二是反思自己， 能看透自己存在的问题。一个人成年的决定性标志就是开始自觉的自我 反思：你不只是在过自己的生活，而且能够有意识地反观自省你的生 活。这有些像是孔子说的“四十不惑”。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "28–29（PDF 第 29–30 页；含补充上下文，非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "6P2F7IXK",
+        "attachment_key": "6LF72SCC",
+        "page_label": "29",
+        "page_index": 28,
+        "sort_index": "00028|000707|00622",
+        "position": {
+          "rects": [
+            [
+              102.705,
+              155.385,
+              521.415,
+              170.385
+            ],
+            [
+              72.825,
+              137.385,
+              526.275,
+              152.385
+            ],
+            [
+              73.17,
+              119.385,
+              536.88,
+              134.385
+            ],
+            [
+              72.645,
+              101.385,
+              521.295,
+              116.385
+            ],
+            [
+              72.825,
+              83.385,
+              315.698,
+              98.385
+            ]
+          ],
+          "pageIndex": 28
+        },
+        "text": "人到了怎么样的境界可以称为真正的成年？我认为大概有两个标 志：第一是明白自己，对自己的过往有真正的理解；第二是反思自己， 能看透自己存在的问题。一个人成年的决定性标志就是开始自觉的自我 反思：你不只是在过自己的生活，而且能够有意识地反观自省你的生 活。这有些像是孔子说的“四十不惑”。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-10-complete.json",
+    "grouping_reason": "这是一段完整的概念说明，独立于前面对韦伯生平的叙述。",
+    "context_excerpts": [
+      {
+        "id": "CTX-013-1",
+        "page_index": 29,
+        "text": "思想意义上的成年也是如此。我们说韦伯标志着现代思想的成年，正是因为他完成了这两项任务，看清现代，反思现代，让现代社会迈入了“不惑”之年。",
+        "method": "pdf_text"
+      },
+      {
+        "id": "CTX-013-2",
+        "page_index": 29,
+        "text": "反思现代，就是指出现代性最深层的缺陷。这种缺陷不是现代化曾经战胜过的那些问题，比如愚昧无知等；我们现在说的缺陷，是根植于现代化本身的问题。这些问题不会随着社会进步而消失，反而会因为现代社会的发展而越来越严重。学术界将这类问题叫作“现代性问题”。",
+        "method": "pdf_text"
+      }
+    ],
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。"
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": null,
+    "primary_theme": null,
+    "secondary_themes": [],
+    "classification_reason": null,
+    "concept_candidates": [],
+    "argument_uses": [],
+    "related_prompts": [],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-10：以新增 Zotero 批注为基础整理；原始片段、颜色、位置与空白 comment 均保留在本卡。",
+    "已按附件、PDF 页索引与页内排序补读本地 PDF 上下文；原始摘录中的异常字不作静默改写。",
+    "本卡为 AI 整理草稿；尚未获得逐卡内容认可。",
+    "2026-09-10 质量复核后重整：回读相关源段，检查卡片边界、指代、概括依据和断句；不是读者逐卡认可，source_match 仍为 unchecked。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null
+}

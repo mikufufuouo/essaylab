@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "jsdom": "30.0.1"
+  },
+  "name": "essaylab",
+  "private": true,
+  "scripts": {
+    "build:pwa": "python3 scripts/build_pwa.py",
+    "test": "node scripts/test_viewer.cjs",
+    "test:pwa": "node scripts/test_pwa.cjs"
+  }
+}

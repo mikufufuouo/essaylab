@@ -1,0 +1,156 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-002",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "parent_capture_id": null,
+  "capture": {
+    "text_original": "我就像一条生活在水里的鱼，却从来没有反思过我生活的这片水。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "10–10（PDF 第 11–11 页；非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "SWTPGZ7D",
+        "attachment_key": "6LF72SCC",
+        "page_label": "11",
+        "page_index": 10,
+        "sort_index": "00010|000293|00253",
+        "position": {
+          "pageIndex": 10,
+          "rects": [
+            [
+              462.705,
+              523.635,
+              536.355,
+              538.635
+            ]
+          ]
+        },
+        "text": "我就像一条",
+        "comment": "",
+        "color": "#ff6666",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "7BW7RW69",
+        "attachment_key": "6LF72SCC",
+        "page_label": "11",
+        "page_index": 10,
+        "sort_index": "00010|000298|00271",
+        "position": {
+          "rects": [
+            [
+              72.705,
+              505.635,
+              422.385,
+              520.635
+            ]
+          ],
+          "pageIndex": 10
+        },
+        "text": "生活在水里的鱼，却从来没有反思过我生活的这片水。",
+        "comment": "",
+        "color": "#ff6666",
+        "join_previous": true
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-09-complete.json",
+    "grouping_reason": "两条红色高亮属于同一句比喻，合起来才能看清作者对自己生活环境缺少反思的自述。",
+    "context_note": "两条仅为同一句表达，不强凑完整多步论证。补充上下文说明这句话指向现代化反思；其作为写作素材的用途属于 AI 推展。",
+    "context_excerpts": [
+      {
+        "id": "CTX-REFLECT",
+        "page_index": 10,
+        "text": "“现代化真的好吗？”我突然发现，自己过去从来没有想过这个问题！我甚至并不明白“现代”这个词的确切含义，也没有思考过现代化的进程会带来怎样的问题，更不要谈怎么样才能去改良它了。",
+        "method": "pdf_text"
+      }
+    ]
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": "熟悉一种生活，并不意味着已经理解它赖以成立的条件。作者回忆，一次讲座使他发现自己从未认真追问现代化的含义及其问题，于是用“鱼未反思水”比喻这种身处其中却不自知的状态。反思从重新发问开始。",
+    "primary_theme": "T04",
+    "secondary_themes": [],
+    "classification_reason": "重点是从习惯性的接受转向发问与理解，主归 T04；比喻不是关于鱼类认知的事实材料。",
+    "concept_candidates": [],
+    "argument_structure": [
+      {
+        "role": "触发问题",
+        "summary": "作者发现，自己此前既未追问现代化是否带来问题，也未弄清“现代”的含义。",
+        "annotation_keys": [],
+        "context_keys": [
+          "CTX-REFLECT"
+        ]
+      },
+      {
+        "role": "用比喻显露盲点",
+        "summary": "“鱼与水”把熟悉和理解之间的距离具体化。",
+        "annotation_keys": [
+          "SWTPGZ7D",
+          "7BW7RW69"
+        ],
+        "context_keys": []
+      }
+    ],
+    "argument_uses": [
+      {
+        "claim": "对习以为常的生活保持发问，能帮助我们看见未经检验的前提。",
+        "relation": "supports",
+        "role": "example",
+        "reasoning": "这个自述展示了反思的起点：不是先获得更多结论，而是发现自己从未把熟悉的生活条件当作问题。可用作开篇或转折，再接实际分析。",
+        "conditions": [
+          "明确要反思的具体前提，避免只写“要善于思考”。"
+        ],
+        "limits": [
+          "比喻本身不能证明某种生活安排有害。",
+          "不能据此否定知识积累或已有结论的价值。"
+        ],
+        "evidence_status": "interpretive"
+      }
+    ],
+    "related_prompts": [
+      {
+        "id": "PR-0010",
+        "reason": "习惯可能使已有结论显得理所当然；这一比喻能说明结论之后为何仍需要发问，而非否定结论的价值。",
+        "limits": [
+          "比喻说明发问的必要性，不能单独证明某个结论错误，也不能否定结论积累。"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-09：按用户要求整理本次全部批注；重复划线在阅读正文中去重，原始快照保留。",
+    "已回读对应 PDF 上下文并检查组合关系；未逐字视觉核验全部高亮，原文核对状态仍为 unchecked。",
+    "作者的论证解释与面向作文的用法分开；未进行人物史实或原著引文的独立核验。",
+    "用户授权整理本批内容，但尚未逐张认可整理结果。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "title": "像鱼反思水：把习以为常的生活变成问题",
+  "collection_role": "reading",
+  "question": "身处熟悉的生活，为什么仍可能没有理解它？",
+  "summary": "身处熟悉的生活，并不意味着已理解它；反思从重新追问那些理所当然的前提开始。"
+}

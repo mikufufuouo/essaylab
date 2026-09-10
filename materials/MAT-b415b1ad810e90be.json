@@ -1,0 +1,68 @@
+{
+  "id": "MAT-b415b1ad810e90be",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "import_fingerprint": "b415b1ad810e90beca19c15ecddf80498afbfaeac59b1c5fa7c0c549a233704c",
+  "parent_capture_id": "CAP-b415b1ad810e90be",
+  "source_match": {
+    "status": "matched",
+    "basis": "已比对PDF第9页渲染图、高亮逐行QuadPoints及文字层字符；按实际选区保留截断位置。仅核对转录，不核验书中论述或作者归属。",
+    "checked_by": "Codex",
+    "checked_at": "2026-09-08"
+  },
+  "capture": {
+    "text_original": "思想的探索，主要着眼于",
+    "context_before": "本书对现代",
+    "context_after": "“晚期现代思想”。早期与晚期\n有一个明显的区别，就是进入20世纪，越来越多思想家不再抱有18世纪\n启蒙时代对“进步”的乐观主义态度，而是在现代化过程及其后果中看到\n了许多问题、提出了不少疑问，他们更多地以反思和批判的眼光来审视\n现代性。“现代性”这个词继而经常与“问题”“困境”和“危机”联系起来。\n我们经常听到的术语也是“现代性问题”“现代性困境”或者“现代",
+    "context_note": "上下文来自同页文字层前后各最多180字，可能截断；没有自动扩充原始高亮。",
+    "extraction_method": "pdf_annotation",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": null,
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "8",
+        "bbox": [
+          177.88499450683594,
+          73.364990234375,
+          341.114990234375,
+          88.364990234375
+        ],
+        "coordinate_unit": "PDF point; MuPDF top-left; page index starts at 0",
+        "asset_path": "../刘擎西方现代思想讲义 (刘擎) (Z-Library).pdf"
+      }
+    },
+    "highlight": {
+      "color_raw": "#ffd400",
+      "color_normalized": "yellow",
+      "capture_type": "viewpoint"
+    }
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": "高亮本身是一句未完成的说明。结合未高亮的前后文，作者在交代本书以晚期现代思想为主要探索范围。目前更适合作为阅读定位，尚不足以独立承担论证。",
+    "primary_theme": null,
+    "secondary_themes": [],
+    "classification_reason": "片段缺少主语和着眼对象；即使补看上下文，主要也是书的范围说明。保留未归类，不为了黄色就制造一个观点。",
+    "concept_candidates": [],
+    "argument_uses": [],
+    "related_prompts": [],
+    "open_questions": [
+      "本次只测试颜色；将来若希望独立调用，可以把着眼对象一并选入。"
+    ]
+  },
+  "review_notes": [
+    "PDF 第 9 页（零基索引 8），印刷页码未知。",
+    "按逐行 QuadPoints 与文字层字符中心匹配；未使用 OCR，未经人工认可。",
+    "原始批注：inbox/captures/CAP-b415b1ad810e90be.json",
+    "本批由用户说明为四色测试，不将颜色解释为其赞同程度或真实阅读意图。",
+    "素材依赖上下文；没有在高亮原文中补字。",
+    "标题与作者据用户说明及文件名记录；PDF书目元数据为空，版次与印刷页码未补造。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "collection_role": "technical_test"
+}

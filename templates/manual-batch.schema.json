@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "手工摘录输入 v0.2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["items"],
+  "properties": {
+    "items": {
+      "type": "array", "minItems": 1, "maxItems": 100,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["raw_text"],
+        "properties": {
+          "raw_text": {"type": "string", "pattern": "\\S"},
+          "source_title": {"type": ["string", "null"]},
+          "author": {"type": ["string", "null"]},
+          "location": {"type": ["string", "null"]},
+          "url": {"type": ["string", "null"]},
+          "color": {"enum": ["yellow", "blue", "green", "red", "unknown"]},
+          "type": {"enum": ["viewpoint", "case", "concept", "expression", "unknown"]},
+          "reader_note": {"type": ["string", "null"]},
+          "context_before": {"type": ["string", "null"]},
+          "context_after": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}

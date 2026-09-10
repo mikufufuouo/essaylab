@@ -1,0 +1,164 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-030",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "title": "破除悲观：理解现代性的复杂真相",
+  "summary": "本书把对理性化弊端的分析视为破除盲目乐观和极端悲观的方式：理解真相，才能以清醒而非简单利弊面对现代生活。",
+  "parent_capture_id": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "capture": {
+    "text_original": "在韦伯看来,悲观主义恰恰是盲目乐观主义造成的。我们最需要担 心和警惕的那种悲观,隐藏在对现代化和理性化的盲目乐观之中:我们 曾经相信理性可以无所不知,科学可以无所不能。然而事实并非如此。 这种盲目的乐观被现实打碎之后引发出的那种极度悲观才是我们要警惕 的。\n\n我 们搞明白这些机制和弊端,不是要陷入悲观,而是为了“了解真相”。\n\n破除悲观,获得清明,达到从容",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "48–49（PDF 第 49–50 页；含补充上下文，非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "R9T8JDM4",
+        "attachment_key": "6LF72SCC",
+        "page_label": "49",
+        "page_index": 48,
+        "sort_index": "00048|000528|00498",
+        "position": {
+          "pageIndex": 48,
+          "rects": [
+            [
+              102,
+              281.391,
+              537,
+              293.76
+            ],
+            [
+              72,
+              263.391,
+              537,
+              275.76
+            ],
+            [
+              72,
+              245.391,
+              537,
+              257.76
+            ],
+            [
+              72,
+              227.391,
+              537,
+              239.76
+            ],
+            [
+              72,
+              209.391,
+              102,
+              221.76
+            ]
+          ]
+        },
+        "text": "在韦伯看来,悲观主义恰恰是盲目乐观主义造成的。我们最需要担 心和警惕的那种悲观,隐藏在对现代化和理性化的盲目乐观之中:我们 曾经相信理性可以无所不知,科学可以无所不能。然而事实并非如此。 这种盲目的乐观被现实打碎之后引发出的那种极度悲观才是我们要警惕 的。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "A5MK7IRM",
+        "attachment_key": "6LF72SCC",
+        "page_label": "49",
+        "page_index": 48,
+        "sort_index": "00048|000710|00606",
+        "position": {
+          "pageIndex": 48,
+          "rects": [
+            [
+              522,
+              173.391,
+              537,
+              185.76
+            ],
+            [
+              72,
+              154.255,
+              520.313,
+              167.76
+            ]
+          ]
+        },
+        "text": "我 们搞明白这些机制和弊端,不是要陷入悲观,而是为了“了解真相”。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "3ICVTMDB",
+        "attachment_key": "6LF72SCC",
+        "page_label": "50",
+        "page_index": 49,
+        "sort_index": "00049|000100|00147",
+        "position": {
+          "pageIndex": 49,
+          "rects": [
+            [
+              102,
+              631.641,
+              312,
+              644.01
+            ]
+          ]
+        },
+        "text": "破除悲观,获得清明,达到从容",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-10-complete.json",
+    "grouping_reason": "第49页对悲观主义来源的辨析与末页结语同属本章收束；跨页不补写未高亮文字。",
+    "context_excerpts": [
+      {
+        "id": "CTX-030-1",
+        "page_index": 48,
+        "text": "韦伯希望做到的是什么？韦伯为我们᧿述了现代性的底层机制、现代化的丰功伟绩，同时又指出了现代性的冷酷、现代化带来的弊端。",
+        "method": "pdf_text"
+      }
+    ],
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。"
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": null,
+    "primary_theme": null,
+    "secondary_themes": [],
+    "classification_reason": null,
+    "concept_candidates": [],
+    "argument_uses": [],
+    "related_prompts": [],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-10：以新增 Zotero 批注为基础整理；原始片段、颜色、位置与空白 comment 均保留在本卡。",
+    "已按附件、PDF 页索引与页内排序补读本地 PDF 上下文；原始摘录中的异常字不作静默改写。",
+    "本卡为 AI 整理草稿；尚未获得逐卡内容认可。",
+    "2026-09-10 质量复核后重整：回读相关源段，检查卡片边界、指代、概括依据和断句；不是读者逐卡认可，source_match 仍为 unchecked。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null
+}

@@ -1,0 +1,108 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-009",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "title": "现代的两种转向：理解世界与理解自己",
+  "summary": "刘擎用人类中心主义和个人主义概括现代观念的两种变化：它们受启蒙理性推动，带来成就，也产生新的困境。",
+  "parent_capture_id": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "capture": {
+    "text_original": "古今之变带来了两个基本观念的转变：一个是“人类中心主义的转 变”，它指的是人看待世界的观念发生了变化；另一个是“个人主义的转 变”，它是指人看待自己的观念发生了变化，或者说人的“自我理解”的 转变。这两种观念转变构成了现代思想的概念性框架。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "24–26（PDF 第 25–27 页；含补充上下文，非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "2CD2AE9W",
+        "attachment_key": "6LF72SCC",
+        "page_label": "25",
+        "page_index": 24,
+        "sort_index": "00024|000388|00388",
+        "position": {
+          "pageIndex": 24,
+          "rects": [
+            [
+              102.945,
+              389.385,
+              528.011,
+              404.385
+            ],
+            [
+              72.585,
+              371.385,
+              534.667,
+              386.385
+            ],
+            [
+              72.585,
+              353.385,
+              525.799,
+              368.385
+            ],
+            [
+              72.645,
+              335.385,
+              422.385,
+              350.385
+            ]
+          ]
+        },
+        "text": "古今之变带来了两个基本观念的转变：一个是“人类中心主义的转 变”，它指的是人看待世界的观念发生了变化；另一个是“个人主义的转 变”，它是指人看待自己的观念发生了变化，或者说人的“自我理解”的 转变。这两种观念转变构成了现代思想的概念性框架。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-10-complete.json",
+    "grouping_reason": "保留两种转向的总览，并补本节总结，使框架自身说明动力与共同后果；具体机制仍分别回读个人主义和人类中心主义卡。",
+    "context_excerpts": [
+      {
+        "id": "CTX-009-1",
+        "page_index": 26,
+        "text": "启蒙理性主义是现代转变的思想核心，它推动了现代科学的发展，也促进了社会的现代化进程，因此，它也是造成两种转向的思想动力。人类中心主义和个人主义是现代思想的基本特征，这是现代性的成就，但这两个观念在改变世界的同时，也给人们带来了巨大的挑战，造成了现代性的困境。",
+        "method": "pdf_text"
+      }
+    ],
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。"
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": null,
+    "primary_theme": null,
+    "secondary_themes": [],
+    "classification_reason": null,
+    "concept_candidates": [],
+    "argument_uses": [],
+    "related_prompts": [],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-10：以新增 Zotero 批注为基础整理；原始片段、颜色、位置与空白 comment 均保留在本卡。",
+    "已按附件、PDF 页索引与页内排序补读本地 PDF 上下文；原始摘录中的异常字不作静默改写。",
+    "本卡为 AI 整理草稿；尚未获得逐卡内容认可。",
+    "2026-09-10 质量复核后重整：回读相关源段，检查卡片边界、指代、概括依据和断句；不是读者逐卡认可，source_match 仍为 unchecked。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null
+}

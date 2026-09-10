@@ -1,0 +1,325 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-005",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "parent_capture_id": null,
+  "capture": {
+    "text_original": "“我喜 欢”变得如此重要，一方面包含着对个人的尊重。而对个人的尊重，则 是个人解放的前提，是打破旧有等级体系的力量，是民主化的基础。\n\n但另一方面，这种现象又会让我们困惑：无论多么伟大、崇高、优美的东西，现在只要一句“我不在乎”，好像就能否定它的价值。在和别人讨论问题的时候，有些话题只要你说“我喜欢”“我愿意”，对方似乎就无法反驳了。这种轻率的傲慢在过去是不可想象的。\n\n如果我们做出选择的最高基准是主观意愿的话，“选择”就成了孤 证。除了“我的意愿”，不存在任何同等有力的旁证。选择变得脆弱、变 得不稳定。我们可能自己都无法坚信自己的选择。\n\n简而言之，过去我们更重视事物内在的客观价值，主观意见不能轻 易动摇这种客观价值。而现在，个人主观赋予的价值变得极其重要，有 时甚至能压倒其它一切标准。古今之变，这是其一。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "21–21（PDF 第 22–22 页；非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "WEBYR499",
+        "attachment_key": "6LF72SCC",
+        "page_label": "22",
+        "page_index": 21,
+        "sort_index": "00021|000050|00091",
+        "position": {
+          "pageIndex": 21,
+          "rects": [
+            [
+              475.807,
+              685.635,
+              511.083,
+              700.635
+            ],
+            [
+              72.585,
+              667.635,
+              527.306,
+              682.635
+            ],
+            [
+              72.825,
+              649.635,
+              512.385,
+              664.635
+            ]
+          ]
+        },
+        "text": "“我喜 欢”变得如此重要，一方面包含着对个人的尊重。而对个人的尊重，则 是个人解放的前提，是打破旧有等级体系的力量，是民主化的基础。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "VE869JIJ",
+        "attachment_key": "6LF72SCC",
+        "page_label": "22",
+        "page_index": 21,
+        "sort_index": "00021|000114|00145",
+        "position": {
+          "rects": [
+            [
+              102.465,
+              631.635,
+              536.355,
+              646.635
+            ]
+          ],
+          "pageIndex": 21
+        },
+        "text": "但另一方面，这种现象又会让我们困惑：无论多么伟大、崇高、优",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "V5LG3G8X",
+        "attachment_key": "6LF72SCC",
+        "page_label": "22",
+        "page_index": 21,
+        "sort_index": "00021|000143|00163",
+        "position": {
+          "pageIndex": 21,
+          "rects": [
+            [
+              72.705,
+              613.635,
+              534.083,
+              628.635
+            ]
+          ]
+        },
+        "text": "美的东西，现在只要一句“我不在乎”，好像就能否定它的价值。在和别",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "GVVT3HVH",
+        "attachment_key": "6LF72SCC",
+        "page_label": "22",
+        "page_index": 21,
+        "sort_index": "00021|000175|00181",
+        "position": {
+          "rects": [
+            [
+              72.705,
+              595.635,
+              532.92,
+              610.635
+            ]
+          ],
+          "pageIndex": 21
+        },
+        "text": "人讨论问题的时候，有些话题只要你说“我喜欢”“我愿意”，对方似乎就",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "JEFGBEJG",
+        "attachment_key": "6LF72SCC",
+        "page_label": "22",
+        "page_index": 21,
+        "sort_index": "00021|000208|00199",
+        "position": {
+          "pageIndex": 21,
+          "rects": [
+            [
+              72.705,
+              577.635,
+              407.385,
+              592.635
+            ]
+          ]
+        },
+        "text": "无法反驳了。这种轻率的傲慢在过去是不可想象的。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "P85ELQ4C",
+        "attachment_key": "6LF72SCC",
+        "page_label": "22",
+        "page_index": 21,
+        "sort_index": "00021|000231|00217",
+        "position": {
+          "rects": [
+            [
+              102.825,
+              559.635,
+              519.727,
+              574.635
+            ],
+            [
+              72.585,
+              541.635,
+              534.667,
+              556.635
+            ],
+            [
+              72.645,
+              523.635,
+              392.385,
+              538.635
+            ]
+          ],
+          "pageIndex": 21
+        },
+        "text": "如果我们做出选择的最高基准是主观意愿的话，“选择”就成了孤 证。除了“我的意愿”，不存在任何同等有力的旁证。选择变得脆弱、变 得不稳定。我们可能自己都无法坚信自己的选择。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "F9TCVBE4",
+        "attachment_key": "6LF72SCC",
+        "page_label": "22",
+        "page_index": 21,
+        "sort_index": "00021|000383|00325",
+        "position": {
+          "pageIndex": 21,
+          "rects": [
+            [
+              102.885,
+              451.635,
+              536.415,
+              466.635
+            ],
+            [
+              73.575,
+              433.635,
+              536.235,
+              448.635
+            ],
+            [
+              73.29,
+              415.635,
+              407.385,
+              430.635
+            ]
+          ]
+        },
+        "text": "简而言之，过去我们更重视事物内在的客观价值，主观意见不能轻 易动摇这种客观价值。而现在，个人主观赋予的价值变得极其重要，有 时甚至能压倒其它一切标准。古今之变，这是其一。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-09-complete.json",
+    "grouping_reason": "这些片段从尊重个人意愿推进到选择根据不足的困境，是一个有转折的论证，应保留两面。",
+    "context_note": "“孤证”是作者讨论选择根据的比喻，不把它当作法律或统计术语。",
+    "context_excerpts": [
+      {
+        "id": "CTX-ANXIETY",
+        "page_index": 21,
+        "text": "于是，我们一方面处在解放的轻松与兴奋当中，另一方面又处在不确定的、没有把握的焦虑当中；一面习惯于“轻率的傲慢”，一面又常常感到惶恐和不安。",
+        "method": "pdf_text"
+      }
+    ]
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": "个人意愿成为重要标准，有助于摆脱外在等级和安排。但若“我喜欢”成为最高乃至唯一理由，个人也可能难以为自己的选择找到稳定根据。作者并置了解放与焦虑，讨论的不是要不要尊重意愿，而是意愿能否独自承担全部判断。",
+    "primary_theme": "T06",
+    "secondary_themes": [
+      "T03"
+    ],
+    "classification_reason": "重点是自主选择的条件与代价，主归 T06；对价值根据的讨论次归 T03。",
+    "concept_candidates": [],
+    "argument_structure": [
+      {
+        "role": "先承认解放意义",
+        "summary": "尊重“我喜欢”体现对个人的尊重，并具有打破等级束缚的意义。",
+        "annotation_keys": [
+          "WEBYR499"
+        ],
+        "context_keys": []
+      },
+      {
+        "role": "提出内部困难",
+        "summary": "若用“我不在乎”直接终止价值讨论，主观意愿可能压倒其他理由。",
+        "annotation_keys": [
+          "VE869JIJ",
+          "V5LG3G8X",
+          "GVVT3HVH",
+          "JEFGBEJG"
+        ],
+        "context_keys": []
+      },
+      {
+        "role": "解释选择为何脆弱",
+        "summary": "当意愿成为唯一根据，选择缺少同等有力的支持，可能使本人也难以坚信。",
+        "annotation_keys": [
+          "P85ELQ4C"
+        ],
+        "context_keys": []
+      },
+      {
+        "role": "保留张力",
+        "summary": "个人解放与不确定、焦虑可以同时存在，作者据此概括主观价值地位的提升。",
+        "annotation_keys": [
+          "F9TCVBE4"
+        ],
+        "context_keys": [
+          "CTX-ANXIETY"
+        ]
+      }
+    ],
+    "argument_uses": [
+      {
+        "claim": "自主选择带来自由，也要求我们承担寻找理由和承诺的责任。",
+        "relation": "supports",
+        "role": "mechanism",
+        "reasoning": "摆脱外部规定只解决了谁来选择的问题；当选择完全退回瞬时意愿，仍可能缺少稳定根据。这能解释自由扩大为何不自动带来确定与幸福。",
+        "conditions": [
+          "区分个人有权选择与选择是否有充分理由两个层面。"
+        ],
+        "limits": [
+          "不是所有偏好都必须向别人证明。",
+          "不能从选择困难推出应恢复强制安排。",
+          "不能把价值根据的不稳定等同于选项数量过多。"
+        ],
+        "evidence_status": "interpretive"
+      }
+    ],
+    "related_prompts": [
+      {
+        "id": "PR-0090",
+        "reason": "材料解释自主选择为何兼具解放和不安；应用时区分价值根据不稳与单纯的选项过多。",
+        "limits": [
+          "它讨论选择根据的稳定性，不能单独解释所有选择痛苦，尤其不能把意愿缺乏理由等同于选项太多。"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-09：按用户要求整理本次全部批注；重复划线在阅读正文中去重，原始快照保留。",
+    "已回读对应 PDF 上下文并检查组合关系；未逐字视觉核验全部高亮，原文核对状态仍为 unchecked。",
+    "作者的论证解释与面向作文的用法分开；未进行人物史实或原著引文的独立核验。",
+    "用户授权整理本批内容，但尚未逐张认可整理结果。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "title": "“我愿意”的两面：个人解放与选择的脆弱",
+  "collection_role": "reading",
+  "question": "尊重个人意愿，为什么也可能带来选择的焦虑？",
+  "summary": "个人意愿带来解放，但若成为选择的唯一根据，也可能让人难以坚定自己的判断。"
+}

@@ -1,0 +1,4766 @@
+{
+  "schema_version": "0.2.0",
+  "taxonomy_version": "0.1.0",
+  "source_status": "依据用户提供的合订本与补充文件；未外部核验官方试卷、来源链接、引语或书籍原文。",
+  "classification_status": "AI 初稿；分类理由是解释，不是唯一立意。",
+  "prompts": [
+    {
+      "id": "PR-0001",
+      "title_original": "13年重要与更重要",
+      "title": "13年重要与更重要",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "高考（季别未标）",
+      "year_label_normalized": 2013,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "生活中，大家往往努力做自己认为重要的事情，但世界上似乎总还有更重要的事。\n这种现象普遍存在，人们对此的思考也不尽相同。请选取一个角度，写一篇文章，谈谈你的思考。\n要求（1）题目自拟；（2）全文不少于800字；（3）不要写成诗歌",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "13年重要与更重要"
+        ],
+        "anchor_paragraph": 5,
+        "text_paragraphs": [
+          6,
+          7,
+          8
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T03",
+      "secondary_themes": [
+        "T06"
+      ],
+      "tension": "重要之事与更重要之事",
+      "classification_reason": "重要性的排序需要什么尺度，是否必须被外界不断改写？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0002",
+      "title_original": "14年穿越沙漠",
+      "title": "14年穿越沙漠",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "高考（季别未标）",
+      "year_label_normalized": 2014,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "根据以下材料，自选角度，自拟题目，写一篇不少于800字的文章（不要写成诗歌）。\n你可以选择穿越沙漠的道路和方式，所以你是自由的；你必须穿越这片沙漠，所以你又是不自由的。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "14年穿越沙漠"
+        ],
+        "anchor_paragraph": 10,
+        "text_paragraphs": [
+          11,
+          12
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T06",
+      "secondary_themes": [
+        "T02"
+      ],
+      "tension": "可选的道路与不可选的处境",
+      "classification_reason": "区分处境的限制和行动方式的选择，避免把自由等同于没有约束。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0003",
+      "title_original": "15年坚硬与柔软",
+      "title": "15年坚硬与柔软",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "高考（季别未标）",
+      "year_label_normalized": 2015,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "根据以下材料，自选角度，自拟题目，写一篇不少于800字的文章（不要写成诗歌）。 \n人的心中总有一些坚硬的东西，也有一些柔软的东西。如何对待它们，将关系到能否造就和谐的自我。   ",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "15年坚硬与柔软"
+        ],
+        "anchor_paragraph": 14,
+        "text_paragraphs": [
+          15,
+          16
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T01",
+      "secondary_themes": [
+        "T05"
+      ],
+      "tension": "内心的坚硬与柔软",
+      "classification_reason": "追问原则和感受怎样共同构成自我，而不是简单选一边。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0004",
+      "title_original": "17 预测",
+      "title": "17 预测",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "高考（季别未标）",
+      "year_label_normalized": 2017,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "预测，是指预先推测。生活充满变数，有的人乐于接受对生活的预测，有的人则不以为然。\n请写一篇文章，谈谈你的思考。\n要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "17 预测"
+        ],
+        "anchor_paragraph": 18,
+        "text_paragraphs": [
+          19,
+          20,
+          21
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T02"
+      ],
+      "tension": "预测与生活的变数",
+      "classification_reason": "预测可以帮助行动，但何时会变成对不确定性的虚假消除？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0005",
+      "title_original": "18 需要和被需要",
+      "title": "18 需要和被需要",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "高考（季别未标）",
+      "year_label_normalized": 2018,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "生活中，人们不仅关注自身的需要，也时常渴望被他人需要，以体现自己的价值。这种“被需要”的心态普遍存在，对此你有怎样的认识？请写一篇文章，谈谈你的思考。\n要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "18 需要和被需要"
+        ],
+        "anchor_paragraph": 22,
+        "text_paragraphs": [
+          23,
+          24
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T03",
+      "secondary_themes": [
+        "T05",
+        "T01"
+      ],
+      "tension": "自身需要与被他人需要",
+      "classification_reason": "被需要如何提供价值感，又是否足以决定人的全部价值？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0006",
+      "title_original": "20春考 事实和看法",
+      "title": "20春考 事实和看法",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "春考",
+      "year_label_normalized": 2020,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，没有事实的看法是空洞的，没有看法的事实是无力的。对此你有怎样的思考？请写一篇文章，谈谈你的想法。\n要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "20春考 事实和看法"
+        ],
+        "anchor_paragraph": 25,
+        "text_paragraphs": [
+          26,
+          27
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [],
+      "tension": "事实与看法",
+      "classification_reason": "区分事实依据、解释框架与表达力量，讨论两者相互支持的条件。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0007",
+      "title_original": "20秋考 转折",
+      "title": "20秋考 转折",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "秋考",
+      "year_label_normalized": 2020,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "世上许多重要的转折是在意想不到时发生的，这是否意味着人对事物发展进程无能为力?\n请写一篇文章，谈谈你对这个问题的认识和思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "20秋考 转折"
+        ],
+        "anchor_paragraph": 29,
+        "text_paragraphs": [
+          30,
+          31
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T04"
+      ],
+      "tension": "意外转折与人的能动性",
+      "classification_reason": "不可预见是否推出不可作为，需要区分预测能力与影响能力。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0008",
+      "title_original": "21春考 做和人",
+      "title": "21春考 做和人",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "春考",
+      "year_label_normalized": 2021,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，你怎么做，就会成为什么样的人，也有人觉得不尽如此。你怎么看?请写一篇文章，谈谈你的认识和思考。\n要求：(1)自拟题目；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "21春考 做和人"
+        ],
+        "anchor_paragraph": 32,
+        "text_paragraphs": [
+          33,
+          34
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T01",
+      "secondary_themes": [
+        "T02"
+      ],
+      "tension": "行为与人格形成",
+      "classification_reason": "行动如何塑造身份，单次行为与长期实践是否具有同样作用？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0009",
+      "title_original": "21秋考 时间沉淀与价值",
+      "title": "21秋考 时间沉淀与价值",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "秋考",
+      "year_label_normalized": 2021,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，经过时间的沉淀，事物的价值才能被人们认识；也有人认为不尽如此。\n你怎么看？请写一篇文章，谈谈你的思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "21秋考 时间沉淀与价值"
+        ],
+        "anchor_paragraph": 36,
+        "text_paragraphs": [
+          37,
+          38
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T03",
+      "secondary_themes": [
+        "T07"
+      ],
+      "tension": "时间沉淀与价值被认识",
+      "classification_reason": "时间能帮助识别价值，但不能直接成为价值成立的充分条件。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0010",
+      "title_original": "22秋考 发问与结论",
+      "title": "22秋考 发问与结论",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "秋考",
+      "year_label_normalized": 2022,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "小时候人们喜欢发问，长大后往往看重结论。对此，有人感到担忧，有人觉得正常，你有怎样的思考？请写一篇文章，谈谈你的认识。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "22秋考 发问与结论"
+        ],
+        "anchor_paragraph": 39,
+        "text_paragraphs": [
+          40
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T07"
+      ],
+      "tension": "发问与结论",
+      "classification_reason": "结论积累与持续发问各有什么功能，成长是否必须牺牲问题意识？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0011",
+      "title_original": "23春考 重要的东西",
+      "title": "23春考 重要的东西",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "春考",
+      "year_label_normalized": 2023,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "24.有人说，所有重要的东西在很早以前就已经提到过了。你是否认同这一观点？请写一篇文章，谈谈你的认识和思考。\n要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "23春考 重要的东西"
+        ],
+        "anchor_paragraph": 43,
+        "text_paragraphs": [
+          44,
+          45
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T07",
+        "T03"
+      ],
+      "tension": "已有思想与新的重要发现",
+      "classification_reason": "曾被提到是否意味着已被充分理解，新的处境能否产生新的问题？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0012",
+      "title_original": "23秋考 好奇心",
+      "title": "23秋考 好奇心",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "秋考",
+      "year_label_normalized": 2023,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "一个人乐意去探索陌生世界，仅仅是因为好奇心吗？请写一篇文章，谈谈你对这个问题的认识和思考。\n要求：(1） 自拟题目；（2）不少于 800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "23秋考 好奇心"
+        ],
+        "anchor_paragraph": 47,
+        "text_paragraphs": [
+          48
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T02"
+      ],
+      "tension": "好奇心与探索的其他动因",
+      "classification_reason": "区分探索的触发、持续动力与实践条件，检验“仅仅”这一限制。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0013",
+      "title_original": "24春考 知识综合",
+      "title": "24春考 知识综合",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "春考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "对已有知识的综合，是创新吗?请写一篇文章，谈谈你对这个问题的认识和思考。\n要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "24春考 知识综合"
+        ],
+        "anchor_paragraph": 50,
+        "text_paragraphs": [
+          51,
+          52
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [],
+      "tension": "知识综合与创新",
+      "classification_reason": "什么样的综合只是汇集，什么样的综合改变了知识之间的关系？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0014",
+      "title_original": "24秋考 认可度",
+      "title": "24秋考 认可度",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "秋考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "生活中，人们常用认可度判别事物，区分高下。请写一篇文章，谈谈你对“认可度”的认识和思考。\n要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "24秋考 认可度"
+        ],
+        "anchor_paragraph": 54,
+        "text_paragraphs": [
+          55,
+          56
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T03",
+      "secondary_themes": [
+        "T05"
+      ],
+      "tension": "认可度与事物高下",
+      "classification_reason": "谁的认可、怎样形成的认可，能在什么条件下帮助判断价值？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0015",
+      "title_original": "25秋考 专转传",
+      "title": "25秋考 专转传",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "秋考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有学者用“专”“转”“传”概括当下三类文章：“专”指专业文章；“转”指被转发的通俗文章；“传”指获得广泛传播的佳作，甚至是传世文章。他提出，专业文章可以变成被转发的通俗文章，而面对大量“转”文，读者又不免期待可传世的文章。\n由“专”到“传”，必定要经过“转”吗？请联系社会生活，写一篇文章，谈谈你的认识与思考。\n要求：⑴自拟题目；⑵不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "25秋考 专转传"
+        ],
+        "anchor_paragraph": 57,
+        "text_paragraphs": [
+          58,
+          59,
+          60
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T08",
+      "secondary_themes": [
+        "T03",
+        "T04"
+      ],
+      "tension": "专业性、转发与传世价值",
+      "classification_reason": "大众传播是否是作品长期价值实现的必要通道，须区分流通与价值。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [
+        62
+      ]
+    },
+    {
+      "id": "PR-0016",
+      "title_original": "26春考 井水河水",
+      "title": "26春考 井水河水",
+      "starred_in_source": false,
+      "record_type": "gaokao",
+      "region": "上海",
+      "district": null,
+      "school_original": null,
+      "exam_type": "春考",
+      "year_label_normalized": 2026,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "俗话说：“井水不犯河水。”也有人说：“横竖都是水，可以相通。”对此你有怎样的思考？请写一篇文章。\n要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "高考真题",
+          "26春考 井水河水"
+        ],
+        "anchor_paragraph": 64,
+        "text_paragraphs": [
+          65,
+          66
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T06"
+      ],
+      "tension": "互不侵犯的边界与相通的可能",
+      "classification_reason": "共同性是否足以取消边界，怎样的交流既相通又不构成侵犯？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0017",
+      "title_original": "徐汇 获得感与世界",
+      "title": "徐汇 获得感与世界",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "徐汇",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2026,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "23.人的获得感主要来自于与世界建立的关系吗？请写一篇文章谈谈你的认识与思考。\n要求：(1) 自拟题目； (2) 不少于 800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "26一模",
+          "徐汇 获得感与世界"
+        ],
+        "anchor_paragraph": 72,
+        "text_paragraphs": [
+          73,
+          74
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T03",
+      "secondary_themes": [
+        "T05"
+      ],
+      "tension": "获得感与人和世界的关系",
+      "classification_reason": "关系如何产生获得感，内在评价与物质获得又起什么作用？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0018",
+      "title_original": "金山 群体与坚守差异",
+      "title": "金山 群体与坚守差异",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "金山",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2026,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "24.当多数人的选择形成群体共识，坚守差异是否意味着必然要承担风险？请写一篇文章谈谈你的认识与思考。\n要求：(1) 题目自拟； (2) 不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "26一模",
+          "金山 群体与坚守差异"
+        ],
+        "anchor_paragraph": 75,
+        "text_paragraphs": [
+          76,
+          77
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T01"
+      ],
+      "tension": "群体共识与坚守差异的风险",
+      "classification_reason": "差异的风险由何种群体机制产生，是否必然且只能由个人承担？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0019",
+      "title_original": "嘉定 性价比",
+      "title": "嘉定 性价比",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "嘉定",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2026,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "23.“性价比”原为经济学术语，衡量的是性能与价格之比。如今，这一概念已超越商业领域，成为人们衡量人际关系、教育投入、生活选择乃至人生价值的重要尺度。当“性价比”从专业工具泛化为普遍思维，我们该如何看待这种概念的迁移与泛化？\n请写一篇文章，谈谈你的认识与思考。\n要求：(1)自拟题目；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "26一模",
+          "嘉定 性价比"
+        ],
+        "anchor_paragraph": 78,
+        "text_paragraphs": [
+          79,
+          80,
+          81
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T09",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "性价比工具与生活的多种价值",
+      "classification_reason": "一种商业尺度泛化后保留了什么，又遗漏了哪些不可通约的价值？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0020",
+      "title_original": "⭐杨浦 浪漫与现实主义",
+      "title": "⭐杨浦 浪漫与现实主义",
+      "starred_in_source": true,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "杨浦",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2026,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "23.浪漫主义者主张“生活应该如此”，现实主义者则秉持“生活就是如此”。你更倾向于哪一种观点？请写一篇文章，谈谈你的认识和思考。\n要求：(1) 自拟题目; (2) 不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "26一模",
+          "⭐杨浦 浪漫与现实主义"
+        ],
+        "anchor_paragraph": 82,
+        "text_paragraphs": [
+          83,
+          84
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T10",
+      "secondary_themes": [
+        "T02"
+      ],
+      "tension": "生活应该如此与生活就是如此",
+      "classification_reason": "现实判断与理想追求是否必须互斥，理想如何找到改变现实的条件？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0021",
+      "title_original": "奉贤 简即为美",
+      "title": "奉贤 简即为美",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "奉贤",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2026,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "儿童文学最重要的特质是简约之美，其实“简约之美”不只是儿童文学的追求，在生活中，极简旅行、极简装修等也成为一种时尚，“简即为美”似乎成为一种潮流。\n请写一篇文章，谈谈你对“简即为美”这个观点的认识与思考，文体不限，题目自拟，不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "26一模",
+          "奉贤 简即为美"
+        ],
+        "anchor_paragraph": 85,
+        "text_paragraphs": [
+          86,
+          87
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T09",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "简约之美与复杂生活",
+      "classification_reason": "简约在哪些对象和需求中成立，形式上的少是否等于内容上的好？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0022",
+      "title_original": "闵行 预期",
+      "title": "闵行 预期",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "闵行",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2026,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "预期，是指对未来的估计。人们常因达到或超过预期而喜悦，因未达预期而沮丧。因而有人就说：“左右你喜怒哀乐的，不过是你对人、对事、对己的预期而已。不如降低预期，别让自己不开心。”\n你是否赞同这种说法？请谈谈你的认识与思考。\n要求：(1)题目自拟； (2)不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "26一模",
+          "闵行 预期"
+        ],
+        "anchor_paragraph": 88,
+        "text_paragraphs": [
+          89,
+          90,
+          91
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T09",
+      "secondary_themes": [
+        "T04",
+        "T02"
+      ],
+      "tension": "预期、情绪与现实行动",
+      "classification_reason": "降低预期能缓解什么，又会不会削弱行动或掩盖需要改变的现实？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0023",
+      "title_original": "宝山 因果脱敏",
+      "title": "宝山 因果脱敏",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "宝山",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2026,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "23.与其为不如意的结果而烦恼，不如学会因果脱敏，用心投入，但不执着于结果。\n你如何看待上述“因果脱敏”的观点？请联系现实，写一篇文章，谈谈你的认识与思考。\n要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "26一模",
+          "宝山 因果脱敏"
+        ],
+        "anchor_paragraph": 92,
+        "text_paragraphs": [
+          93,
+          94,
+          95
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T09"
+      ],
+      "tension": "用心投入与不执着结果",
+      "classification_reason": "放下结果执念和放弃结果责任有何不同，投入与复盘怎样共存？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0024",
+      "title_original": "崇明 未竟的成功",
+      "title": "崇明 未竟的成功",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "崇明",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2026,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "23.“努力了，但没有成功”是生活中常见的体验。面对这种“未竟的成功”，有人因此怀疑“努力”的意义，有人则重新审视“成功”的定义。你如何看待这种“未竟的成功”?请写一篇文章，谈谈你的思考。\n要求：(1) 自拟题目； (2) 不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "26一模",
+          "崇明 未竟的成功"
+        ],
+        "anchor_paragraph": 96,
+        "text_paragraphs": [
+          97,
+          98
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "努力未果与成功的定义",
+      "classification_reason": "怎样承认努力的过程价值，同时避免用重定义成功回避实际失败？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0025",
+      "title_original": "虹口 偏与正",
+      "title": "虹口 偏与正",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "虹口",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2026,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "23.沈从文在《致张兆和》中写道：“没有人知道我是干什么的，我自己倒知道。如到人都知道我，我大致就快到了不知道自己究竟是干什么的了。”这段话包含了一个人如何做出选择以及如何看待自身位置的启示，对此有学者认为：“选择、位置：偏之又偏，实得其正。”\n偏与正，是否还有其他的关系？请联系社会生活，写一篇文章，谈谈你的认识与思考。\n要求：(1) 自拟题目； (2) 不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "26一模",
+          "虹口 偏与正"
+        ],
+        "anchor_paragraph": 99,
+        "text_paragraphs": [
+          100,
+          101,
+          102
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T01",
+      "secondary_themes": [
+        "T05"
+      ],
+      "tension": "位置的偏正与自我认识",
+      "classification_reason": "社会中心位置与自我定位并不重合，偏离共识在什么情况下有价值？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0026",
+      "title_original": "普陀 意义  \n24.人们常常追问“这对我有什么意义”，却很少关注意义是如何产生的。请写一篇文章，谈谈你对此的认识和思考。",
+      "title": "普陀 意义",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "普陀",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2026,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "24.人们常常追问“这对我有什么意义”，却很少关注意义是如何产生的。请写一篇文章，谈谈你对此的认识和思考。\n要求：(1)自拟题目；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "26一模",
+          "普陀 意义  \n24.人们常常追问“这对我有什么意义”，却很少关注意义是如何产生的。请写一篇文章，谈谈你对此的认识和思考。"
+        ],
+        "anchor_paragraph": 103,
+        "text_paragraphs": [
+          103,
+          104
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T03",
+      "secondary_themes": [
+        "T02"
+      ],
+      "tension": "追问意义与意义的产生",
+      "classification_reason": "意义是被发现、被他人赋予，还是在关系与行动中生成？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0027",
+      "title_original": "长宁 新生与更新",
+      "title": "长宁 新生与更新",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "长宁",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2026,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "23.生活中常遇到这样的情况：我们刚要说服自己接受某一新生事物，却发现它即将被更新颖的事物取代。请写一篇文章，谈谈你对此的认识与思考。\n要求：(1) 自拟题目； (2) 不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "26一模",
+          "长宁 新生与更新"
+        ],
+        "anchor_paragraph": 105,
+        "text_paragraphs": [
+          106,
+          107
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T07",
+      "secondary_themes": [
+        "T04"
+      ],
+      "tension": "接受新事物与更快的更新",
+      "classification_reason": "更新速度怎样影响人的理解与选择，新颖本身是否足以要求接受？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0028",
+      "title_original": "⭐松江 喜悦",
+      "title": "⭐松江 喜悦",
+      "starred_in_source": true,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "松江",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2026,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "24.我们越来越容易获得一份礼物，一款新品，一声赞许……但获得后的喜悦，却好像越来越少了。对此，你怎么看。写一篇文章，谈谈你的认识与思考。\n要求：(1)自拟题目；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "26一模",
+          "⭐松江 喜悦"
+        ],
+        "anchor_paragraph": 108,
+        "text_paragraphs": [
+          109,
+          110
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T09",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "获得更容易与喜悦更稀少",
+      "classification_reason": "获得数量与体验质量为何可能分离，需要哪些条件才能保持感受力？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0029",
+      "title_original": "青浦 记录与理解",
+      "title": "青浦 记录与理解",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "青浦",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2026,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "23.当今社会，我们记录得越多，传播得越广，但真正的理解却似乎越发稀缺。这句话表达了对信息丰盈与理解匮乏的担忧，请联系社会生活，写一篇文章，谈谈你的认识与思考。\n要求：（1）题目自拟；（2）不少于800字",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "26一模",
+          "青浦 记录与理解"
+        ],
+        "anchor_paragraph": 111,
+        "text_paragraphs": [
+          112,
+          113
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T08",
+      "secondary_themes": [
+        "T04"
+      ],
+      "tension": "记录传播的丰盈与理解的匮乏",
+      "classification_reason": "信息留存和流通为何不自动产生理解，媒介使用方式怎样影响加工？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0030",
+      "title_original": "⭐浦东 奋斗的目的",
+      "title": "⭐浦东 奋斗的目的",
+      "starred_in_source": true,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "浦东",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "23.我们奋斗的目的是为了改变世界，还是不让世界改变我们？请写一篇文章，谈谈你对此的认识与思考。 要求：(1)自拟题目；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "25二模",
+          "⭐浦东 奋斗的目的"
+        ],
+        "anchor_paragraph": 116,
+        "text_paragraphs": [
+          117
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T01",
+        "T10"
+      ],
+      "tension": "改变世界与不被世界改变",
+      "classification_reason": "奋斗的外在作用和人格作用怎样关联，个体限制是否能通过协作改变？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [
+        119
+      ]
+    },
+    {
+      "id": "PR-0031",
+      "title_original": "徐汇 他人期待",
+      "title": "徐汇 他人期待",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "徐汇",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "24.我们常会感受到他人的期待带来的压力。那么，我们是否不该被他人的期待所影响？请写一篇文章，谈谈你对此的认识和思考。\n要求：(1)自拟题目；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "25二模",
+          "徐汇 他人期待"
+        ],
+        "anchor_paragraph": 120,
+        "text_paragraphs": [
+          121,
+          122
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T01",
+      "secondary_themes": [
+        "T05",
+        "T06"
+      ],
+      "tension": "他人期待的压力与自我决定",
+      "classification_reason": "期待何时是支持、何时是控制，主体如何判断和回应？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "similar_prompts": [
+        {
+          "id": "PR-0109",
+          "kind": "related_question",
+          "reason": "本题检验期待与成就的因果关系，旧题讨论是否应受他人期待影响，侧重点不同。"
+        }
+      ]
+    },
+    {
+      "id": "PR-0032",
+      "title_original": "宝山 怜悯",
+      "title": "宝山 怜悯",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "宝山",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "24.怜悯是人的天性，但是也有人说：“只有非常不幸的人才能有怜悯别人的权利。”结合材料，写一篇文章，谈谈你对“怜悯”的认识和思考。\n要求：(1)自拟题目；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "25二模",
+          "宝山 怜悯"
+        ],
+        "anchor_paragraph": 123,
+        "text_paragraphs": [
+          124,
+          125
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T04"
+      ],
+      "tension": "怜悯的天性与怜悯的资格",
+      "classification_reason": "共同苦难经验能促进理解，是否因此成为关怀别人的必要资格？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0033",
+      "title_original": "普陀 悲悯 ",
+      "title": "普陀 悲悯",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "普陀",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "23. 有人说，懂得悲悯，方知生活的重量。请写一篇文章，谈谈你对此的认识和思考。\n要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "25二模",
+          "普陀 悲悯 "
+        ],
+        "anchor_paragraph": 126,
+        "text_paragraphs": [
+          127,
+          128
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "悲悯与理解生活的重量",
+      "classification_reason": "关怀他人怎样改变对生活的理解，怎样避免居高临下的同情？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0034",
+      "title_original": "松江 屏幕认识蝴蝶",
+      "title": "松江 屏幕认识蝴蝶",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "松江",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "23. 有人说，在屏幕中认识蝴蝶的孩子，将在现实中失去飞翔的翅膀。对此，你是否认同?请写一篇文章，谈谈你的认识和思考。\n要求：(1)自拟题目；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "25二模",
+          "松江 屏幕认识蝴蝶"
+        ],
+        "anchor_paragraph": 130,
+        "text_paragraphs": [
+          131,
+          132
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T08",
+      "secondary_themes": [
+        "T07"
+      ],
+      "tension": "屏幕中的认识与现实中的成长",
+      "classification_reason": "媒介经验如何支持或替代直接实践，不能把屏幕影响一概而论。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0035",
+      "title_original": "⭐杨浦 精细化标尺",
+      "title": "⭐杨浦 精细化标尺",
+      "starred_in_source": true,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "杨浦",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "24. 营养师精确计算每餐的卡路里，运动手环监测着每一次心跳呼吸，有人担忧：我们越来越习惯用精细化的标尺丈量生活，却往往遗忘了生活本身。对此，你有怎样的认识和思考?请写一篇文章。\n要求：(1)自拟题目；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "25二模",
+          "⭐杨浦 精细化标尺"
+        ],
+        "anchor_paragraph": 134,
+        "text_paragraphs": [
+          135,
+          136
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T09",
+      "secondary_themes": [
+        "T08"
+      ],
+      "tension": "精细测量与生活体验",
+      "classification_reason": "指标能够改善哪些方面，又在什么情况下把可测量部分误当全部？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0036",
+      "title_original": "奉贤 达克效应",
+      "title": "奉贤 达克效应",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "奉贤",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "24.“达克效应”是一种心理现象，指能力弱的人会对自己作出过高评价，而能力高的人却会作出较低的评价。这一心理学现象引发我们对于自我认知的思考，请谈谈你的看法。\n要求：(1)自拟题目；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "25二模",
+          "奉贤 达克效应"
+        ],
+        "anchor_paragraph": 138,
+        "text_paragraphs": [
+          139,
+          140
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T01"
+      ],
+      "tension": "能力水平与自我评价",
+      "classification_reason": "自我认识怎样受能力和反馈影响；题干的心理学概括需要另外核验。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0037",
+      "title_original": "青浦 努力掌握命运",
+      "title": "青浦 努力掌握命运",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "青浦",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "23. 生活中，人们常寄希望于努力提升自己来更好地掌控自己的命运。请写一篇文章，谈谈你对这种现象的认识和思考。\n要求：(1)题目自拟；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "25二模",
+          "青浦 努力掌握命运"
+        ],
+        "anchor_paragraph": 142,
+        "text_paragraphs": [
+          143,
+          144
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T01"
+      ],
+      "tension": "自我提升与掌控命运",
+      "classification_reason": "努力能扩大哪些影响范围，个人提升之外还需要哪些条件？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0038",
+      "title_original": "⭐徐汇 突破和接受局限",
+      "title": "⭐徐汇 突破和接受局限",
+      "starred_in_source": true,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "徐汇",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "我们更应突破自身的局限性，还是接受自身的局限性？请写一篇文章，谈谈你对此的认识和思考。\n要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "25一模",
+          "⭐徐汇 突破和接受局限"
+        ],
+        "anchor_paragraph": 147,
+        "text_paragraphs": [
+          148,
+          149
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T01",
+        "T06"
+      ],
+      "tension": "突破局限与接受局限",
+      "classification_reason": "先辨认可变、暂不可变与不值得突破的边界，再判断行动方向。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0039",
+      "title_original": "崇明 知情权和不知情权",
+      "title": "崇明 知情权和不知情权",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "崇明",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人认为除了知情权，人也应该拥有不知情权，而且后者的价值更大。对此，你有怎样的思考。请写一篇文章，谈谈你的思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "25一模",
+          "崇明 知情权和不知情权"
+        ],
+        "anchor_paragraph": 150,
+        "text_paragraphs": [
+          151
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T06",
+      "secondary_themes": [
+        "T04"
+      ],
+      "tension": "知情权与不知情权",
+      "classification_reason": "知识获取的价值和拒绝信息的自主权如何比较，各自适用条件是什么？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0040",
+      "title_original": "青浦 无法控制",
+      "title": "青浦 无法控制",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "青浦",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "生活中有很多我们无法控制的事，这是否意味着我们只需要关心自己能控制的事？请写一篇文章，谈谈你的认识和思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "25一模",
+          "青浦 无法控制"
+        ],
+        "anchor_paragraph": 152,
+        "text_paragraphs": [
+          153
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T05"
+      ],
+      "tension": "无法控制与是否仍应关心",
+      "classification_reason": "关心、影响、控制不是同一回事，当前能力边界也未必固定。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [
+        155
+      ]
+    },
+    {
+      "id": "PR-0041",
+      "title_original": "杨浦 奔赴自然",
+      "title": "杨浦 奔赴自然",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "杨浦",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "在现代社会，高清纪录片可呈现热带雨林的繁茂、极地冰川的壮丽，虚拟现实设备能模拟漫步山间、泛舟湖海的惬意，打开手机就能欣赏美景直播……然而，仍有许多人执着于亲身奔赴自然。\n请写一篇文章，谈谈你对这种现象的认识和思考。\n要求：(1)自拟题目；(2)不少于800 字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "25一模",
+          "杨浦 奔赴自然"
+        ],
+        "anchor_paragraph": 156,
+        "text_paragraphs": [
+          157,
+          158,
+          159
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T08",
+      "secondary_themes": [
+        "T09"
+      ],
+      "tension": "媒介呈现自然与亲身奔赴",
+      "classification_reason": "现场的身体经验、参与和偶然性提供了哪些观看不能完全替代的东西？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0042",
+      "title_original": "闵行 听过道理过不好生活",
+      "title": "闵行 听过道理过不好生活",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "闵行",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "大明感叹道：“我听过许多道理，但还是过不好自己的生活。”请你写一篇文章，对大明说说你的感受与认识。\n要求：（1）自拟题目；（2）不少于800字",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "25一模",
+          "闵行 听过道理过不好生活"
+        ],
+        "anchor_paragraph": 160,
+        "text_paragraphs": [
+          161,
+          162
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T02"
+      ],
+      "tension": "听过道理与过好生活",
+      "classification_reason": "理解、认同、行动和情境适用之间各有什么转化障碍？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0043",
+      "title_original": "金山 知道和判断",
+      "title": "金山 知道和判断",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "金山",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "23．一个人知道得越多，是否意味着越容易作出判断？请写一篇文章，谈谈你的思考。要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "24二模",
+          "金山 知道和判断"
+        ],
+        "anchor_paragraph": 165,
+        "text_paragraphs": [
+          166
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [],
+      "tension": "知识数量与判断能力",
+      "classification_reason": "信息如何组织和验证才有助判断，信息更多为什么也可能增加犹豫？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0044",
+      "title_original": "浦东 新天地和新眼光",
+      "title": "浦东 新天地和新眼光",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "浦东",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "25.有人说，真正的发现之旅不在于找寻新的天地，而在于拥有新的眼光。对此，你怎么看？请写一篇文章谈谈你的看法。\n要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "24二模",
+          "浦东 新天地和新眼光"
+        ],
+        "anchor_paragraph": 167,
+        "text_paragraphs": [
+          168,
+          169
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T08"
+      ],
+      "tension": "新天地与新眼光",
+      "classification_reason": "发现依赖对象变化还是理解框架变化，两者何时相互促成？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0045",
+      "title_original": "徐汇 获益代价",
+      "title": "徐汇 获益代价",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "徐汇",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "24.获益大于代价，是衡量一件事值得做的标准吗？请写一篇文章，谈谈你对这个问题的认识和思考。要求：（1）自拟题目；（2）不少于 800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "24二模",
+          "徐汇 获益代价"
+        ],
+        "anchor_paragraph": 171,
+        "text_paragraphs": [
+          172
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T09",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "获益代价计算与值得做",
+      "classification_reason": "谁的收益和代价、什么时间尺度，以及是否存在不宜折算的价值？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0046",
+      "title_original": "杨浦 空白之心",
+      "title": "杨浦 空白之心",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "杨浦",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，只有怀着一颗空白之心，才能够获得想象的灵魂。\n对此，你是否认同？请写一篇文章，谈谈你的认识和思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "24二模",
+          "杨浦 空白之心"
+        ],
+        "anchor_paragraph": 173,
+        "text_paragraphs": [
+          174,
+          175
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [],
+      "tension": "空白之心与想象力",
+      "classification_reason": "开放态度是否等于没有知识，放下成见和清空积累应如何区分？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0047",
+      "title_original": "闵行 欣赏自然山水",
+      "title": "闵行 欣赏自然山水",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "闵行",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "在某景点，有人说：“我们出来观赏自然山水，就只是为了拍照发朋友圈吗？”请写一篇文章，谈谈你对此人所说话语的认识和思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "24一模",
+          "闵行 欣赏自然山水"
+        ],
+        "anchor_paragraph": 177,
+        "text_paragraphs": [
+          178
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T08",
+      "secondary_themes": [
+        "T05",
+        "T09"
+      ],
+      "tension": "观赏山水与拍照分享",
+      "classification_reason": "记录、社交表达与现场体验如何相互支持或挤占，需检验“只是”。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0048",
+      "title_original": "徐汇 应当和愿意",
+      "title": "徐汇 应当和愿意",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "徐汇",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "立身行事注重的是“我应当”，而人们往往倾向于选择“我愿意”，对此你有怎样的思考？请写一篇文章谈谈你的认识。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "24一模",
+          "徐汇 应当和愿意"
+        ],
+        "anchor_paragraph": 180,
+        "text_paragraphs": [
+          181
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T06",
+      "secondary_themes": [
+        "T05",
+        "T03"
+      ],
+      "tension": "我应当与我愿意",
+      "classification_reason": "责任和欲望来自何处，如何形成既能认同又能承担后果的选择？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "similar_prompts": [
+        {
+          "id": "PR-0119",
+          "kind": "wording_variant",
+          "reason": "核心设问与结构高度近似，但措辞、年份和来源不同，未证实为同一试题，不合并。"
+        }
+      ]
+    },
+    {
+      "id": "PR-0049",
+      "title_original": "长宁 标准答案",
+      "title": "长宁 标准答案",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "长宁",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "人的很多选择是没有标准答案的，这是否意味着人生不需要标准答案？请写一篇文章，谈谈你的认识与思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "24一模",
+          "长宁 标准答案"
+        ],
+        "anchor_paragraph": 183,
+        "text_paragraphs": [
+          184
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T06",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "选择无标准答案与人生是否需要标准",
+      "classification_reason": "具体答案不唯一是否意味着无需原则，要区分原则和固定解法。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0050",
+      "title_original": "普陀 坚持自我",
+      "title": "普陀 坚持自我",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "普陀",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "在观点越来越多元的世界里，是否只有坚持自我，才能获得理想的人生？\n请写一篇文章，谈谈你的认识和思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "24一模",
+          "普陀 坚持自我"
+        ],
+        "anchor_paragraph": 185,
+        "text_paragraphs": [
+          186,
+          187
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T01",
+      "secondary_themes": [
+        "T05"
+      ],
+      "tension": "多元观点与坚持自我",
+      "classification_reason": "坚持什么、如何修正，主体性是否也包含对他人意见开放？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0051",
+      "title_original": "虹口 绕行",
+      "title": "虹口 绕行",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "虹口",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，学会绕行是人生必备的技能，有人则不以为然。请写一篇文章，谈谈你对这个问题的认识和思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "24一模",
+          "虹口 绕行"
+        ],
+        "anchor_paragraph": 189,
+        "text_paragraphs": [
+          190
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T06"
+      ],
+      "tension": "绕行与直接面对",
+      "classification_reason": "绕行何时是有效策略，何时成为对责任和问题的持续回避？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0052",
+      "title_original": "松江 经验与天真",
+      "title": "松江 经验与天真",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "松江",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "个人的成长会因为经验的增长而逐渐失去天真吗？请写一篇文章，谈谈你对此的认识与思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "24一模",
+          "松江 经验与天真"
+        ],
+        "anchor_paragraph": 191,
+        "text_paragraphs": [
+          192
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T07",
+      "secondary_themes": [
+        "T04"
+      ],
+      "tension": "经验增长与保有天真",
+      "classification_reason": "经验究竟带来理解还是成见，天真指无知还是信任和感受力？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0053",
+      "title_original": "22杨浦一模 选择与自由",
+      "title": "22杨浦一模 选择与自由",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "杨浦",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2022,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，人的一生充满选择的机会，这使人获得自由。 你对这种说法有怎样的思考？请自选角度，自拟题目，写一篇不少于800字的文章。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "23及以前",
+          "22杨浦一模 选择与自由"
+        ],
+        "anchor_paragraph": 195,
+        "text_paragraphs": [
+          196
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T06",
+      "secondary_themes": [
+        "T09"
+      ],
+      "tension": "选择机会与自由",
+      "classification_reason": "可选项数量怎样转化为真实选择能力，资源和承担能力有什么作用？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0054",
+      "title_original": "23一模闵行 事物与看法困扰",
+      "title": "23一模闵行 事物与看法困扰",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "闵行",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2023,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，人不是被事情困扰住，而是被对那件事情的看法困扰住。对此，你怎么看？\n请写一篇文章，谈谈你的思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "23及以前",
+          "23一模闵行 事物与看法困扰"
+        ],
+        "anchor_paragraph": 197,
+        "text_paragraphs": [
+          198,
+          199
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T09"
+      ],
+      "tension": "事情本身与对事情的看法",
+      "classification_reason": "解释能改变困扰程度，但不能由此抹去事件造成的现实损害。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0055",
+      "title_original": "23一模 松江 效果和正确",
+      "title": "23一模 松江 效果和正确",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "松江",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2023,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "25.有人说：我们坚持一件事，并不是因为这样做了会有效果，而是坚信这样做是正确的。对此你有怎样的思考？请写一篇文章，谈谈你的认识与思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "23及以前",
+          "23一模 松江 效果和正确"
+        ],
+        "anchor_paragraph": 200,
+        "text_paragraphs": [
+          201
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T03",
+        "T10"
+      ],
+      "tension": "行动效果与正确信念",
+      "classification_reason": "坚持原则为何有意义，又怎样避免以正确自居而拒绝考察后果？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0056",
+      "title_original": "23一模 金山 与时代相处",
+      "title": "23一模 金山 与时代相处",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "金山",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2023,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "25.人与时代相处的方式多样，有人选择与时代合唱，有人选择独自吟唱，有人觉得不尽如\n此。对此，你怎么看？请写一篇文章，联系生活与课内所学，谈谈你的认识与思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "23及以前",
+          "23一模 金山 与时代相处"
+        ],
+        "anchor_paragraph": 202,
+        "text_paragraphs": [
+          203,
+          204
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T01",
+        "T07"
+      ],
+      "tension": "与时代合唱与独自吟唱",
+      "classification_reason": "顺应和独立各自回应什么需要，批判参与能否成为另一种相处方式？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0057",
+      "title_original": "23普陀一模 分析解决问题",
+      "title": "23普陀一模 分析解决问题",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "普陀",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2023,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "生活中，人们总是乐于从各种角度分析问题，但有人说，更重要的是解决问题。\n对此，你怎么看？请写一篇文章，谈谈你的认识和思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "23及以前",
+          "23普陀一模 分析解决问题"
+        ],
+        "anchor_paragraph": 205,
+        "text_paragraphs": [
+          206,
+          207
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T04"
+      ],
+      "tension": "分析问题与解决问题",
+      "classification_reason": "分析何时帮助行动，何时成为拖延，解决又需要怎样的理解？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "similar_prompts": [
+        {
+          "id": "PR-0113",
+          "kind": "related_question",
+          "reason": "都涉及理解与行动；本题比较为什么和怎么办的提问取向，旧题比较分析与解决的重要性，保留各自设问。"
+        }
+      ]
+    },
+    {
+      "id": "PR-0058",
+      "title_original": "23二模 普陀 人生可能",
+      "title": "23二模 普陀 人生可能",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "普陀",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2023,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "你当然可以说生活充满无限可能，但到头来，每个人也只是经历其中的一种。对于这样的认识，你怎么看？请写一篇文章，谈谈你的认识和思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "23及以前",
+          "23二模 普陀 人生可能"
+        ],
+        "anchor_paragraph": 209,
+        "text_paragraphs": [
+          210
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T06",
+      "secondary_themes": [
+        "T07"
+      ],
+      "tension": "无限可能与只能经历一种人生",
+      "classification_reason": "可能性如何在承诺中具体化，选择的损失与所得是否可以同时承认？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0059",
+      "title_original": "22一模 浦东 确认和拒绝我是谁",
+      "title": "22一模 浦东 确认和拒绝我是谁",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "浦东",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2022,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "25.有人说，作为年轻人，确认我是谁比拒绝我是谁更重要。也有人不以为然。对此你有怎样的思考？",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "23及以前",
+          "22一模 浦东 确认和拒绝我是谁"
+        ],
+        "anchor_paragraph": 211,
+        "text_paragraphs": [
+          212
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T01",
+      "secondary_themes": [
+        "T06"
+      ],
+      "tension": "确认我是谁与拒绝我是谁",
+      "classification_reason": "正面认同和排除不愿成为的身份各有什么作用，何时彼此依赖？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0060",
+      "title_original": "22一模 普陀 知识想象力",
+      "title": "22一模 普陀 知识想象力",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "普陀",
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2022,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，知识是想象力的土壤；也有人觉得不尽如此。\n对此，你怎么看？请写一篇文章，谈谈你的认识和思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "23及以前",
+          "22一模 普陀 知识想象力"
+        ],
+        "anchor_paragraph": 213,
+        "text_paragraphs": [
+          214,
+          215
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [],
+      "tension": "知识与想象力",
+      "classification_reason": "知识怎样提供想象材料，又怎样可能固化思路，关键在何种使用方式？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0061",
+      "title_original": "22二模 黄浦 文学艺术锦上添花",
+      "title": "22二模 黄浦 文学艺术锦上添花",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "黄浦",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2022,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，文学艺术是基本生活得到保障之后的锦上添花，也有人认为不尽如此。你怎么看？请写一篇文章，谈谈你的思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "模考",
+          "23及以前",
+          "22二模 黄浦 文学艺术锦上添花"
+        ],
+        "anchor_paragraph": 216,
+        "text_paragraphs": [
+          217
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T10",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "文学艺术与基本生活需要",
+      "classification_reason": "精神活动是否只是富足后的附加品，困顿处境如何改变其意义？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0062",
+      "title_original": "25高三期末考 诗的怀疑",
+      "title": "25高三期末考 诗的怀疑",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "上海中学",
+      "exam_type": "校考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "史铁生在《病隙随笔》里写过一句话:“奥斯维辛之后人们对诗产生了怀疑，但正是那样的怀疑吧，使人重新听见诗的消息。”",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "上海中学",
+          "25高三期末考 诗的怀疑"
+        ],
+        "anchor_paragraph": 220,
+        "text_paragraphs": [
+          221
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T10",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "灾难之后对诗的怀疑与诗的消息",
+      "classification_reason": "苦难为什么质疑艺术，又怎样促使表达重新回应真实经验？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0063",
+      "title_original": "25高二期中考 冷冷清清风风火火",
+      "title": "25高二期中考 冷冷清清风风火火",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "上海中学",
+      "exam_type": "校考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "木心说：“生活的最佳状态是冷冷清清的风风火火。”",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "上海中学",
+          "25高二期中考 冷冷清清风风火火"
+        ],
+        "anchor_paragraph": 223,
+        "text_paragraphs": [
+          224
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T10",
+      "secondary_themes": [
+        "T09"
+      ],
+      "tension": "冷清的外在状态与热烈的内在生活",
+      "classification_reason": "外部热闹和内在充实是否同一尺度，安静与积极如何共存？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0064",
+      "title_original": "25高二12月考 看清我能和我不能",
+      "title": "25高二12月考 看清我能和我不能",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "上海中学",
+      "exam_type": "校考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，看清“我不能“，是为了更清晰地看见”我能“。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "上海中学",
+          "25高二12月考 看清我能和我不能"
+        ],
+        "anchor_paragraph": 225,
+        "text_paragraphs": [
+          226
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T01"
+      ],
+      "tension": "看清我不能与发现我能",
+      "classification_reason": "承认能力边界怎样帮助找到可行行动，认识边界是否也能推动扩展？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0065",
+      "title_original": "25高三3月考 河和船",
+      "title": "25高三3月考 河和船",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "上海中学",
+      "exam_type": "校考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，我们很容易记得自己是在一条船上，却忘了自己其实是在一条河上。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "上海中学",
+          "25高三3月考 河和船"
+        ],
+        "anchor_paragraph": 227,
+        "text_paragraphs": [
+          228
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T07",
+      "secondary_themes": [
+        "T02",
+        "T05"
+      ],
+      "tension": "所在的船与流动的河",
+      "classification_reason": "人的局部处境如何受到更大环境与变化影响；比喻解释须回到具体生活。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0066",
+      "title_original": "25高三10月考 真实感",
+      "title": "25高三10月考 真实感",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "上海中学",
+      "exam_type": "校考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "题目：生活中，不少人觉得“真实感”越来越稀缺，“真实”变得越来越可贵。请写一篇文章谈谈你对“真实”与“真实感”的认识和思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "上海中学",
+          "25高三10月考 真实感"
+        ],
+        "anchor_paragraph": 229,
+        "text_paragraphs": [
+          230
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T08",
+      "secondary_themes": [
+        "T04"
+      ],
+      "tension": "真实与真实感",
+      "classification_reason": "主观上感到真实是否意味着事实真实，真实感稀缺可能来自哪些变化？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0067",
+      "title_original": "25高三2月考 行动和答案",
+      "title": "25高三2月考 行动和答案",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "上海中学",
+      "exam_type": "校考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "人们往往认为行动会给出答案，却忽略了行动本身即是答案。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "上海中学",
+          "25高三2月考 行动和答案"
+        ],
+        "anchor_paragraph": 231,
+        "text_paragraphs": [
+          232
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T04"
+      ],
+      "tension": "行动给出答案与行动本身是答案",
+      "classification_reason": "哪些问题靠实践反馈回答，哪些价值只能由践行本身实现？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0068",
+      "title_original": "24高一下期末 改变世界和自己（类似25浦东二模）",
+      "title": "24高一下期末 改变世界和自己（类似25浦东二模）",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": "浦东",
+      "school_original": "上海中学",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "改变世界几乎难以做到，这是否意味着人应该将精力放在改变自己上？",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "上海中学",
+          "24高一下期末 改变世界和自己（类似25浦东二模）"
+        ],
+        "anchor_paragraph": 233,
+        "text_paragraphs": [
+          234
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T01",
+        "T10"
+      ],
+      "tension": "改变世界困难与改变自己",
+      "classification_reason": "改变自己与改变环境如何相互影响，不能从困难直接推出放弃。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0069",
+      "title_original": "24高10月考 群体",
+      "title": "24高10月考 群体",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "上海中学",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "生活中，人们与他人交往并形成群体，是否仅仅因为满足自己的需要？",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "上海中学",
+          "24高10月考 群体"
+        ],
+        "anchor_paragraph": 235,
+        "text_paragraphs": [
+          236
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "形成群体与满足自身需要",
+      "classification_reason": "互助、归属、共同责任等动因能否都还原为个人利益？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0070",
+      "title_original": "25高二12月考 长大后就明白道理",
+      "title": "25高二12月考 长大后就明白道理",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "小时候提问，父母常常会说：“长大后就明白了”,这是否意味着有些道理只有年龄到了才能懂得？",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "25高二12月考 长大后就明白道理"
+        ],
+        "anchor_paragraph": 239,
+        "text_paragraphs": [
+          240
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T07"
+      ],
+      "tension": "年龄增长与理解道理",
+      "classification_reason": "年龄是理解的原因还是经验的代理，什么经历和反思才有转化作用？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0071",
+      "title_original": "24高二十一月考 严格和宽松",
+      "title": "24高二十一月考 严格和宽松",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人认为，无论工作还是生活中，对人还是对事，确实都应该严格一些，这样才不至于犯错或带来祸患。但也有人认为，宽松的方式才能取得更为良好的效果。对此你有何看法？请写一篇文章，谈谈你对这个问题的认识和思考。\n要求：(1) 自拟题目；(2) 不少于 800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "24高二十一月考 严格和宽松"
+        ],
+        "anchor_paragraph": 241,
+        "text_paragraphs": [
+          242,
+          243
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T02"
+      ],
+      "tension": "严格与宽松",
+      "classification_reason": "规则、对象、风险和信任怎样影响管理方式，何时需要分层处理？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0072",
+      "title_original": "24高三十月考 广博兴趣与专注力",
+      "title": "24高三十月考 广博兴趣与专注力",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人认为，比起广博的兴趣，我们或许更需要专注力。你是否认同？\n请写一篇文章，谈谈你对这一现象的认识和思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "24高三十月考 广博兴趣与专注力"
+        ],
+        "anchor_paragraph": 244,
+        "text_paragraphs": [
+          245,
+          246
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T06"
+      ],
+      "tension": "广博兴趣与专注力",
+      "classification_reason": "探索与深入在不同阶段怎样配合，不同任务是否需要不同配置？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0073",
+      "title_original": "24高二十月考 思维惰性",
+      "title": "24高二十月考 思维惰性",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "生活中，人们常常不愿意改变。有人认为这是出于一种思维惰性，也有人认为并非如此。请写一篇文章，谈谈你对此的认识和思考。\n要求：不少于800字，题目自拟。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "24高二十月考 思维惰性"
+        ],
+        "anchor_paragraph": 248,
+        "text_paragraphs": [
+          249,
+          250
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T07",
+      "secondary_themes": [
+        "T04"
+      ],
+      "tension": "不愿改变与思维惰性",
+      "classification_reason": "抗拒变化还可能来自风险、成本或价值坚持，不能只作性格归因。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0074",
+      "title_original": "24高二10月考 情绪价值",
+      "title": "24高二10月考 情绪价值",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "生活中，人们常用情绪价值评估事物，衡量意义。请写一篇文章，谈谈你对“情绪价值”的思考。要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "24高二10月考 情绪价值"
+        ],
+        "anchor_paragraph": 251,
+        "text_paragraphs": [
+          252
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T09",
+      "secondary_themes": [
+        "T03",
+        "T05"
+      ],
+      "tension": "情绪价值与意义评估",
+      "classification_reason": "情绪体验是价值的一部分，但何时会被当成衡量一切关系的唯一尺度？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0075",
+      "title_original": "24高二五月考 鸣与默",
+      "title": "24高二五月考 鸣与默",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "鲁迅说“心事浩茫连广宇，于无声处听惊雷”\n胡适引用“范仲淹‘宁鸣而死，不默而生。’“",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "24高二五月考 鸣与默"
+        ],
+        "anchor_paragraph": 253,
+        "text_paragraphs": [
+          254,
+          255
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T10",
+      "secondary_themes": [
+        "T05",
+        "T06"
+      ],
+      "tension": "发声与沉默",
+      "classification_reason": "沉默未必等于无立场，发声也需判断责任、处境与实际作用。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0076",
+      "title_original": "24高二六月考 眼中的自我",
+      "title": "24高二六月考 眼中的自我",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，我眼中的我不是真正的我，我眼中的别人才是真正的自我",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "24高二六月考 眼中的自我"
+        ],
+        "anchor_paragraph": 256,
+        "text_paragraphs": [
+          257
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T01",
+      "secondary_themes": [
+        "T04",
+        "T05"
+      ],
+      "tension": "我眼中的自我与我眼中的他人",
+      "classification_reason": "评价他人如何透露自身标准，但不能因此抹去对他人事实的认识。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0077",
+      "title_original": "25高三3月考 公平和效率",
+      "title": "25高三3月考 公平和效率",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "人们做决策时，公平是否比效率更加重要？请写一篇文章，谈谈你对这个问题的认识和思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "25高三3月考 公平和效率"
+        ],
+        "anchor_paragraph": 258,
+        "text_paragraphs": [
+          259
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T09",
+        "T03"
+      ],
+      "tension": "公平与效率",
+      "classification_reason": "先明确不同的公平含义及效率受益者，再讨论冲突和相互支持的条件。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0078",
+      "title_original": "24高三9月考 原则和慈悲",
+      "title": "24高三9月考 原则和慈悲",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "题目：有人说，原则应当放在大事情上，对小事情只须慈悲。请写一篇文章，谈谈你对此的认识与思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "24高三9月考 原则和慈悲"
+        ],
+        "anchor_paragraph": 260,
+        "text_paragraphs": [
+          261
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "原则与慈悲、大事与小事",
+      "classification_reason": "事情大小能否决定原则适用，慈悲可否参与原则本身的解释？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0079",
+      "title_original": "24高三 10月考 求而不得和不求而得",
+      "title": "24高三 10月考 求而不得和不求而得",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "题目：有人说，很多求而不得的事往往也会不求而得。这引发了你怎样的思考？请写一篇文章，谈谈你的认识。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "24高三 10月考 求而不得和不求而得"
+        ],
+        "anchor_paragraph": 262,
+        "text_paragraphs": [
+          263
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T09"
+      ],
+      "tension": "求而不得与不求而得",
+      "classification_reason": "目标执念如何影响行动，偶然所得是否仍依赖先前积累与环境？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0080",
+      "title_original": "24高三10月考 不好结果而不开始",
+      "title": "24高三10月考 不好结果而不开始",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "生活中常有这样的现象：有人虽然很喜欢花，但因不愿看到花的凋零，所以从不种花；有人虽然很渴望友情，但因担心朋友离去，而宁愿孤独……为了避免出现不好的结果，拒绝开始。这种现象在生活中普遍存在，对此，你有怎样的思考？",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "24高三10月考 不好结果而不开始"
+        ],
+        "anchor_paragraph": 264,
+        "text_paragraphs": [
+          265
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T09",
+        "T06"
+      ],
+      "tension": "避免坏结果与拒绝开始",
+      "classification_reason": "规避损失会失去哪些过程价值，哪些风险又值得认真避免？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0081",
+      "title_original": "24高三八月考 成熟允许和接受",
+      "title": "24高三八月考 成熟允许和接受",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，成熟就是允许一切发生，却又能接受发生的一切",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "24高三八月考 成熟允许和接受"
+        ],
+        "anchor_paragraph": 266,
+        "text_paragraphs": [
+          267
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T07",
+      "secondary_themes": [
+        "T02",
+        "T09"
+      ],
+      "tension": "成熟与允许、接受一切",
+      "classification_reason": "接受既成事实是否等于认可一切行为，成熟怎样与改变和责任并存？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0082",
+      "title_original": "24高三五月考 幸福比较",
+      "title": "24高三五月考 幸福比较",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，幸福是比较出来的。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "24高三五月考 幸福比较"
+        ],
+        "anchor_paragraph": 268,
+        "text_paragraphs": [
+          269
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T09",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "幸福感与比较",
+      "classification_reason": "比较对象与尺度怎样影响幸福，幸福是否也存在不依赖比较的来源？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0083",
+      "title_original": "24高三3月考 怀念过去",
+      "title": "24高三3月考 怀念过去",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，怀念过去是在时间的长河里止步不前。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "24高三3月考 怀念过去"
+        ],
+        "anchor_paragraph": 270,
+        "text_paragraphs": [
+          271
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T07",
+      "secondary_themes": [
+        "T09"
+      ],
+      "tension": "怀念过去与止步不前",
+      "classification_reason": "回忆何时提供理解和力量，何时替代对当下的投入？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0084",
+      "title_original": "24高一3月考 短视频",
+      "title": "24高一3月考 短视频",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "在生活中，浏览短视频是很受欢迎的一种资讯获取和休闲娱乐的方式，但也往往因此占用了人们过长的时间。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "华二",
+          "24高一3月考 短视频"
+        ],
+        "anchor_paragraph": 272,
+        "text_paragraphs": [
+          273
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T08",
+      "secondary_themes": [
+        "T09",
+        "T06"
+      ],
+      "tension": "短视频的便利愉悦与时间占用",
+      "classification_reason": "内容形式、使用习惯和平台机制怎样共同影响注意力与自主性？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0085",
+      "title_original": "25高二12月考 心灵痛苦与深刻思想",
+      "title": "25高二12月考 心灵痛苦与深刻思想",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "复附",
+      "exam_type": "校考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人认为，一个人心灵的不安，痛苦比通达，平和更能孕育出深刻的思想。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "复附",
+          "25高二12月考 心灵痛苦与深刻思想"
+        ],
+        "anchor_paragraph": 275,
+        "text_paragraphs": [
+          276
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T09",
+      "secondary_themes": [
+        "T04"
+      ],
+      "tension": "痛苦不安与通达平和能否孕育思想",
+      "classification_reason": "情绪如何触发问题意识，深刻思想还依赖哪些反思和表达条件？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0086",
+      "title_original": "25高二期末 交往的客观与情感",
+      "title": "25高二期末 交往的客观与情感",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "复附",
+      "exam_type": "校考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "要深入认识关注或交往的对象，有人认为需要冷静客观，有人则主张融入情感。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "复附",
+          "25高二期末 交往的客观与情感"
+        ],
+        "anchor_paragraph": 277,
+        "text_paragraphs": [
+          278
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T04"
+      ],
+      "tension": "认识他人的客观与情感",
+      "classification_reason": "情感何时促进理解、何时制造投射，客观检验如何与共情协作？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0087",
+      "title_original": "24高三9月考 松弛感",
+      "title": "24高三9月考 松弛感",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "交附",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "松弛感”指轻松、自然、舒适和从容不迫的状态。当下，人们越来越喜欢用“松弛感”来赞赏他人。对此，你有怎样的思考？ ",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "交附",
+          "24高三9月考 松弛感"
+        ],
+        "anchor_paragraph": 281,
+        "text_paragraphs": [
+          282
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T09",
+      "secondary_themes": [
+        "T02"
+      ],
+      "tension": "松弛状态与其现实条件",
+      "classification_reason": "从容来自何种能力、资源或态度，赞赏松弛是否忽略处境差异？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0088",
+      "title_original": "24高三10月考 固定模式生活",
+      "title": "24高三10月考 固定模式生活",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "七宝",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "题目：人是否需要按照固定的模式生活?两位思想家给出了不同的回答。德国古典哲学创始人康德一生都没有离开过哥尼斯堡，他每天按照固定的时间做固定的事情，终生未打破过这个规律；而法国大哲学家卢梭则在16岁那年，背上行囊，开始“我要走就走，要停就停，爱走多少路就走多少路”的四处漫游。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "七宝",
+          "24高三10月考 固定模式生活"
+        ],
+        "anchor_paragraph": 285,
+        "text_paragraphs": [
+          286
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T06",
+      "secondary_themes": [
+        "T07",
+        "T09"
+      ],
+      "tension": "固定模式与自由生活",
+      "classification_reason": "规律何时支持行动，何时限制探索；题干中的人物叙述不可直接当已核实史实。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0089",
+      "title_original": "25晋元高二12月考 答案与都是答案",
+      "title": "25晋元高二12月考 答案与都是答案",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "晋元",
+      "exam_type": "校考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "面对生活的问题，有人说，我们往往不怕没有答案，怕的是到处都是答案。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "其他",
+          "25晋元高二12月考 答案与都是答案"
+        ],
+        "anchor_paragraph": 289,
+        "text_paragraphs": [
+          290
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T06"
+      ],
+      "tension": "没有答案与到处都是答案",
+      "classification_reason": "多种答案为什么加重判断负担，需要怎样的标准和实践来选择？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0090",
+      "title_original": "25行知高二12月考 选择带来幸福/痛苦",
+      "title": "25行知高二12月考 选择带来幸福/痛苦",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "行知",
+      "exam_type": "校考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人认为幸福是拥有更多的选择，但也有人认为现代人的痛苦往往源自选择太多。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "其他",
+          "25行知高二12月考 选择带来幸福/痛苦"
+        ],
+        "anchor_paragraph": 291,
+        "text_paragraphs": [
+          292
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T06",
+      "secondary_themes": [
+        "T09"
+      ],
+      "tension": "更多选择与幸福或痛苦",
+      "classification_reason": "选择数量、差异、成本和承担能力怎样共同影响体验？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0091",
+      "title_original": "22某校月考 简与奢",
+      "title": "22某校月考 简与奢",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": null,
+      "district": null,
+      "school_original": null,
+      "exam_type": "校考",
+      "year_label_normalized": 2022,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "极简生活是一种生活方式，是对自身的再认识，对自由的再定义。极简生活不是要你一无所有，而是要你穿越物质的海洋，对自己的欲望进行合理的管理。极简生活从舍弃开始，终点却是更有意义的人生。在如今这个物质泛滥的时代，极简的生活方式引发了人们对简与奢的思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "其他",
+          "22某校月考 简与奢"
+        ],
+        "anchor_paragraph": 293,
+        "text_paragraphs": [
+          294
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T09",
+      "secondary_themes": [
+        "T06",
+        "T03"
+      ],
+      "tension": "简与奢、物质与欲望",
+      "classification_reason": "舍弃物品怎样服务真正需要，极简是否也可能成为另一种形式规范？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0092",
+      "title_original": "24深圳一模 人生河流",
+      "title": "24深圳一模 人生河流",
+      "starred_in_source": false,
+      "record_type": "other_region_mock",
+      "region": "深圳",
+      "district": null,
+      "school_original": null,
+      "exam_type": "一模",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "一条河流曲折向前，不只是为了抵达大海，也是为了流经更多的土地。对此，你有怎样的思考和感悟？请写一篇不少于800字的文章。标题自拟。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "其他",
+          "24深圳一模 人生河流"
+        ],
+        "anchor_paragraph": 295,
+        "text_paragraphs": [
+          296
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T03",
+        "T07"
+      ],
+      "tension": "抵达终点与沿途流经",
+      "classification_reason": "目标和过程怎样共同构成行动意义，不必把目的与过程相互取消。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0093",
+      "title_original": "25建平高三3月考 学习为自我还是世界",
+      "title": "25建平高三3月考 学习为自我还是世界",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "建平",
+      "exam_type": "校考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "作为年轻人 ，学习更重要的是提升自我还是认识世界？请谈谈你的看法。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "其他",
+          "25建平高三3月考 学习为自我还是世界"
+        ],
+        "anchor_paragraph": 297,
+        "text_paragraphs": [
+          298
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T01",
+        "T05"
+      ],
+      "tension": "学习提升自我与认识世界",
+      "classification_reason": "认识世界怎样改变自己，自我发展又如何改善对世界的理解？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0094",
+      "title_original": "24建平高三9月考 饭圈",
+      "title": "24建平高三9月考 饭圈",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "建平",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "题目：饭圈，原指为了共同目标，而产生的有组织性的粉丝群体。如今，艺人、动漫、运动员，甚至熊猫都有独属的饭圈。请写一篇文章，谈谈你对这个现象的认识和思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "其他",
+          "24建平高三9月考 饭圈"
+        ],
+        "anchor_paragraph": 299,
+        "text_paragraphs": [
+          300
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T08",
+        "T01"
+      ],
+      "tension": "共同爱好与组织化群体",
+      "classification_reason": "归属、协作、认同和排他怎样产生，需要区分不同群体与行为。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0095",
+      "title_original": "24进才高三10月考 偏见",
+      "title": "24进才高三10月考 偏见",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "进才",
+      "exam_type": "校考",
+      "year_label_normalized": 2024,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "题目：有人说，如果你对这个世界没有偏见，就代表你对这个世界没有看法。对此你怎么看？请写一篇文章谈谈你的看法。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "四校八大",
+          "其他",
+          "24进才高三10月考 偏见"
+        ],
+        "anchor_paragraph": 301,
+        "text_paragraphs": [
+          302
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T05"
+      ],
+      "tension": "没有偏见与没有看法",
+      "classification_reason": "有立场是否必然是偏见，要区分可修正判断和拒绝证据的成见。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0096",
+      "title_original": "相对主义的对错观",
+      "title": "相对主义的对错观",
+      "starred_in_source": false,
+      "record_type": "personal_question",
+      "region": null,
+      "district": null,
+      "school_original": null,
+      "exam_type": "自拟思考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，没有什么是绝对的对，也没有什么是绝对的错，所以我们没有资格对他人说三道四。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "自己思考",
+          "大一上（2025秋）",
+          "相对主义的对错观"
+        ],
+        "anchor_paragraph": 305,
+        "text_paragraphs": [
+          306
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T03",
+      "secondary_themes": [
+        "T04",
+        "T05"
+      ],
+      "tension": "没有绝对对错与是否仍可评价",
+      "classification_reason": "承认判断的条件性是否推出放弃评价，宽容与责任的边界在哪里？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [
+        307
+      ]
+    },
+    {
+      "id": "PR-0097",
+      "title_original": "过程or结果，or 目的观？",
+      "title": "过程or结果，or 目的观？",
+      "starred_in_source": false,
+      "record_type": "personal_question",
+      "region": null,
+      "district": null,
+      "school_original": null,
+      "exam_type": "自拟思考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人说，落叶的一生是为了归根；也有人认为，落叶在飘落的过程中已完成意义。对这两种观点，你怎么看？",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "自己思考",
+          "大一上（2025秋）",
+          "过程or结果，or 目的观？"
+        ],
+        "anchor_paragraph": 308,
+        "text_paragraphs": [
+          309
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T03",
+        "T10"
+      ],
+      "tension": "归根的目的与飘落的过程意义",
+      "classification_reason": "目的与过程是否互相排斥，意义由终点赋予还是也在过程生成？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0098",
+      "title_original": "信息差",
+      "title": "信息差｜机会与选择",
+      "starred_in_source": false,
+      "record_type": "personal_question",
+      "region": null,
+      "district": null,
+      "school_original": null,
+      "exam_type": "自拟思考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "在当今社会，“信息差”被视为一种资源。有人通过掌握信息获得机会，也有人因缺乏信息而失去选择。面对“信息差”这一现象，你有怎样的观察与思考？",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "自己思考",
+          "大一上（2025秋）",
+          "信息差"
+        ],
+        "anchor_paragraph": 310,
+        "text_paragraphs": [
+          311
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T05",
+        "T06"
+      ],
+      "tension": "信息差与机会、选择",
+      "classification_reason": "信息怎样转化为机会，哪些人被获取门槛排除，又能如何改善？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0099",
+      "title_original": "信息差",
+      "title": "信息差｜能力与不平等",
+      "starred_in_source": false,
+      "record_type": "personal_question",
+      "region": null,
+      "district": null,
+      "school_original": null,
+      "exam_type": "自拟思考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "有人认为，信息差是一种能力的体现；也有人认为，信息差加剧了社会的不平等。在信息高度流动的时代，信息差为何仍然存在？它意味着什么？",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "自己思考",
+          "大一上（2025秋）",
+          "信息差"
+        ],
+        "anchor_paragraph": 313,
+        "text_paragraphs": [
+          313
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T04",
+        "T03"
+      ],
+      "tension": "信息差是能力体现还是不平等来源",
+      "classification_reason": "区分努力积累的优势和结构性门槛，两者可能如何交织？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0100",
+      "title_original": "信息差",
+      "title": "信息差｜信息能力与努力",
+      "starred_in_source": false,
+      "record_type": "personal_question",
+      "region": null,
+      "district": null,
+      "school_original": null,
+      "exam_type": "自拟思考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "当信息成为资源，获取信息的能力是否正在取代传统意义上的努力？请结合现实谈谈你的思考。",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "自己思考",
+          "大一上（2025秋）",
+          "信息差"
+        ],
+        "anchor_paragraph": 315,
+        "text_paragraphs": [
+          315
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T04",
+        "T05"
+      ],
+      "tension": "获取信息的能力与传统努力",
+      "classification_reason": "信息获取本身是否也是努力，哪些条件决定不同努力的回报？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0101",
+      "title_original": "虚假叙事",
+      "title": "虚假叙事",
+      "starred_in_source": false,
+      "record_type": "personal_question",
+      "region": null,
+      "district": null,
+      "school_original": null,
+      "exam_type": "自拟思考",
+      "year_label_normalized": 2025,
+      "year_note": "依合订本标签展开；不是已核实的考试日期或学年。",
+      "text_original": "当我们改变叙事，是在创造真实的可能性，还是在制造一种必要的“善意幻觉”？",
+      "source": {
+        "document_id": "SRC-001",
+        "heading_path": [
+          "自己思考",
+          "大一上（2025秋）",
+          "虚假叙事"
+        ],
+        "anchor_paragraph": 317,
+        "text_paragraphs": [
+          318
+        ],
+        "status": "anthology_only_unverified"
+      },
+      "primary_theme": "T08",
+      "secondary_themes": [
+        "T04",
+        "T10"
+      ],
+      "tension": "改变叙事、真实可能与善意幻觉",
+      "classification_reason": "叙事能改变理解与行动，但何时越过事实边界成为自我欺骗？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": []
+    },
+    {
+      "id": "PR-0102",
+      "title_original": "2026上海虹口区高三二模（B站）",
+      "title": "2026虹口二模 独立思考与共同思考",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "虹口",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2026,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "一个人独立思考时，需要与他人一起思考吗？\n请写一篇文章，谈谈你对此的认识与思考。\n要求：(1)自拟题目；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2026上海虹口区高三二模（B站）"
+        ],
+        "anchor_line": 5,
+        "row_number": 1,
+        "label": "2026上海虹口区高三二模（B站）",
+        "url": "https://www.bilibili.com/video/BV1Q3o8B1Eic/",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T05",
+        "T01"
+      ],
+      "tension": "独立判断与共同思考",
+      "classification_reason": "独立指判断责任还是拒绝他人参与？讨论共同推敲如何帮助认识，以及何时反而造成从众。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "as_supplied_unverified",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。"
+      ]
+    },
+    {
+      "id": "PR-0103",
+      "title_original": "2026上海杨浦区高三二模（B站）",
+      "title": "2026杨浦二模 认知冲突",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "杨浦",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2026,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "当学习者接受的新信息与原来拥有的信息不一致时，会产生“认知冲突”。有人认为这是学习的最佳契机，也有人担忧这种冲突有时也会带来困惑甚至混乱。对此，你有怎样的认识和思考？请写一篇文章。\n要求：(1)自拟题目；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2026上海杨浦区高三二模（B站）"
+        ],
+        "anchor_line": 6,
+        "row_number": 2,
+        "label": "2026上海杨浦区高三二模（B站）",
+        "url": "https://www.bilibili.com/video/BV1ZiLu6YESJ/",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T07"
+      ],
+      "tension": "新旧信息冲突与学习、混乱",
+      "classification_reason": "冲突能够触发修正，也可能超出理解能力；区分冲突发生、证据检验和重新组织认识的条件。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "as_supplied_unverified",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。"
+      ]
+    },
+    {
+      "id": "PR-0104",
+      "title_original": "2026上海宝山区高三二模（B站）",
+      "title": "2026宝山二模 自私与利他",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "宝山",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2026,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "从生物演化看，一个物种要扩大其规模，就会尽力占领别的物种的地盘，甚至导致别的物种绝灭。同时，一个物种要拓展地盘，必然面临残酷的挑战，需要这个物种的部分个体作出自我牺牲，来换取整个物种新的发展空间。看来，自然界的物种同时具有“自私”与“利他”的本能。\n上述现象引发你怎样的联想与思考？请写一篇文章，谈谈你的看法。\n要求：(1)自拟题目；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2026上海宝山区高三二模（B站）"
+        ],
+        "anchor_line": 7,
+        "row_number": 3,
+        "label": "2026上海宝山区高三二模（B站）",
+        "url": "https://www.bilibili.com/video/BV1FtQ4B6EGY/",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "个体牺牲、群体利益与对外竞争",
+      "classification_reason": "先区分个体与物种、内部与外部的层次；自然现象的描述不能直接推出人应怎样做，题干生物学概括也需另行核验。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "as_supplied_unverified",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。"
+      ]
+    },
+    {
+      "id": "PR-0105",
+      "title_original": "2026上海松江区高三二模（B站）",
+      "title": "2026松江二模 共情与道德",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "松江",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2026,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "有人认为共情有助于道德的落实，也有人认为共情会妨碍道德的实施。对此你怎么看？写一篇文章，谈谈你的认识与思考。\n要求：(1)自拟题目；(2)不少于800字。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2026上海松江区高三二模（B站）"
+        ],
+        "anchor_line": 8,
+        "row_number": 4,
+        "label": "2026上海松江区高三二模（B站）",
+        "url": "https://www.bilibili.com/video/BV1goDVBJEYb/",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "共情促进道德与妨碍道德",
+      "classification_reason": "共情怎样激发关怀，又会不会造成亲疏偏向？区分道德行动的情感动力与判断是否公正的依据。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "as_supplied_unverified",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。"
+      ]
+    },
+    {
+      "id": "PR-0106",
+      "title_original": "2026上海奉贤区高三二模（B站）",
+      "title": "2026奉贤二模 成为自己与警惕成为自己",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "奉贤",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2026,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "有人主张“人应当成为你自己”，也有人提醒“人需警惕成为你自己”。\n请写一篇文章，谈谈你对此的认识与思考，文体不限，题目自拟，不少于800字。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2026上海奉贤区高三二模（B站）"
+        ],
+        "anchor_line": 9,
+        "row_number": 5,
+        "label": "2026上海奉贤区高三二模（B站）",
+        "url": "https://www.bilibili.com/video/BV18gDaBYEV3/",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T01",
+      "secondary_themes": [
+        "T07"
+      ],
+      "tension": "自我认同与自我固化",
+      "classification_reason": "成为自己是形成主体性，还是把当前偏好固定为本质？讨论自我坚持如何保留反思和成长的空间。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "as_supplied_unverified",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。"
+      ]
+    },
+    {
+      "id": "PR-0107",
+      "title_original": "2026上海静安区高三二模（B站）",
+      "title": "2026静安二模 离开对话与尊严",
+      "starred_in_source": false,
+      "record_type": "district_mock",
+      "region": "上海",
+      "district": "静安",
+      "school_original": null,
+      "exam_type": "二模",
+      "year_label_normalized": 2026,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "当你觉得对话失去意义；离开，倒是保护了自己最后的尊严。请写一篇文章，表达你对这句话的思考。\n要求：①不少于800字；②不得透露个人信息。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2026上海静安区高三二模（B站）"
+        ],
+        "anchor_line": 10,
+        "row_number": 6,
+        "label": "2026上海静安区高三二模（B站）",
+        "url": "https://www.bilibili.com/video/BV1GtdpBZERS/",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T06",
+        "T01"
+      ],
+      "tension": "继续对话与退出以维护尊严",
+      "classification_reason": "对话失去意义是主观挫败还是交流条件已被破坏？区分保护边界、拒绝羞辱与回避不同意见。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "as_supplied_unverified",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。"
+      ]
+    },
+    {
+      "id": "PR-0108",
+      "title_original": "2026上海市四校联考高三上学期期中",
+      "title": "2026四校联考 时代精神与人的存在、缺席",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "上海市四校联考（成员未注明）",
+      "exam_type": "高三上学期期中联考",
+      "year_label_normalized": 2026,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "阅读下面的材料，根据要求写作。（60分）\n有人说“时代精神既存在于人类的存在中，也存在于人类的缺席中。”请写一篇文章，谈谈你对此的思考。\n要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2026上海市四校联考高三上学期期中"
+        ],
+        "anchor_line": 11,
+        "row_number": 7,
+        "label": "2026上海市四校联考高三上学期期中",
+        "url": "https://zy.21cnjy.com/22859654",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T07",
+        "T08"
+      ],
+      "tension": "时代精神如何通过人的存在与缺席显现",
+      "classification_reason": "缺席可能指未参与、被排除或缺少人的活动，需要先澄清含义；再讨论哪些被看见或被忽略的生活体现时代。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "as_supplied_unverified",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。"
+      ]
+    },
+    {
+      "id": "PR-0109",
+      "title_original": "2025华东师范大学第二附属中学高三下三模",
+      "title": "2025华二三模 期待与成就",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "华东师范大学第二附属中学",
+      "exam_type": "高三下三模",
+      "year_label_normalized": 2025,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "有人说，你对一个人的期待越高，这个人所取得的成就也会越大。请写一篇文章，谈谈你的认识和思考。\n要求：（1）自拟题目；（2）不少于800字。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2025华东师范大学第二附属中学高三下三模"
+        ],
+        "anchor_line": 12,
+        "row_number": 8,
+        "label": "2025华东师范大学第二附属中学高三下三模",
+        "url": "https://zy.21cnjy.com/23081188",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T02",
+        "T01"
+      ],
+      "tension": "他人期待的高低与个体成就",
+      "classification_reason": "期待通过支持、反馈或压力影响行动，不宜把期待越高与成就越大视作无条件因果；也需区分期待与实现期待的资源。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "as_supplied_unverified",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。"
+      ],
+      "similar_prompts": [
+        {
+          "id": "PR-0031",
+          "kind": "related_question",
+          "reason": "本题检验期待与成就的因果关系，旧题讨论是否应受他人期待影响，侧重点不同。"
+        }
+      ]
+    },
+    {
+      "id": "PR-0110",
+      "title_original": "2025上海市敬业中学高三三模",
+      "title": "2025 人工智能与人的独特价值",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "上海市敬业中学",
+      "exam_type": "高三三模",
+      "year_label_normalized": 2025,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "当今，人工智能飞速发展，人的独特价值面临挑战，对此你有何思考？请自拟题目，写一篇不少于800字的文章。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2025上海市敬业中学高三三模"
+        ],
+        "anchor_line": 13,
+        "row_number": 9,
+        "label": "2025上海市敬业中学高三三模",
+        "url": "https://zy.21cnjy.com/23106829",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T03",
+      "secondary_themes": [
+        "T01",
+        "T09"
+      ],
+      "tension": "技术能力的发展与人的价值依据",
+      "classification_reason": "先说明独特价值指能力优势、主体经验还是伦理地位；不能仅凭某项任务表现的高低决定人的全部价值。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "as_supplied_unverified",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。",
+        "题干在补充文件中有两个来源标签；仅合并相同文本，不确认来源归属或两场考试之间的关系。"
+      ],
+      "additional_sources": [
+        {
+          "document_id": "SRC-002",
+          "file": "sources/supplements/SRC-002/补充题目.md",
+          "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+          "heading_path": [
+            "补充题目",
+            "2025上海浦东新区高三三模"
+          ],
+          "anchor_line": 14,
+          "row_number": 10,
+          "label": "2025上海浦东新区高三三模",
+          "url": "https://www.xlmz.net/thread-357819-1-1.html",
+          "url_kind": "provided_link",
+          "status": "user_supplement_unverified",
+          "record_type": "district_mock",
+          "region": "上海",
+          "district": "浦东",
+          "school_original": null,
+          "exam_type": "高三三模",
+          "text_original": "当今，人工智能飞速发展，人的独特价值面临挑战，对此你有何思考？请自拟题目，写一篇不少于800字的文章。",
+          "relationship": "exact_text_duplicate",
+          "merge_reason": "与第9条题干逐字一致，合并题目并保留两个独立来源标签；不据此确认两场考试实际使用同一试题。"
+        }
+      ],
+      "similar_prompts": [
+        {
+          "id": "PR-0112",
+          "kind": "related_question",
+          "reason": "均讨论AI与人的价值，但前者给出感动流泪即胜出的具体判断，后者是开放的问题，不能合并。"
+        }
+      ]
+    },
+    {
+      "id": "PR-0111",
+      "title_original": "2025格致中学高三下开学摸底（B站）",
+      "title": "2025格致 工具延伸与称量灵魂",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "格致中学",
+      "exam_type": "高三下开学摸底",
+      "year_label_normalized": 2025,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "工具延伸了我们的臂膀，也试图称量我们灵魂的震颤。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2025格致中学高三下开学摸底（B站）"
+        ],
+        "anchor_line": 15,
+        "row_number": 11,
+        "label": "2025格致中学高三下开学摸底（B站）",
+        "url": "https://www.bilibili.com/video/BV1C2XqYDECm/",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T09",
+      "secondary_themes": [
+        "T03",
+        "T08"
+      ],
+      "tension": "工具扩展能力与衡量内在体验",
+      "classification_reason": "工具帮助人做什么，与工具能否衡量体验和意义是两件事；追问指标对不可完全量化的生活有何作用与边界。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "source_excerpt_only",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。",
+        "来源仅提供短题干或简述，未补写原文件没有的字数、文体及其他要求。"
+      ]
+    },
+    {
+      "id": "PR-0112",
+      "title_original": "2025大同、南模、控江、曹杨二中高三下三月联考（B站）",
+      "title": "2025四校三月联考 感动流泪与AI比较",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "大同、南模、控江、曹杨二中",
+      "exam_type": "高三下三月联考",
+      "year_label_normalized": 2025,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "如果你还会感动，还会流泪，和AI相比就已经赢了。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2025大同、南模、控江、曹杨二中高三下三月联考（B站）"
+        ],
+        "anchor_line": 16,
+        "row_number": 12,
+        "label": "2025大同、南模、控江、曹杨二中高三下三月联考（B站）",
+        "url": "https://www.bilibili.com/video/BV1C2XqYDECm/",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T03",
+      "secondary_themes": [
+        "T09",
+        "T01"
+      ],
+      "tension": "情感体验与人机优劣的比较标准",
+      "classification_reason": "感动和流泪为何被当作胜出的标准？区分情感表达、主观体验与人的价值，不预设一次比较足以决定全部高下。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "source_excerpt_only",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。",
+        "来源仅提供短题干或简述，未补写原文件没有的字数、文体及其他要求。"
+      ],
+      "similar_prompts": [
+        {
+          "id": "PR-0110",
+          "kind": "related_question",
+          "reason": "均讨论AI与人的价值，但前者给出感动流泪即胜出的具体判断，后者是开放的问题，不能合并。"
+        }
+      ]
+    },
+    {
+      "id": "PR-0113",
+      "title_original": "2025延安中学高三上九月考试（B站）",
+      "title": "2025延安 为什么与怎么办",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "延安中学",
+      "exam_type": "高三上九月考试",
+      "year_label_normalized": 2025,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "遇到棘手的事情时，有人爱问“为什么”，有人热心于“怎么办”。你更欣赏哪一种？",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2025延安中学高三上九月考试（B站）"
+        ],
+        "anchor_line": 17,
+        "row_number": 13,
+        "label": "2025延安中学高三上九月考试（B站）",
+        "url": "https://www.bilibili.com/video/BV1AHHAzHEcP/",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T04"
+      ],
+      "tension": "追问原因与寻找办法",
+      "classification_reason": "解释原因和寻找办法怎样相互支持？需结合问题的紧迫性与可理解程度，而非把发问方式直接等同于行动能力。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "source_excerpt_only",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。",
+        "来源仅提供短题干或简述，未补写原文件没有的字数、文体及其他要求。"
+      ],
+      "similar_prompts": [
+        {
+          "id": "PR-0057",
+          "kind": "related_question",
+          "reason": "都涉及理解与行动；本题比较为什么和怎么办的提问取向，旧题比较分析与解决的重要性，保留各自设问。"
+        }
+      ]
+    },
+    {
+      "id": "PR-0114",
+      "title_original": "2025大同中学高三上期中（B站）",
+      "title": "2025大同 见过太阳与忍受黑暗",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "大同中学",
+      "exam_type": "高三上期中",
+      "year_label_normalized": 2025,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "有人说，如果我不曾见过太阳，我本可以忍受黑暗。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2025大同中学高三上期中（B站）"
+        ],
+        "anchor_line": 18,
+        "row_number": 14,
+        "label": "2025大同中学高三上期中（B站）",
+        "url": "https://www.bilibili.com/video/BV1YiSgBGELM/",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T09",
+      "secondary_themes": [
+        "T04",
+        "T10"
+      ],
+      "tension": "新的认识、期待与对原处境的忍受",
+      "classification_reason": "看到另一种可能为何会改变忍受的尺度？区分对比带来的不满足与促使行动的理想，不将不知道直接视为幸福。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "source_excerpt_only",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。",
+        "来源仅提供短题干或简述，未补写原文件没有的字数、文体及其他要求。"
+      ]
+    },
+    {
+      "id": "PR-0115",
+      "title_original": "2025上海中学高三上九月考试（B站）",
+      "title": "2025上海中学 三思与再思",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "上海中学",
+      "exam_type": "高三上九月考试",
+      "year_label_normalized": 2025,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "季文子三思而后行。子闻之，曰：“再，斯可矣。”",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2025上海中学高三上九月考试（B站）"
+        ],
+        "anchor_line": 19,
+        "row_number": 15,
+        "label": "2025上海中学高三上九月考试（B站）",
+        "url": "https://www.bilibili.com/video/BV1AHHAzHEcP/",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T04"
+      ],
+      "tension": "审慎思考与行动的适当时机",
+      "classification_reason": "思考次数不直接等于判断质量；应结合风险、可逆性与已有信息讨论审慎何时必要、何时变成迟疑。引文归属尚未外部核验。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "source_excerpt_only",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。",
+        "来源仅提供短题干或简述，未补写原文件没有的字数、文体及其他要求。"
+      ]
+    },
+    {
+      "id": "PR-0116",
+      "title_original": "2025交大附中嘉定分校高二下开学考试（B站）",
+      "title": "2025交附嘉定 银幕哪吒与身边哪吒",
+      "starred_in_source": false,
+      "record_type": "school_exam",
+      "region": "上海",
+      "district": null,
+      "school_original": "交大附中嘉定分校",
+      "exam_type": "高二下开学考试",
+      "year_label_normalized": 2025,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "很多观众都喜欢上了“我自己说了才算”的哪吒型电影人物。但是，当这类人出现在我们身边时，他们却很难被我们喜爱。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2025交大附中嘉定分校高二下开学考试（B站）"
+        ],
+        "anchor_line": 20,
+        "row_number": 16,
+        "label": "2025交大附中嘉定分校高二下开学考试（B站）",
+        "url": "https://www.bilibili.com/video/BV1XVLSzDEyx/",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T05",
+      "secondary_themes": [
+        "T01",
+        "T08"
+      ],
+      "tension": "欣赏自主形象与承担现实交往代价",
+      "classification_reason": "观看人物时的认同与实际共处时的需求为何不同？区分主体性和忽视他人边界，也分析叙事选择对评价的影响。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "source_excerpt_only",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。",
+        "来源仅提供短题干或简述，未补写原文件没有的字数、文体及其他要求。"
+      ]
+    },
+    {
+      "id": "PR-0117",
+      "title_original": "2025华东师范大学第二附属中学高三上作文投稿（B站）",
+      "title": "2025华二投稿 科学中被超越",
+      "starred_in_source": false,
+      "record_type": "writing_submission",
+      "region": "上海",
+      "district": null,
+      "school_original": "华东师范大学第二附属中学",
+      "exam_type": "高三上作文投稿（非已核验考试）",
+      "year_label_normalized": 2025,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "有人说，在科学领域被超越，不仅是我们的宿命，更是我们的目标。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2025华东师范大学第二附属中学高三上作文投稿（B站）"
+        ],
+        "anchor_line": 21,
+        "row_number": 17,
+        "label": "2025华东师范大学第二附属中学高三上作文投稿（B站）",
+        "url": "https://search.bilibili.com/all?keyword=%E6%9C%89%E4%BA%BA%E8%AF%B4%E5%9C%A8%E7%A7%91%E5%AD%A6%E9%A2%86%E5%9F%9F%E8%A2%AB%E8%B6%85%E8%B6%8A",
+        "url_kind": "search_results",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T07",
+        "T03"
+      ],
+      "tension": "科学成果被超越的必然性与目标意义",
+      "classification_reason": "区分个人成就的持续被认可与知识共同发展的目标；被修正或超越怎样也可能体现既有工作的贡献？",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "source_excerpt_only",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。",
+        "来源仅提供短题干或简述，未补写原文件没有的字数、文体及其他要求。",
+        "所附链接是B站搜索结果页，不是已定位的原始试卷；“作文投稿”单列，不认定为校考。"
+      ]
+    },
+    {
+      "id": "PR-0118",
+      "title_original": "2025上海四校自招",
+      "title": "2025上海四校自招 运动与生命",
+      "starred_in_source": false,
+      "record_type": "admission_question",
+      "region": "上海",
+      "district": null,
+      "school_original": "上海四校（成员未注明）",
+      "exam_type": "自招",
+      "year_label_normalized": 2025,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "“空气的运动让人感受到风，太阳的运动让人感受到时间的流逝，人的运动让人感受到生命……”以“运动”为主题，谈对这句话的理解。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2025上海四校自招"
+        ],
+        "anchor_line": 22,
+        "row_number": 18,
+        "label": "2025上海四校自招",
+        "url": "https://www.vsxue.com/3132.html",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T07"
+      ],
+      "tension": "运动、时间感与生命体验",
+      "classification_reason": "先区分物理运动与行动、变化的比喻意义，再讨论参与如何形成生命体验；不能把一切运动直接等同于生命价值。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "source_excerpt_only",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。",
+        "来源仅提供短题干或简述，未补写原文件没有的字数、文体及其他要求。",
+        "自招题单列；不将其认定为高考或高三模考，具体招生阶段与题目完整性未核验。"
+      ]
+    },
+    {
+      "id": "PR-0119",
+      "title_original": "2025华二紫竹自招",
+      "title": "2025华二紫竹自招 应当做与愿意做",
+      "starred_in_source": false,
+      "record_type": "admission_question",
+      "region": "上海",
+      "district": null,
+      "school_original": "华二紫竹",
+      "exam_type": "自招",
+      "year_label_normalized": 2025,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "“立身行事注重的是‘应当做’，但往往人们倾向于‘愿意做’。”谈谈你的思考。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2025华二紫竹自招"
+        ],
+        "anchor_line": 23,
+        "row_number": 19,
+        "label": "2025华二紫竹自招",
+        "url": "https://www.vsxue.com/3132.html",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T06",
+      "secondary_themes": [
+        "T05",
+        "T03"
+      ],
+      "tension": "规范要求与个人意愿",
+      "classification_reason": "责任与愿望为何冲突，又如何形成可认同的选择？与PR-0048高度近似，但措辞及来源标签不同，保留独立条目并互相关联。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "source_excerpt_only",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。",
+        "来源仅提供短题干或简述，未补写原文件没有的字数、文体及其他要求。",
+        "自招题单列；不将其认定为高考或高三模考，具体招生阶段与题目完整性未核验。"
+      ],
+      "similar_prompts": [
+        {
+          "id": "PR-0048",
+          "kind": "wording_variant",
+          "reason": "核心设问与结构高度近似，但措辞、年份和来源不同，未证实为同一试题，不合并。"
+        }
+      ]
+    },
+    {
+      "id": "PR-0120",
+      "title_original": "2025南模中学自招",
+      "title": "2025南模自招 起点与成就发展",
+      "starred_in_source": false,
+      "record_type": "admission_question",
+      "region": "上海",
+      "district": null,
+      "school_original": "南模中学",
+      "exam_type": "自招",
+      "year_label_normalized": 2025,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "“李白看到白玉盘时才写的‘小时不识月，呼作白玉盘’，每个人起点不同，成就和发展是否也不同？”谈谈你的看法。",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2025南模中学自招"
+        ],
+        "anchor_line": 24,
+        "row_number": 20,
+        "label": "2025南模中学自招",
+        "url": "https://www.vsxue.com/3132.html",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T02",
+      "secondary_themes": [
+        "T05",
+        "T03"
+      ],
+      "tension": "起点差异与后续成就、发展",
+      "classification_reason": "起点怎样影响机会与能力，又是否决定终点？区分资源条件、个人行动和评价尺度；题干中的李白叙述不自动视为已核实事实。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "source_excerpt_only",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。",
+        "来源仅提供短题干或简述，未补写原文件没有的字数、文体及其他要求。",
+        "自招题单列；不将其认定为高考或高三模考，具体招生阶段与题目完整性未核验。"
+      ]
+    },
+    {
+      "id": "PR-0121",
+      "title_original": "2026上海四校自招",
+      "title": "2026上海四校自招 科学解释与美感",
+      "starred_in_source": false,
+      "record_type": "admission_question",
+      "region": "上海",
+      "district": null,
+      "school_original": "上海四校（成员未注明）",
+      "exam_type": "自招",
+      "year_label_normalized": 2026,
+      "year_note": "依补充文件标签记录，不推断学年或确切考试日期。",
+      "text_original": "牛顿用三棱镜发现光的色散，有哲学家说这破坏了美感，你怎么看？",
+      "source": {
+        "document_id": "SRC-002",
+        "file": "sources/supplements/SRC-002/补充题目.md",
+        "sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+        "heading_path": [
+          "补充题目",
+          "2026上海四校自招"
+        ],
+        "anchor_line": 25,
+        "row_number": 21,
+        "label": "2026上海四校自招",
+        "url": "https://www.vsxue.com/3138.html",
+        "url_kind": "provided_link",
+        "status": "user_supplement_unverified"
+      },
+      "primary_theme": "T04",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "理解科学机制与保有审美体验",
+      "classification_reason": "解释一种现象是否会消除其美感，取决于怎样理解和体验美；不因了解机制就预设必然祛魅，也不补猜题干所指哲学家。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "source_excerpt_only",
+      "editor_notes": [
+        "题干按用户提供的补充文件保存；来源网页、年份和引语未外部核验。",
+        "来源仅提供短题干或简述，未补写原文件没有的字数、文体及其他要求。",
+        "自招题单列；不将其认定为高考或高三模考，具体招生阶段与题目完整性未核验。"
+      ]
+    },
+    {
+      "id": "PR-0122",
+      "title_original": "用户自拟",
+      "title": "更多与更少",
+      "starred_in_source": false,
+      "record_type": "personal_question",
+      "region": null,
+      "district": null,
+      "school_original": null,
+      "exam_type": null,
+      "year_label_normalized": null,
+      "year_note": "用户于 2026-09-10 提供；该日期仅记录提供时间，不代表考试年份或地区。",
+      "text_original": "生活中，人们常常追求“更多”；如今，也有越来越多的人开始追求“更少”。对此，你怎么看？",
+      "source": {
+        "document_id": "SRC-003",
+        "file": "sources/SRC-003-用户自拟-2026-09-10.md",
+        "sha256": "b8516b8c1131115c7a2b92ada1f20dff31d94dbda37c1ff46613066f9c202c79",
+        "heading_path": [
+          "用户自拟",
+          "2026-09-10"
+        ],
+        "anchor_line": 9,
+        "row_number": 1,
+        "label": "用户自拟",
+        "url": null,
+        "url_kind": "user_provided",
+        "status": "user_provided"
+      },
+      "primary_theme": "T09",
+      "secondary_themes": [
+        "T03"
+      ],
+      "tension": "追求更多与追求更少的两种生活取向",
+      "classification_reason": "题目关注如何衡量生活与安顿欲望，主归 T09；还需追问“更多”或“更少”以何种价值为尺度，故关联 T03。不能预设更少优于更多，或把节制当作唯一正确答案。",
+      "classification_status": "ai_draft",
+      "source_note_paragraphs": [],
+      "text_completeness": "source_text_complete",
+      "editor_notes": [
+        "题面逐字保存自用户提供内容。",
+        "来源为用户自拟思考；未补写字数、文体限制、考试年份、地区或学校。",
+        "2026-09-10：对照用户消息恢复“更多”“更少”的双引号；初次导入的单引号版本已归档。"
+      ]
+    }
+  ],
+  "imports": [
+    {
+      "source_id": "SRC-002",
+      "source_sha256": "ec333663fb62282459974cebbb6664d08cd67ff7f1f542123c2b341911269d04",
+      "input_rows": 21,
+      "added_ids": [
+        "PR-0102",
+        "PR-0103",
+        "PR-0104",
+        "PR-0105",
+        "PR-0106",
+        "PR-0107",
+        "PR-0108",
+        "PR-0109",
+        "PR-0110",
+        "PR-0111",
+        "PR-0112",
+        "PR-0113",
+        "PR-0114",
+        "PR-0115",
+        "PR-0116",
+        "PR-0117",
+        "PR-0118",
+        "PR-0119",
+        "PR-0120",
+        "PR-0121"
+      ],
+      "merged_rows": [
+        {
+          "row": 10,
+          "target_id": "PR-0110",
+          "reason": "与第9条题干逐字一致，合并题目并保留两个独立来源标签；不据此确认两场考试实际使用同一试题。"
+        }
+      ],
+      "decisions": [
+        {
+          "row": 1,
+          "line_number": 5,
+          "action": "new",
+          "target_id": "PR-0102"
+        },
+        {
+          "row": 2,
+          "line_number": 6,
+          "action": "new",
+          "target_id": "PR-0103"
+        },
+        {
+          "row": 3,
+          "line_number": 7,
+          "action": "new",
+          "target_id": "PR-0104"
+        },
+        {
+          "row": 4,
+          "line_number": 8,
+          "action": "new",
+          "target_id": "PR-0105"
+        },
+        {
+          "row": 5,
+          "line_number": 9,
+          "action": "new",
+          "target_id": "PR-0106"
+        },
+        {
+          "row": 6,
+          "line_number": 10,
+          "action": "new",
+          "target_id": "PR-0107"
+        },
+        {
+          "row": 7,
+          "line_number": 11,
+          "action": "new",
+          "target_id": "PR-0108"
+        },
+        {
+          "row": 8,
+          "line_number": 12,
+          "action": "new",
+          "target_id": "PR-0109"
+        },
+        {
+          "row": 9,
+          "line_number": 13,
+          "action": "new",
+          "target_id": "PR-0110"
+        },
+        {
+          "row": 10,
+          "line_number": 14,
+          "action": "exact_duplicate",
+          "target_id": "PR-0110"
+        },
+        {
+          "row": 11,
+          "line_number": 15,
+          "action": "new",
+          "target_id": "PR-0111"
+        },
+        {
+          "row": 12,
+          "line_number": 16,
+          "action": "new",
+          "target_id": "PR-0112"
+        },
+        {
+          "row": 13,
+          "line_number": 17,
+          "action": "new",
+          "target_id": "PR-0113"
+        },
+        {
+          "row": 14,
+          "line_number": 18,
+          "action": "new",
+          "target_id": "PR-0114"
+        },
+        {
+          "row": 15,
+          "line_number": 19,
+          "action": "new",
+          "target_id": "PR-0115"
+        },
+        {
+          "row": 16,
+          "line_number": 20,
+          "action": "new",
+          "target_id": "PR-0116"
+        },
+        {
+          "row": 17,
+          "line_number": 21,
+          "action": "new",
+          "target_id": "PR-0117"
+        },
+        {
+          "row": 18,
+          "line_number": 22,
+          "action": "new",
+          "target_id": "PR-0118"
+        },
+        {
+          "row": 19,
+          "line_number": 23,
+          "action": "new",
+          "target_id": "PR-0119"
+        },
+        {
+          "row": 20,
+          "line_number": 24,
+          "action": "new",
+          "target_id": "PR-0120"
+        },
+        {
+          "row": 21,
+          "line_number": 25,
+          "action": "new",
+          "target_id": "PR-0121"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC-003",
+      "source_sha256": "21c55d54abc416e0ce771a1a1ca8009216da57895732824a5bbf0be195ff1b56",
+      "input_rows": 1,
+      "added_ids": [
+        "PR-0122"
+      ],
+      "merged_rows": [],
+      "decisions": [
+        {
+          "row": 1,
+          "line_number": 9,
+          "action": "new",
+          "target_id": "PR-0122"
+        }
+      ]
+    }
+  ]
+}

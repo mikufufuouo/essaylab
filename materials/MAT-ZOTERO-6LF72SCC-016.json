@@ -1,0 +1,442 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-016",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "title": "祛魅的理性化进程",
+  "summary": "文本将祛魅写为一条不断推进的理性化链条：先以理性清除巫术、重释宗教，继而由可检验的科学挑战超验权威。",
+  "parent_capture_id": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "capture": {
+    "text_original": "祛魅的第一个阶段叫“宗教的理性化”，就是驱逐原始宗教中的各种巫术，用哲学理性来论证宗教的合理性，论证它的救赎意义。就好像中国人也会区分江湖迷信和真正的佛法高僧，祛魅的第一个阶段就是去除那些装神弄鬼的事情，让宗教走到理性思辨的道路上来。在这个阶段，祛魅并没有瓦解宗教，反而使宗教获得了理性化的发展。\n\n但是祛魅作为一种理性化的取向，要考问的是所有超验的、神秘的东西，这个逻辑链条一旦展开，是不会停止的。所以袪魅的第二阶段很快就转向了宗教本身。\n\n我们知道，现代科学是理性化活动最典型的体现，依靠冷静的观察、可靠的证据、严谨的逻辑和清晰的论证。科学得出来的结论，是可观察、可检验、可质疑、可反驳、可修正的，它在根本上抵制一切神秘和超验之物。这个逻辑发展下去，最后还是会挑战宗教的精神主导地位。到尼采喊出来“上帝死了”这句话的时候，这个挑战也就基本完成了。\n\n好了。现在世界上没有什么神秘的东西了。\n\n自然世界客观化了，不再具有神性和灵性了，成为可以用冷冰冰的因果规律解释的物理世界了。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "33–34（PDF 第 34–35 页；含补充上下文，非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "B4B3TVRD",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000179|00262",
+        "position": {
+          "rects": [
+            [
+              102.585,
+              515.385,
+              534.203,
+              530.385
+            ]
+          ],
+          "pageIndex": 33
+        },
+        "text": "祛魅的第一个阶段叫“宗教的理性化”，就是驱逐原始宗教中的各种",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "KNHP36ZY",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000209|00280",
+        "position": {
+          "pageIndex": 33,
+          "rects": [
+            [
+              72.705,
+              497.385,
+              535.365,
+              512.385
+            ]
+          ]
+        },
+        "text": "巫术，用哲学理性来论证宗教的合理性，论证它的救赎意义。就好像中",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "7VWHYQMC",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000240|00298",
+        "position": {
+          "rects": [
+            [
+              74.055,
+              479.385,
+              536.235,
+              494.385
+            ]
+          ],
+          "pageIndex": 33
+        },
+        "text": "国人也会区分江湖迷信和真正的佛法高僧，祛魅的第一个阶段就是去除",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "WZ4SJ6ZQ",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000271|00316",
+        "position": {
+          "pageIndex": 33,
+          "rects": [
+            [
+              72.585,
+              461.385,
+              526.275,
+              476.385
+            ]
+          ]
+        },
+        "text": "那些装神弄鬼的事情，让宗教走到理性思辨的道路上来。在这个阶段，",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "8DA7NBP4",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000302|00334",
+        "position": {
+          "rects": [
+            [
+              72.585,
+              443.385,
+              437.385,
+              458.385
+            ]
+          ],
+          "pageIndex": 33
+        },
+        "text": "祛魅并没有瓦解宗教，反而使宗教获得了理性化的发展。",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "HVKV77A6",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000460|00442",
+        "position": {
+          "pageIndex": 33,
+          "rects": [
+            [
+              102.465,
+              335.385,
+              535.83,
+              350.385
+            ]
+          ]
+        },
+        "text": "但是祛魅作为一种理性化的取向，要考问的是所有超验的、神秘的",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "5KPP3WIG",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000489|00460",
+        "position": {
+          "rects": [
+            [
+              73.11,
+              317.385,
+              536.235,
+              332.385
+            ]
+          ],
+          "pageIndex": 33
+        },
+        "text": "东西，这个逻辑链条一旦展开，是不会停止的。所以袪魅的第二阶段很",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "8ZGDGMGY",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000520|00478",
+        "position": {
+          "pageIndex": 33,
+          "rects": [
+            [
+              72.585,
+              299.385,
+              212.385,
+              314.385
+            ]
+          ]
+        },
+        "text": "快就转向了宗教本身。",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "CIU8MS2Z",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000530|00496",
+        "position": {
+          "rects": [
+            [
+              102.705,
+              281.385,
+              521.235,
+              296.385
+            ]
+          ],
+          "pageIndex": 33
+        },
+        "text": "我们知道，现代科学是理性化活动最典型的体现，依靠冷静的观",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "C54WSXL2",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000558|00514",
+        "position": {
+          "pageIndex": 33,
+          "rects": [
+            [
+              72.765,
+              263.385,
+              536.355,
+              278.385
+            ]
+          ]
+        },
+        "text": "察、可靠的证据、严谨的逻辑和清晰的论证。科学得出来的结论，是可",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "NSQQ2K9G",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000589|00532",
+        "position": {
+          "rects": [
+            [
+              72.585,
+              245.385,
+              536.415,
+              260.385
+            ]
+          ],
+          "pageIndex": 33
+        },
+        "text": "观察、可检验、可质疑、可反驳、可修正的，它在根本上抵制一切神秘",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "UCA3QB2C",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000620|00550",
+        "position": {
+          "pageIndex": 33,
+          "rects": [
+            [
+              72.645,
+              227.385,
+              521.415,
+              242.385
+            ]
+          ]
+        },
+        "text": "和超验之物。这个逻辑发展下去，最后还是会挑战宗教的精神主导地",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "77J3UCHZ",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000650|00568",
+        "position": {
+          "rects": [
+            [
+              72.585,
+              209.385,
+              519.787,
+              224.385
+            ]
+          ],
+          "pageIndex": 33
+        },
+        "text": "位。到尼采喊出来“上帝死了”这句话的时候，这个挑战也就基本完成",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "HLYXEWV6",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000681|00586",
+        "position": {
+          "pageIndex": 33,
+          "rects": [
+            [
+              73.935,
+              191.385,
+              92.385,
+              206.385
+            ]
+          ]
+        },
+        "text": "了。",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "PQE6CNTX",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000683|00604",
+        "position": {
+          "rects": [
+            [
+              102.585,
+              173.385,
+              377.385,
+              188.385
+            ]
+          ],
+          "pageIndex": 33
+        },
+        "text": "好了。现在世界上没有什么神秘的东西了。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "GHUR63DK",
+        "attachment_key": "6LF72SCC",
+        "page_label": "34",
+        "page_index": 33,
+        "sort_index": "00033|000791|00697",
+        "position": {
+          "pageIndex": 33,
+          "rects": [
+            [
+              105.045,
+              80.385,
+              535.83,
+              95.385
+            ]
+          ]
+        },
+        "text": "自然世界客观化了，不再具有神性和灵性了，成为可以用冷冰冰的",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "YBZ92DVU",
+        "attachment_key": "6LF72SCC",
+        "page_label": "35",
+        "page_index": 34,
+        "sort_index": "00034|000000|00074",
+        "position": {
+          "rects": [
+            [
+              73.755,
+              703.377,
+              257.385,
+              718.377
+            ]
+          ],
+          "pageIndex": 34
+        },
+        "text": "因果规律解释的物理世界了。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-10-complete.json",
+    "grouping_reason": "这些片段按原页顺序呈现从宗教理性化到科学抵制神秘性的过程；首尾跨页连接已对照 PDF 正文。",
+    "context_excerpts": [
+      {
+        "id": "CTX-016-1",
+        "page_index": 33,
+        "text": "那么，祛魅意味着什么呢？简单地说，就是用理性的力量驱散了神秘的魅惑。有一种很常见的误解是把祛魅当成是世俗化——人们不信宗教，就是祛魅了。实际上，真实的历史要比这复杂一点。我们中国人习惯把“宗教”和“迷信”连在一起说，“宗教迷信”。但在西方历史里，宗教和迷信其实并不是一回事。对应到祛魅这件事情上，祛魅其实分了两步，先针对迷信，再针对宗教。",
+        "method": "pdf_text"
+      }
+    ],
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。"
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": null,
+    "primary_theme": null,
+    "secondary_themes": [],
+    "classification_reason": null,
+    "concept_candidates": [],
+    "argument_uses": [],
+    "related_prompts": [],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-10：以新增 Zotero 批注为基础整理；原始片段、颜色、位置与空白 comment 均保留在本卡。",
+    "已按附件、PDF 页索引与页内排序补读本地 PDF 上下文；原始摘录中的异常字不作静默改写。",
+    "本卡为 AI 整理草稿；尚未获得逐卡内容认可。",
+    "2026-09-10 质量复核后重整：回读相关源段，检查卡片边界、指代、概括依据和断句；不是读者逐卡认可，source_match 仍为 unchecked。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null
+}

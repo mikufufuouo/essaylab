@@ -1,0 +1,573 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-001",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "parent_capture_id": null,
+  "capture": {
+    "text_original": "利益并不是物质性的\n\n让我们再来看一个例——“名牌消费”现象。两种质量和外观都基本相同的商品，为什么有人会选择购买昂贵得多的名牌产品？根据简单的“性价比最优”原则，“名牌消费”是相当不理性的。\n\n但我们追求的“利益”这个概念本身，并不是单纯物质性的，其实涉及行为的复杂动机结构。\n\n但“重要”是需要解释和判断的，必须依据 一个思想观念的框架，你才能确定什么是重要的。\n\n人类行为的复杂动机结构\n\n我们知道中国有位大艺术家叫李叔同，他写的“长亭外，古道边， 芳草碧连天”，脍炙人口。李叔同不只是音乐家，还是美术教育家、书法家、戏剧活动家。在20世纪初的中国文化界，他已经功成名 就。但李叔同从37岁开始学佛，最后离开家庭，遁入佛门，成为高僧， 后被人尊称为“弘一法师”。他说“一念放下，万般从容”。从世俗角度 看，他舍弃了令人羡慕的功名利禄。他的选择是自利的吗？是理性的 吗？ 我们也可以说，遵循自己的信仰来生活是有价值的，是实现最大的 利益。在这个意义上，离开了思想观念来讨论利益，就根本无从谈起。\n\n人对利益的认知有非常丰富的层次。\n\n我们必须 对利益做非常开阔的理解。如果看不到人们的认知、身份、道德和价值 等观念（实际上就是所谓“现实利益”本身的构成要素），我们就会陷入 一种低级的现实主义思一面上很务实，实际上却丧失了真正的现实感。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "12–14（PDF 第 13–15 页；非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "CR4AA98J",
+        "attachment_key": "6LF72SCC",
+        "page_label": "13",
+        "page_index": 12,
+        "sort_index": "00012|000771|00595",
+        "position": {
+          "rects": [
+            [
+              72.903,
+              175.539,
+              262.643,
+              196.539
+            ]
+          ],
+          "pageIndex": 12
+        },
+        "text": "利益并不是物质性的",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "VENDK3FY",
+        "attachment_key": "6LF72SCC",
+        "page_label": "13",
+        "page_index": 12,
+        "sort_index": "00012|000780|00640",
+        "position": {
+          "pageIndex": 12,
+          "rects": [
+            [
+              102.705,
+              137.385,
+              534.607,
+              152.385
+            ]
+          ]
+        },
+        "text": "让我们再来看一个例——“名牌消费”现象。两种质量和外观都基本",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "NJMWLRAV",
+        "attachment_key": "6LF72SCC",
+        "page_label": "13",
+        "page_index": 12,
+        "sort_index": "00012|000810|00658",
+        "position": {
+          "rects": [
+            [
+              72.585,
+              119.385,
+              521.355,
+              134.385
+            ]
+          ],
+          "pageIndex": 12
+        },
+        "text": "相同的商品，为什么有人会选择购买昂贵得多的名牌产品？根据简单",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "WYNFF3PH",
+        "attachment_key": "6LF72SCC",
+        "page_label": "13",
+        "page_index": 12,
+        "sort_index": "00012|000840|00676",
+        "position": {
+          "rects": [
+            [
+              73.815,
+              101.385,
+              209.587,
+              116.385
+            ]
+          ],
+          "pageIndex": 12
+        },
+        "text": "的“性价比最优”原则，",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "UTKJAKQ3",
+        "attachment_key": "6LF72SCC",
+        "page_label": "13",
+        "page_index": 12,
+        "sort_index": "00012|000848|00676",
+        "position": {
+          "rects": [
+            [
+              176.258,
+              101.385,
+              240.034,
+              116.385
+            ]
+          ],
+          "pageIndex": 12
+        },
+        "text": "原则，“名",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": false,
+        "display_text": "",
+        "cleanup_note": "同一行“原则，”“名”分别已由 WYNFF3PH、RWDD5ZA3 覆盖，删除重复选区。"
+      },
+      {
+        "annotation_key": "RWDD5ZA3",
+        "attachment_key": "6LF72SCC",
+        "page_label": "13",
+        "page_index": 12,
+        "sort_index": "00012|000851|00676",
+        "position": {
+          "rects": [
+            [
+              220.807,
+              101.385,
+              404.01,
+              116.385
+            ]
+          ],
+          "pageIndex": 12
+        },
+        "text": "“名牌消费”是相当不理性的。",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "FKQRI4PB",
+        "attachment_key": "6LF72SCC",
+        "page_label": "14",
+        "page_index": 13,
+        "sort_index": "00013|000154|00163",
+        "position": {
+          "rects": [
+            [
+              162.465,
+              613.635,
+              519.727,
+              628.635
+            ]
+          ],
+          "pageIndex": 13
+        },
+        "text": "但我们追求的“利益”这个概念本身，并不是单纯物质性",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "CTUCBLNG",
+        "attachment_key": "6LF72SCC",
+        "page_label": "14",
+        "page_index": 13,
+        "sort_index": "00013|000179|00181",
+        "position": {
+          "rects": [
+            [
+              73.815,
+              595.635,
+              302.385,
+              610.635
+            ]
+          ],
+          "pageIndex": 13
+        },
+        "text": "的，其实涉及行为的复杂动机结构。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "EYHWMD55",
+        "attachment_key": "6LF72SCC",
+        "page_label": "14",
+        "page_index": 13,
+        "sort_index": "00013|000237|00217",
+        "position": {
+          "rects": [
+            [
+              267.465,
+              559.635,
+              534.427,
+              574.635
+            ],
+            [
+              72.825,
+              541.635,
+              392.385,
+              556.635
+            ]
+          ],
+          "pageIndex": 13
+        },
+        "text": "但“重要”是需要解释和判断的，必须依据 一个思想观念的框架，你才能确定什么是重要的。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "MMBHN34Q",
+        "attachment_key": "6LF72SCC",
+        "page_label": "14",
+        "page_index": 13,
+        "sort_index": "00013|000726|00559",
+        "position": {
+          "rects": [
+            [
+              72.987,
+              211.539,
+              305.716,
+              232.539
+            ]
+          ],
+          "pageIndex": 13
+        },
+        "text": "人类行为的复杂动机结构",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "R5CZ8Y9W",
+        "attachment_key": "6LF72SCC",
+        "page_label": "14",
+        "page_index": 13,
+        "sort_index": "00013|000838|00676",
+        "position": {
+          "rects": [
+            [
+              102.705,
+              101.385,
+              517.931,
+              116.385
+            ],
+            [
+              72.99,
+              83.385,
+              512.426,
+              98.385
+            ]
+          ],
+          "pageIndex": 13
+        },
+        "text": "我们知道中国有位大艺术家叫李叔同，他写的“长亭外，古道边， 芳草碧连天”，脍炙人口。李叔同不只是音乐家，还是美术教育",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "LMHZJCMD",
+        "attachment_key": "6LF72SCC",
+        "page_label": "15",
+        "page_index": 14,
+        "sort_index": "00014|000000|00073",
+        "position": {
+          "rects": [
+            [
+              72.705,
+              702.252,
+              520.065,
+              718.857
+            ],
+            [
+              72.705,
+              684.51,
+              526.275,
+              701.115
+            ],
+            [
+              72.705,
+              667.635,
+              434.01,
+              682.635
+            ]
+          ],
+          "pageIndex": 14
+        },
+        "text": "家、书法家、戏剧活动家。在20世纪初的中国文化界，他已经功成名 就。但李叔同从37岁开始学佛，最后离开家庭，遁入佛门，成为高僧， 后被人尊称为“弘一法师”。他说“一念放下，万般从容”。",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "PNBJYAAJ",
+        "attachment_key": "6LF72SCC",
+        "page_label": "15",
+        "page_index": 14,
+        "sort_index": "00014|000089|00109",
+        "position": {
+          "rects": [
+            [
+              430.68,
+              667.635,
+              517.74,
+              682.635
+            ],
+            [
+              72.585,
+              649.635,
+              520.83,
+              664.635
+            ],
+            [
+              73.53,
+              631.635,
+              94.2,
+              646.635
+            ],
+            [
+              102.705,
+              613.635,
+              535.83,
+              628.635
+            ],
+            [
+              72.645,
+              595.635,
+              527.385,
+              610.635
+            ]
+          ],
+          "pageIndex": 14
+        },
+        "text": "。从世俗角度 看，他舍弃了令人羡慕的功名利禄。他的选择是自利的吗？是理性的 吗？ 我们也可以说，遵循自己的信仰来生活是有价值的，是实现最大的 利益。在这个意义上，离开了思想观念来讨论利益，就根本无从谈起。",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": true,
+        "display_text": "从世俗角度 看，他舍弃了令人羡慕的功名利禄。他的选择是自利的吗？是理性的 吗？ 我们也可以说，遵循自己的信仰来生活是有价值的，是实现最大的 利益。在这个意义上，离开了思想观念来讨论利益，就根本无从谈起。",
+        "cleanup_note": "句首句号与 LMHZJCMD 句尾重叠，保留一次。"
+      },
+      {
+        "annotation_key": "H9JHQGT7",
+        "attachment_key": "6LF72SCC",
+        "page_label": "15",
+        "page_index": 14,
+        "sort_index": "00014|000090|00109",
+        "position": {
+          "rects": [
+            [
+              444.39,
+              667.635,
+              517.74,
+              682.635
+            ]
+          ],
+          "pageIndex": 14
+        },
+        "text": "从世俗角度",
+        "comment": "",
+        "color": "#2ea8e5",
+        "join_previous": false,
+        "display_text": "",
+        "cleanup_note": "“从世俗角度”已完整包含在 PNBJYAAJ 中。"
+      },
+      {
+        "annotation_key": "KPIS62P6",
+        "attachment_key": "6LF72SCC",
+        "page_label": "15",
+        "page_index": 14,
+        "sort_index": "00014|000550|00415",
+        "position": {
+          "rects": [
+            [
+              282.705,
+              361.635,
+              512.385,
+              376.635
+            ]
+          ],
+          "pageIndex": 14
+        },
+        "text": "人对利益的认知有非常丰富的层次。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "QTL4NHGK",
+        "attachment_key": "6LF72SCC",
+        "page_label": "15",
+        "page_index": 14,
+        "sort_index": "00014|000715|00505",
+        "position": {
+          "rects": [
+            [
+              477.705,
+              271.635,
+              536.235,
+              286.635
+            ],
+            [
+              72.525,
+              253.635,
+              536.415,
+              268.635
+            ],
+            [
+              72.705,
+              235.635,
+              534.667,
+              250.635
+            ],
+            [
+              72.825,
+              217.635,
+              527.385,
+              232.635
+            ]
+          ],
+          "pageIndex": 14
+        },
+        "text": "我们必须 对利益做非常开阔的理解。如果看不到人们的认知、身份、道德和价值 等观念（实际上就是所谓“现实利益”本身的构成要素），我们就会陷入 一种低级的现实主义思一面上很务实，实际上却丧失了真正的现实感。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-09-complete.json",
+    "grouping_reason": "这些片段共同解释利益为何不能只按物质收益理解：名牌消费展示文化意义，李叔同的选择展示信仰价值，后面的总结将两者放入复杂动机结构。",
+    "context_note": "已补入同节关于品牌文化意义、春运的未高亮正文。QTL4NHGK 的“现实主义思一面上”在 PDF 页面上也呈现异常字样，本轮不猜改，概括只取能确认的论点。李叔同片段跨页衔接已按正文检查。",
+    "context_excerpts": [
+      {
+        "id": "CTX-BRAND",
+        "page_index": 13,
+        "text": "有价值？对消费者而言品牌有什么意义呢？是为了追逐时尚，还是为了炫耀？是为了显示自己的身份，还是为了虚荣心的满足？所有这些动机都不能从狭隘的物质利益角度来理解，而必须放在一个文化意义的结构中来把握。也就是说，你必须深究其思想观念的根源，才能理解“名牌消费”现象。",
+        "method": "pdf_text"
+      },
+      {
+        "id": "CTX-SPRING",
+        "page_index": 14,
+        "text": "你或许会说，弘一法师李叔同是出类拔萃之人，我们凡夫俗子的利益就简单得多，没这么复杂的思想观念。真是如此吗？让我们再举一个例子。每年春节期间，中国都会发生令人惊叹的大规模的春运现象，许多人连夜排队购买车票，忍受拥挤不堪的艰苦旅途，为的是“回家过年”。如果我们对“回家过年”做一种“经济理性”的利益分析，就会发现，所谓“回家过年”无非就是与家人团聚、与亲朋好友见面，吃吃饭，娱乐娱乐。从“理性计算”的角度看，性价比实在太低了。难道不能避开春运高峰、以更低的成本来实现这些“利益”吗？不能，因为这失去了“过年”的意义。如果离开了春节对中国人的文化意义，离开了人们的孝敬与感恩等思想观念，你完全无从解释春运现象，解释其中的利益是什么，理性又是什么。",
+        "method": "pdf_text"
+      }
+    ]
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": "利益并不是预先确定的一张物质收益表。人们重视身份、归属、信仰与尊重，也会据此判断得失。作者先用名牌消费说明，同样的物质功能可能承载不同的文化意义；再以李叔同转向信仰生活的选择说明，舍弃世俗利益也可能是在追求另一种价值。理解现实利益，需要理解人的观念框架。",
+    "primary_theme": "T03",
+    "secondary_themes": [
+      "T04"
+    ],
+    "classification_reason": "核心是“什么算值得、由什么尺度判断利益”，主归 T03；理解动机需要进入当事人的观念框架，次归 T04。",
+    "concept_candidates": [],
+    "argument_structure": [
+      {
+        "role": "先暴露狭窄尺度的不足",
+        "summary": "在质量和外观相近的前提下，只按性价比理解名牌消费，会遇到解释困难。",
+        "annotation_keys": [
+          "VENDK3FY",
+          "NJMWLRAV",
+          "WYNFF3PH",
+          "RWDD5ZA3"
+        ],
+        "context_keys": []
+      },
+      {
+        "role": "解释文化意义如何进入利益",
+        "summary": "身份、时尚等意义进入消费动机；利益的定义依赖对什么重要的判断。",
+        "annotation_keys": [
+          "FKQRI4PB",
+          "CTUCBLNG",
+          "EYHWMD55"
+        ],
+        "context_keys": [
+          "CTX-BRAND"
+        ]
+      },
+      {
+        "role": "用不同领域的选择展开",
+        "summary": "李叔同的故事说明信仰也可构成价值追求；补充的春运例子表明这种复杂性不限于少数人物。",
+        "annotation_keys": [
+          "R5CZ8Y9W",
+          "LMHZJCMD",
+          "PNBJYAAJ"
+        ],
+        "context_keys": [
+          "CTX-SPRING"
+        ]
+      },
+      {
+        "role": "落到一般结论",
+        "summary": "理解现实利益，应纳入认知、身份、道德与价值等观念。",
+        "annotation_keys": [
+          "KPIS62P6",
+          "QTL4NHGK"
+        ],
+        "context_keys": []
+      }
+    ],
+    "argument_uses": [
+      {
+        "claim": "评价一个选择是否值得，先要解释什么被算作利益，再讨论得失。",
+        "relation": "supports",
+        "role": "mechanism",
+        "reasoning": "名牌消费与信仰选择展示了同一物质尺度解释力的边界。观念改变什么被视为重要，也就改变对收益和代价的认定；这为评价选择提供了更完整的起点。",
+        "conditions": [
+          "说明当事人的价值框架，并区分其自述与外部推断。"
+        ],
+        "limits": [
+          "理解一种选择不等于认可其道德正当性。",
+          "不能把所有行为都重新命名为“自利”后宣称已解释一切。",
+          "人物生平和名言仅按书中叙述呈现，尚未独立核验。"
+        ],
+        "evidence_status": "interpretive"
+      }
+    ],
+    "related_prompts": [
+      {
+        "id": "PR-0045",
+        "reason": "在比较获益与代价之前，先解释什么算获益、按什么尺度比较；同一物质得失在不同价值框架下意义不同。",
+        "limits": [
+          "它帮助检查“获益”和“代价”的评价尺度，不能仅凭个人看重某事就证明它值得做，也没有证明所有获得都必然伴随失去。"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-09：按用户要求整理本次全部批注；重复划线在阅读正文中去重，原始快照保留。",
+    "已回读对应 PDF 上下文并检查组合关系；未逐字视觉核验全部高亮，原文核对状态仍为 unchecked。",
+    "作者的论证解释与面向作文的用法分开；未进行人物史实或原著引文的独立核验。",
+    "用户授权整理本批内容，但尚未逐张认可整理结果。",
+    "本卡由原先10条扩展到16条，补入名牌消费，原卡 ID 保持不变。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "title": "利益如何被定义：从名牌消费到李叔同的选择",
+  "collection_role": "reading",
+  "question": "什么算利益，是否先取决于我们如何判断价值？",
+  "summary": "利益包含身份、信仰和归属等价值，理解一个选择，先要知道当事人看重什么。"
+}

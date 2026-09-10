@@ -1,0 +1,156 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-014",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "title": "科学的边界：方案不能决定何为值得",
+  "summary": "在刘擎转述的病人抢救例子中，医学能回答如何维持生命，却不能仅凭技术决定是否值得这样做；科学方案不能替代对生命意义的选择。",
+  "parent_capture_id": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "capture": {
+    "text_original": "韦伯认为，这是生命意义的问题，超出了科学的边界。科学永远无法回答：我们做出什么样的选择才是“值得”的，我们过什么样的生活才是“有意义”的，我们生命的“目的”究竟是什么。科学也许可以给出最优的“方案”，但永远无法教给我们一个最优的“选择”。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "30–30（PDF 第 31–31 页；含补充上下文，非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "DY8TAVM8",
+        "attachment_key": "6LF72SCC",
+        "page_label": "31",
+        "page_index": 30,
+        "sort_index": "00030|000507|00415",
+        "position": {
+          "pageIndex": 30,
+          "rects": [
+            [
+              102.945,
+              361.635,
+              536.355,
+              376.635
+            ]
+          ]
+        },
+        "text": "韦伯认为，这是生命意义的问题，超出了科学的边界。科学永远无",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "RBELMBEU",
+        "attachment_key": "6LF72SCC",
+        "page_label": "31",
+        "page_index": 30,
+        "sort_index": "00030|000536|00433",
+        "position": {
+          "rects": [
+            [
+              72.645,
+              343.635,
+              534.667,
+              358.635
+            ]
+          ],
+          "pageIndex": 30
+        },
+        "text": "法回答：我们做出什么样的选择才是“值得”的，我们过什么样的生活才",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "TS66B2P5",
+        "attachment_key": "6LF72SCC",
+        "page_label": "31",
+        "page_index": 30,
+        "sort_index": "00030|000568|00451",
+        "position": {
+          "pageIndex": 30,
+          "rects": [
+            [
+              72.825,
+              325.635,
+              532.98,
+              340.635
+            ]
+          ]
+        },
+        "text": "是“有意义”的，我们生命的“目的”究竟是什么。科学也许可以给出最优",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "KDW98TKU",
+        "attachment_key": "6LF72SCC",
+        "page_label": "31",
+        "page_index": 30,
+        "sort_index": "00030|000601|00469",
+        "position": {
+          "rects": [
+            [
+              73.815,
+              307.635,
+              404.01,
+              322.635
+            ]
+          ],
+          "pageIndex": 30
+        },
+        "text": "的“方案”，但永远无法教给我们一个最优的“选择”。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-10-complete.json",
+    "grouping_reason": "四段是同一结论被连续划分的句子，均需合并以保留“方案”与“选择”的区分。 补充正文保留本组的例子、机制或限定，使概括能够在卡内回查。",
+    "context_excerpts": [
+      {
+        "id": "CTX-014-1",
+        "page_index": 30,
+        "text": "韦伯举了一个例子：假如现在有一位生命垂危的病人，只要送到医院，我们就能用医学技术维持他的生命。但是有一个重要的问题，我们要不要去抢救这位病人呢？如果病人只能维持生命，但根本无法好转，又会耗费大量的金钱，拖垮他的家庭，你认为应当做何选择？如果病人自己希望不要付出这么大的代价来抢救，你认为要怎么选择呢？如果你知道病人在这种状况中非常痛苦，你要怎么选择呢？医生回答不了这个问题，即使他有最丰富的医学知识和最高超的技术，也回答不了这个问题。",
+        "method": "pdf_text"
+      }
+    ],
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。"
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": null,
+    "primary_theme": null,
+    "secondary_themes": [],
+    "classification_reason": null,
+    "concept_candidates": [],
+    "argument_uses": [],
+    "related_prompts": [],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-10：以新增 Zotero 批注为基础整理；原始片段、颜色、位置与空白 comment 均保留在本卡。",
+    "已按附件、PDF 页索引与页内排序补读本地 PDF 上下文；原始摘录中的异常字不作静默改写。",
+    "本卡为 AI 整理草稿；尚未获得逐卡内容认可。",
+    "2026-09-10 质量复核后重整：回读相关源段，检查卡片边界、指代、概括依据和断句；不是读者逐卡认可，source_match 仍为 unchecked。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null
+}

@@ -1,0 +1,748 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EssayLab Material v0.2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "schema_version",
+    "status",
+    "capture",
+    "reader_note",
+    "analysis",
+    "review_notes",
+    "reviewed_by",
+    "reviewed_at",
+    "source_match"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^MAT-[A-Za-z0-9-]+$"
+    },
+    "schema_version": {
+      "const": "0.2.0"
+    },
+    "status": {
+      "enum": [
+        "inbox",
+        "draft",
+        "reviewed"
+      ]
+    },
+    "parent_capture_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "capture": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text_original",
+        "context_before",
+        "context_after",
+        "source",
+        "highlight",
+        "extraction_method"
+      ],
+      "properties": {
+        "text_original": {
+          "type": "string",
+          "minLength": 1
+        },
+        "context_before": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "context_after": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "extraction_method": {
+          "enum": [
+            "native_export",
+            "pdf_annotation",
+            "docx_text",
+            "docx_highlight",
+            "ocr",
+            "manual"
+          ]
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "title",
+            "author",
+            "edition",
+            "url",
+            "file_sha256",
+            "locator"
+          ],
+          "properties": {
+            "title": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "author": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "edition": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "url": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "file_sha256": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                }
+              ]
+            },
+            "locator": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "value"
+              ],
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "print_page",
+                    "pdf_page_index",
+                    "ebook_location",
+                    "docx_paragraph",
+                    "export_entry",
+                    "image_region",
+                    "unknown",
+                    "text_location"
+                  ]
+                },
+                "value": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "bbox": {
+                  "type": [
+                    "array",
+                    "null"
+                  ],
+                  "minItems": 4,
+                  "maxItems": 4,
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "coordinate_unit": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "asset_path": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "highlight": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "color_raw",
+            "color_normalized",
+            "capture_type"
+          ],
+          "properties": {
+            "color_raw": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "color_normalized": {
+              "enum": [
+                "yellow",
+                "blue",
+                "green",
+                "red",
+                "unknown"
+              ]
+            },
+            "capture_type": {
+              "enum": [
+                "viewpoint",
+                "case",
+                "concept",
+                "expression",
+                "unknown"
+              ]
+            }
+          }
+        },
+        "context_note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "segments": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "annotation_key",
+              "attachment_key",
+              "page_label",
+              "page_index",
+              "sort_index",
+              "position",
+              "text",
+              "comment",
+              "color"
+            ],
+            "properties": {
+              "annotation_key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "attachment_key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "page_label": {
+                "type": "string"
+              },
+              "page_index": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "sort_index": {
+                "type": "string",
+                "minLength": 1
+              },
+              "position": {
+                "type": "object"
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "comment": {
+                "type": "string"
+              },
+              "color": {
+                "type": "string"
+              },
+              "display_text": {
+                "type": "string"
+              },
+              "join_previous": {
+                "type": "boolean"
+              },
+              "cleanup_note": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "grouping_reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "raw_snapshot": {
+          "type": "string",
+          "minLength": 1
+        },
+        "context_excerpts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "page_index",
+              "text",
+              "method"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "page_index": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "method": {
+                "const": "pdf_text"
+              }
+            }
+          }
+        }
+      },
+      "dependentRequired": {
+        "segments": [
+          "grouping_reason",
+          "raw_snapshot"
+        ],
+        "grouping_reason": [
+          "segments"
+        ],
+        "raw_snapshot": [
+          "segments"
+        ]
+      }
+    },
+    "reader_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "analysis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "paraphrase",
+        "primary_theme",
+        "secondary_themes",
+        "classification_reason",
+        "concept_candidates",
+        "argument_uses",
+        "related_prompts",
+        "open_questions"
+      ],
+      "properties": {
+        "paraphrase": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "primary_theme": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/themeId"
+            }
+          ]
+        },
+        "secondary_themes": {
+          "type": "array",
+          "maxItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/themeId"
+          }
+        },
+        "classification_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "concept_candidates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "status",
+              "reason"
+            ],
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "status": {
+                "enum": [
+                  "explicit_in_excerpt",
+                  "ai_suggestion_unverified"
+                ]
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "argument_uses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "claim",
+              "relation",
+              "role",
+              "reasoning",
+              "conditions",
+              "limits",
+              "evidence_status"
+            ],
+            "properties": {
+              "claim": {
+                "type": "string",
+                "minLength": 1
+              },
+              "relation": {
+                "enum": [
+                  "supports",
+                  "challenges",
+                  "qualifies"
+                ]
+              },
+              "role": {
+                "enum": [
+                  "definition",
+                  "mechanism",
+                  "example",
+                  "counterexample",
+                  "boundary",
+                  "synthesis",
+                  "counterargument"
+                ]
+              },
+              "reasoning": {
+                "type": "string",
+                "minLength": 1
+              },
+              "conditions": {
+                "$ref": "#/$defs/strings"
+              },
+              "limits": {
+                "$ref": "#/$defs/strings"
+              },
+              "evidence_status": {
+                "enum": [
+                  "interpretive",
+                  "needs_fact_check",
+                  "fact_verified"
+                ]
+              },
+              "verification_basis": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "allOf": [
+              {
+                "if": {
+                  "properties": {
+                    "evidence_status": {
+                      "const": "fact_verified"
+                    }
+                  }
+                },
+                "then": {
+                  "required": [
+                    "verification_basis"
+                  ],
+                  "properties": {
+                    "verification_basis": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "related_prompts": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "reason"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^PR-[0-9]{4}$"
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              },
+              "limits": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        },
+        "open_questions": {
+          "$ref": "#/$defs/strings"
+        },
+        "argument_structure": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "role",
+              "summary",
+              "annotation_keys"
+            ],
+            "properties": {
+              "role": {
+                "type": "string",
+                "minLength": 1
+              },
+              "summary": {
+                "type": "string",
+                "minLength": 1
+              },
+              "annotation_keys": {
+                "type": "array",
+                "minItems": 0,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "context_keys": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "review_notes": {
+      "$ref": "#/$defs/strings"
+    },
+    "reviewed_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewed_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_match": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "basis",
+        "checked_by",
+        "checked_at"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "unchecked",
+            "matched",
+            "mismatch"
+          ]
+        },
+        "basis": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "checked_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "checked_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "matched",
+                  "mismatch"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "basis": {
+                "type": "string",
+                "minLength": 1
+              },
+              "checked_by": {
+                "type": "string",
+                "minLength": 1
+              },
+              "checked_at": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "import_fingerprint": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "collection_role": {
+      "enum": [
+        "reading",
+        "technical_test"
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "reviewed"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "reviewed_by": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reviewed_at": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}"
+          },
+          "capture": {
+            "properties": {
+              "source": {
+                "properties": {
+                  "title": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "locator": {
+                    "properties": {
+                      "kind": {
+                        "not": {
+                          "const": "unknown"
+                        }
+                      },
+                      "value": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "themeId": {
+      "enum": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08",
+        "T09",
+        "T10"
+      ]
+    },
+    "strings": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

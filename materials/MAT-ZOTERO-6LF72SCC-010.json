@@ -1,0 +1,334 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-010",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "title": "个人主义转向：自由与群体纽带",
+  "summary": "个人可离开特定社群而获得更多自由和多样生活，但也可能失去牢固的归属关系，感到孤独、漂泊与乡愁。",
+  "parent_capture_id": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "capture": {
+    "text_original": "而现代人看待自己的方式，是把个人与群体分离开来，个人从 传统的、非常牢固的社群关系中脱离出来，成为具有高度自主性的个 体。这在思想史上被称为“个人主义的转向”。\n\n但在现代社会，随着工业化、城市化和商业化的发展，出现了大规模的人口流动，越来越多的人离开故乡，到陌生的地方工作和生活。个人依然离不开社群，但总是可以离开任何一个特定的社群。\n\n人首先是一个独立的个体，可以脱离任何一个群体，进入别的群体。这就是“个人主义的转向”。\n\n这种转向带来了传统社会难以想象的个人自由，生活变得多样而丰富，这是现代性的主要成就。但个人主义的自由也是有代价的，因为个人失去了与一个特定群体的久远、厚重和牢固的纽带关系，这带来了孤独感、漂泊感和乡愁。这也是现代性困境的一部分。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "25–26（PDF 第 26–27 页；含补充上下文，非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "WQ3E63S3",
+        "attachment_key": "6LF72SCC",
+        "page_label": "26",
+        "page_index": 25,
+        "sort_index": "00025|000549|00433",
+        "position": {
+          "rects": [
+            [
+              132.645,
+              343.635,
+              536.415,
+              358.635
+            ],
+            [
+              72.465,
+              325.635,
+              521.355,
+              340.635
+            ],
+            [
+              72.585,
+              307.635,
+              360.698,
+              322.635
+            ]
+          ],
+          "pageIndex": 25
+        },
+        "text": "而现代人看待自己的方式，是把个人与群体分离开来，个人从 传统的、非常牢固的社群关系中脱离出来，成为具有高度自主性的个 体。这在思想史上被称为“个人主义的转向”。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "JLL99ICG",
+        "attachment_key": "6LF72SCC",
+        "page_label": "26",
+        "page_index": 25,
+        "sort_index": "00025|000865|00631",
+        "position": {
+          "pageIndex": 25,
+          "rects": [
+            [
+              102.465,
+              145.635,
+              536.355,
+              160.635
+            ]
+          ]
+        },
+        "text": "但在现代社会，随着工业化、城市化和商业化的发展，出现了大规",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "G66T2QEU",
+        "attachment_key": "6LF72SCC",
+        "page_label": "26",
+        "page_index": 25,
+        "sort_index": "00025|000894|00649",
+        "position": {
+          "rects": [
+            [
+              72.525,
+              127.635,
+              536.355,
+              142.635
+            ]
+          ],
+          "pageIndex": 25
+        },
+        "text": "模的人口流动，越来越多的人离开故乡，到陌生的地方工作和生活。个",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "387JIX3X",
+        "attachment_key": "6LF72SCC",
+        "page_label": "26",
+        "page_index": 25,
+        "sort_index": "00025|000925|00667",
+        "position": {
+          "pageIndex": 25,
+          "rects": [
+            [
+              72.705,
+              109.635,
+              452.385,
+              124.635
+            ]
+          ]
+        },
+        "text": "人依然离不开社群，但总是可以离开任何一个特定的社群。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "E5QPPUW9",
+        "attachment_key": "6LF72SCC",
+        "page_label": "26",
+        "page_index": 25,
+        "sort_index": "00025|001017|00703",
+        "position": {
+          "rects": [
+            [
+              507.705,
+              73.635,
+              536.235,
+              88.635
+            ]
+          ],
+          "pageIndex": 25
+        },
+        "text": "人首",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "YYCXD93N",
+        "attachment_key": "6LF72SCC",
+        "page_label": "27",
+        "page_index": 26,
+        "sort_index": "00026|000000|00073",
+        "position": {
+          "pageIndex": 26,
+          "rects": [
+            [
+              72.885,
+              703.635,
+              521.295,
+              718.635
+            ]
+          ]
+        },
+        "text": "先是一个独立的个体，可以脱离任何一个群体，进入别的群体。这就",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "MFQYT2YM",
+        "attachment_key": "6LF72SCC",
+        "page_label": "27",
+        "page_index": 26,
+        "sort_index": "00026|000030|00091",
+        "position": {
+          "rects": [
+            [
+              72.825,
+              685.635,
+              210.697,
+              700.635
+            ]
+          ],
+          "pageIndex": 26
+        },
+        "text": "是“个人主义的转向”。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "RUSXDBNK",
+        "attachment_key": "6LF72SCC",
+        "page_label": "27",
+        "page_index": 26,
+        "sort_index": "00026|000041|00109",
+        "position": {
+          "pageIndex": 26,
+          "rects": [
+            [
+              102.645,
+              667.635,
+              536.295,
+              682.635
+            ]
+          ]
+        },
+        "text": "这种转向带来了传统社会难以想象的个人自由，生活变得多样而丰",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "3VH97X4P",
+        "attachment_key": "6LF72SCC",
+        "page_label": "27",
+        "page_index": 26,
+        "sort_index": "00026|000070|00127",
+        "position": {
+          "rects": [
+            [
+              73.17,
+              649.635,
+              536.355,
+              664.635
+            ]
+          ],
+          "pageIndex": 26
+        },
+        "text": "富，这是现代性的主要成就。但个人主义的自由也是有代价的，因为个",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "QAABRWYF",
+        "attachment_key": "6LF72SCC",
+        "page_label": "27",
+        "page_index": 26,
+        "sort_index": "00026|000101|00145",
+        "position": {
+          "pageIndex": 26,
+          "rects": [
+            [
+              72.705,
+              631.635,
+              536.415,
+              646.635
+            ]
+          ]
+        },
+        "text": "人失去了与一个特定群体的久远、厚重和牢固的纽带关系，这带来了孤",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "84ZP2FZV",
+        "attachment_key": "6LF72SCC",
+        "page_label": "27",
+        "page_index": 26,
+        "sort_index": "00026|000132|00163",
+        "position": {
+          "rects": [
+            [
+              72.585,
+              613.635,
+              407.385,
+              628.635
+            ]
+          ],
+          "pageIndex": 26
+        },
+        "text": "独感、漂泊感和乡愁。这也是现代性困境的一部分。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-10-complete.json",
+    "grouping_reason": "这些连续片段共同解释个人主义转向的社会条件、自由成就和情感代价；保留转折，避免把自由或孤独单独绝对化。",
+    "context_excerpts": [
+      {
+        "id": "CTX-010-1",
+        "page_index": 25,
+        "text": "古代人看自己的方式是群体性的，个人与群体是不可分割的整体。你可能常听人说，中国文明是集体主义的，西方文明是个人主义的，这是错误的俗见。古代的西方文明同样是群体优先的，个人首先是群体的一部分。",
+        "method": "pdf_text"
+      },
+      {
+        "id": "CTX-010-2",
+        "page_index": 25,
+        "text": "这个转向也是观念性的。个人当然永远生活在群体关系之中，人不可能脱离社会，变成与世隔绝的孤立个体。但是，古今之变的一个重要变化就是人口的流动，对个体的直接影响就是，你不是被绑定在Ḁ个特定的群体之中过完这一生的。在古代社会中，大部分人从出生到死亡，都生活在一个特定的社群之中。因此，你根本不能想象，离开这个社群你自己的生活会变成什么样，因为你的物质生活依赖这个群体的供给，你的精神生活也是亲朋好友邻居塑造的。在这种处境中，个人深深地嵌入在社群之中，“个人主义”的观念是匪夷所思的。",
+        "method": "pdf_text"
+      },
+      {
+        "id": "CTX-010-3",
+        "page_index": 25,
+        "text": "于是，你会发现，那种无法离开的所谓“血肉相连”的有机共同体是一个神话，只有你和你自己才是血肉相连的。个人的重要性和优先性就突显出来。",
+        "method": "pdf_text"
+      }
+    ],
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。"
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": null,
+    "primary_theme": null,
+    "secondary_themes": [],
+    "classification_reason": null,
+    "concept_candidates": [],
+    "argument_uses": [],
+    "related_prompts": [],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-10：以新增 Zotero 批注为基础整理；原始片段、颜色、位置与空白 comment 均保留在本卡。",
+    "已按附件、PDF 页索引与页内排序补读本地 PDF 上下文；原始摘录中的异常字不作静默改写。",
+    "本卡为 AI 整理草稿；尚未获得逐卡内容认可。",
+    "2026-09-10 质量复核后重整：回读相关源段，检查卡片边界、指代、概括依据和断句；不是读者逐卡认可，source_match 仍为 unchecked。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null
+}

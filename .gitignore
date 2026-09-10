@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+node_modules/
+dist/
+.essaylab-pwa-*/
+
+# Local working material; the public repository contains the maintained PWA data only.
+inbox/
+sources/
+tmp/
+试运行/

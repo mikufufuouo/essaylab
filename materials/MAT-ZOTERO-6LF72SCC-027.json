@@ -1,0 +1,248 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-027",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "title": "铁笼的第一弊端：功利计算难以解决道德问题",
+  "summary": "当社会文化让效率与利益计算占据主导，用惩罚等功利得失处理诚信问题虽有效，却可能把道德问题降为可规避的成本计算。",
+  "parent_capture_id": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "capture": {
+    "text_original": "铁笼有两个最大的弊端。首先是造就了一种片面的社会文化。\n\n现代的社会文化讲求事实、 重视计算、追求效率。\n\n它本身没有错,问题是这种逻辑太强大了,在几乎所有的问题中占据了主导地位。 但有些问题,在根本上是这种逻辑无法解决的。\n\n拿假冒伪劣现象举个例一这当然是一个与诚信道德有关的问题。但 我们发现,要处理它,最有效的方式是罚款\n\n但你有没有想过,这背后隐藏的逻辑是“用功利得失解决道德问 题”。这当然立竿见影,但本质上,它把道德问题变成了利益计算。按 照这个逻辑,只要能找到办法规避惩罚、ᨀ高收益,人还是会选择违背 道德。用利益计算解决道德问题,永远是治标不治本,有时能解决问 题,有时却会让问题更严重。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "46–47（PDF 第 47–48 页；含补充上下文，非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "B6GMCG3N",
+        "attachment_key": "6LF72SCC",
+        "page_label": "47",
+        "page_index": 46,
+        "sort_index": "00046|000608|00649",
+        "position": {
+          "pageIndex": 46,
+          "rects": [
+            [
+              102,
+              129.891,
+              507,
+              142.26
+            ]
+          ]
+        },
+        "text": "铁笼有两个最大的弊端。首先是造就了一种片面的社会文化。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "YXR4YQTA",
+        "attachment_key": "6LF72SCC",
+        "page_label": "47",
+        "page_index": 46,
+        "sort_index": "00046|000682|00685",
+        "position": {
+          "pageIndex": 46,
+          "rects": [
+            [
+              357,
+              93.891,
+              537,
+              106.26
+            ],
+            [
+              72,
+              75.891,
+              222,
+              88.26
+            ]
+          ]
+        },
+        "text": "现代的社会文化讲求事实、 重视计算、追求效率。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "QJJZUL8A",
+        "attachment_key": "6LF72SCC",
+        "page_label": "47",
+        "page_index": 46,
+        "sort_index": "00046|000720|00703",
+        "position": {
+          "pageIndex": 46,
+          "rects": [
+            [
+              462,
+              75.891,
+              537,
+              88.26
+            ]
+          ]
+        },
+        "text": "它本身没有",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "VG5G2529",
+        "attachment_key": "6LF72SCC",
+        "page_label": "48",
+        "page_index": 47,
+        "sort_index": "00047|000000|00075",
+        "position": {
+          "pageIndex": 47,
+          "rects": [
+            [
+              72,
+              703.875,
+              537,
+              716.244
+            ],
+            [
+              72,
+              685.641,
+              387,
+              698.01
+            ]
+          ]
+        },
+        "text": "错,问题是这种逻辑太强大了,在几乎所有的问题中占据了主导地位。 但有些问题,在根本上是这种逻辑无法解决的。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": true
+      },
+      {
+        "annotation_key": "K24IW777",
+        "attachment_key": "6LF72SCC",
+        "page_label": "48",
+        "page_index": 47,
+        "sort_index": "00047|000052|00111",
+        "position": {
+          "pageIndex": 47,
+          "rects": [
+            [
+              102,
+              667.641,
+              537,
+              680.01
+            ],
+            [
+              72,
+              648.505,
+              357,
+              662.01
+            ]
+          ]
+        },
+        "text": "拿假冒伪劣现象举个例一这当然是一个与诚信道德有关的问题。但 我们发现,要处理它,最有效的方式是罚款",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "7Y8WH7CV",
+        "attachment_key": "6LF72SCC",
+        "page_label": "48",
+        "page_index": 47,
+        "sort_index": "00047|000219|00219",
+        "position": {
+          "pageIndex": 47,
+          "rects": [
+            [
+              102,
+              594.505,
+              513.656,
+              608.01
+            ],
+            [
+              72,
+              576.505,
+              528.656,
+              590.01
+            ],
+            [
+              72,
+              559.641,
+              537,
+              572.01
+            ],
+            [
+              72,
+              541.641,
+              522,
+              554.01
+            ],
+            [
+              72,
+              523.641,
+              267,
+              536.01
+            ]
+          ]
+        },
+        "text": "但你有没有想过,这背后隐藏的逻辑是“用功利得失解决道德问 题”。这当然立竿见影,但本质上,它把道德问题变成了利益计算。按 照这个逻辑,只要能找到办法规避惩罚、ᨀ高收益,人还是会选择违背 道德。用利益计算解决道德问题,永远是治标不治本,有时能解决问 题,有时却会让问题更严重。",
+        "comment": "",
+        "color": "#ffd400",
+        "join_previous": false
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-10-complete.json",
+    "grouping_reason": "本组从片面社会文化过渡到假冒伪劣例子，说明工具逻辑的边界；QJJZUL8A 与 VG5G2529 跨页连续，已据 PDF 正文连接。",
+    "context_excerpts": [
+      {
+        "id": "CTX-027-DEFINITION",
+        "page_index": 46,
+        "text": "当然，不光是公司内部，现代社会也好似一条流水线，社会中的每一个部门，从政府到企业到学校，都是这个自我循环的流水线上的一环。社会呈现出机器的属性，人则被“非人化”，被看作是机器的零件。这种倾向成为现代社会制度的基本特征，韦伯形象地把这个特征概括为“铁笼”。",
+        "method": "pdf_text"
+      },
+      {
+        "id": "CTX-027-1",
+        "page_index": 47,
+        "text": "——当然，是广义上的罚款。总之就是要让假冒伪劣者付出巨大的代价，让假冒伪劣这件事在经济上变得不划算。这很实际，也很有效。",
+        "method": "pdf_text"
+      }
+    ],
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。"
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": null,
+    "primary_theme": null,
+    "secondary_themes": [],
+    "classification_reason": null,
+    "concept_candidates": [],
+    "argument_uses": [],
+    "related_prompts": [],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-10：以新增 Zotero 批注为基础整理；原始片段、颜色、位置与空白 comment 均保留在本卡。",
+    "已按附件、PDF 页索引与页内排序补读本地 PDF 上下文；原始摘录中的异常字不作静默改写。",
+    "本卡为 AI 整理草稿；尚未获得逐卡内容认可。",
+    "2026-09-10 质量复核后重整：回读相关源段，检查卡片边界、指代、概括依据和断句；不是读者逐卡认可，source_match 仍为 unchecked。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null
+}

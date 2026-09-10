@@ -1,0 +1,164 @@
+{
+  "id": "MAT-ZOTERO-6LF72SCC-026",
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "title": "现代铁笼：社会机器与人的零件化",
+  "summary": "文本把理性化社会比作铁笼：官僚制的非个人化提高组织效率，也使社会呈现机器属性并把人看作零件。",
+  "parent_capture_id": null,
+  "source_match": {
+    "status": "unchecked",
+    "basis": null,
+    "checked_by": null,
+    "checked_at": null
+  },
+  "capture": {
+    "text_original": "理性化把现代铸造成了 一个“铁笼”。\n\n当然,不光是公司内部,现代社会也好似一条流水线,社会中的每 一个部门,从政府到企业到学校,都是这个自我循环的流水线上的一 环。社会呈现出机器的属性,人则被“非人化”,被看作是机器的零件。 这种倾向成为现代社会制度的基本特征,韦伯形象地把这个特征概括 为“铁笼”。",
+    "context_before": null,
+    "context_after": null,
+    "extraction_method": "native_export",
+    "source": {
+      "title": "刘擎西方现代思想讲义",
+      "author": "刘擎",
+      "edition": null,
+      "url": "zotero://select/library/items/6LF72SCC",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "locator": {
+        "kind": "pdf_page_index",
+        "value": "46–46（PDF 第 47–47 页；含补充上下文，非印刷页码）"
+      }
+    },
+    "highlight": {
+      "color_raw": null,
+      "color_normalized": "unknown",
+      "capture_type": "unknown"
+    },
+    "segments": [
+      {
+        "annotation_key": "QJB2GLF7",
+        "attachment_key": "6LF72SCC",
+        "page_label": "47",
+        "page_index": 46,
+        "sort_index": "00046|000107|00228",
+        "position": {
+          "pageIndex": 46,
+          "rects": [
+            [
+              387,
+              551.391,
+              537,
+              563.76
+            ],
+            [
+              72,
+              532.255,
+              160.313,
+              545.76
+            ]
+          ]
+        },
+        "text": "理性化把现代铸造成了 一个“铁笼”。",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "KIKUQ3PK",
+        "attachment_key": "6LF72SCC",
+        "page_label": "47",
+        "page_index": 46,
+        "sort_index": "00046|000472|00498",
+        "position": {
+          "pageIndex": 46,
+          "rects": [
+            [
+              102,
+              281.391,
+              537,
+              293.76
+            ],
+            [
+              72,
+              263.391,
+              522,
+              275.76
+            ],
+            [
+              72,
+              244.255,
+              535.313,
+              257.76
+            ],
+            [
+              72,
+              227.391,
+              177,
+              239.76
+            ]
+          ]
+        },
+        "text": "当然,不光是公司内部,现代社会也好似一条流水线,社会中的每 一个部门,从政府到企业到学校,都是这个自我循环的流水线上的一 环。社会呈现出机器的属性,人则被“非人化”,被看作是机器的零件。 这种倾向成为现",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": false
+      },
+      {
+        "annotation_key": "UCKRJ88E",
+        "attachment_key": "6LF72SCC",
+        "page_label": "47",
+        "page_index": 46,
+        "sort_index": "00046|000569|00552",
+        "position": {
+          "pageIndex": 46,
+          "rects": [
+            [
+              177,
+              227.391,
+              522,
+              239.76
+            ],
+            [
+              72,
+              208.255,
+              145.313,
+              221.76
+            ]
+          ]
+        },
+        "text": "代社会制度的基本特征,韦伯形象地把这个特征概括 为“铁笼”。",
+        "comment": "",
+        "color": "#5fb236",
+        "join_previous": true
+      }
+    ],
+    "raw_snapshot": "inbox/zotero/6LF72SCC-2026-09-10-complete.json",
+    "grouping_reason": "三段从铁笼判断、社会流水线到概念概括连续推进；章节号另记为导航。 补充正文保留本组的例子、机制或限定，使概括能够在卡内回查。",
+    "context_excerpts": [
+      {
+        "id": "CTX-026-1",
+        "page_index": 46,
+        "text": "“现代的铁笼”的由来和上一节ᨀ到的官僚制密不可分。我们ᨀ到过，官僚制并不只是政府的行政制度，它出现在每一个有管理需求的地方，如公司、社团、学校，等等。比如说，一家奉行官僚制的公司遵循的工具理性的逻辑，采取的“非个人化”原则，会把个人的复杂情况简化成一些指标——要评价一个雇员，就只看他的业绩，业绩还可以进一步数据化，变成KPI。和工作无关的个人因素就忽略不计。经过这种简化和抽象，系统就能够通过计算高效处理事务。只是，官僚制并不只有优越的一面。你应该可以想见：“非个人化”在赋予一家公司强大的执行力和效率的同时，也让组织内部变得机械坚硬、冷酷无情，宛若机器。很多采取流水线运作的公司，就是官僚制下组织最典型的缩影。",
+        "method": "pdf_text"
+      }
+    ],
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。"
+  },
+  "reader_note": null,
+  "analysis": {
+    "paraphrase": null,
+    "primary_theme": null,
+    "secondary_themes": [],
+    "classification_reason": null,
+    "concept_candidates": [],
+    "argument_uses": [],
+    "related_prompts": [],
+    "open_questions": []
+  },
+  "review_notes": [
+    "2026-09-10：以新增 Zotero 批注为基础整理；原始片段、颜色、位置与空白 comment 均保留在本卡。",
+    "已按附件、PDF 页索引与页内排序补读本地 PDF 上下文；原始摘录中的异常字不作静默改写。",
+    "本卡为 AI 整理草稿；尚未获得逐卡内容认可。",
+    "2026-09-10 质量复核后重整：回读相关源段，检查卡片边界、指代、概括依据和断句；不是读者逐卡认可，source_match 仍为 unchecked。"
+  ],
+  "reviewed_by": null,
+  "reviewed_at": null
+}
