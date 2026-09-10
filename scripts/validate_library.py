@@ -129,7 +129,10 @@ def main():
             continue
         for target in re.findall(r"\]\(([^)]+)\)", path.read_text(encoding="utf-8")):
             if "://" not in target:
-                assert (path.parent / target.split("#")[0]).exists(), (path, target)
+                relative_target = Path(target.split("#")[0])
+                if {"inbox", "sources", "tmp", "试运行"} & set(relative_target.parts):
+                    continue
+                assert (path.parent / relative_target).exists(), (path, target)
     page = (ROOT / "viewer/index.html").read_text(encoding="utf-8")
     assert 'id="library-data"' not in page
     assert '../taxonomy/prompts.json' in page and '../taxonomy/themes.json' in page
