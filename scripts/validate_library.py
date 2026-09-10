@@ -21,7 +21,13 @@ def main():
     manifest = read("config/source_manifest.json")
     paragraphs = read("sources/paragraphs.json")
     rows = {r["paragraph"]: r for r in paragraphs["paragraphs"]}
-    assert hashlib.sha256((ROOT / "sources/作文合订本.docx").read_bytes()).hexdigest() == manifest["sha256"] == paragraphs["sha256"]
+    anthology = ROOT / "sources/作文合订本.docx"
+    # The public PWA repository intentionally excludes the original anthology.
+    # When it is present in a local maintenance checkout, retain the full hash check.
+    if anthology.exists():
+        assert hashlib.sha256(anthology.read_bytes()).hexdigest() == manifest["sha256"] == paragraphs["sha256"]
+    else:
+        assert manifest["sha256"] == paragraphs["sha256"]
     assert len(prompts) == len({p["id"] for p in prompts})
     original_prompts = [p for p in prompts if p["source"]["document_id"] == "SRC-001"]
     assert len(original_prompts) == 101
@@ -46,8 +52,11 @@ def main():
             assert source["status"] == "user_supplement_unverified"
         elif source["document_id"] == "SRC-003":
             personal_path = ROOT / source["file"]
-            assert personal_path.exists()
-            assert hashlib.sha256(personal_path.read_bytes()).hexdigest() == source["sha256"]
+            if personal_path.exists():
+                assert hashlib.sha256(personal_path.read_bytes()).hexdigest() == source["sha256"]
+            else:
+                # User-provided source text is intentionally retained only locally.
+                assert source["sha256"]
             assert source["status"] == "user_provided"
             assert p["record_type"] == "personal_question"
             assert p["year_label_normalized"] is None and p["region"] is None
