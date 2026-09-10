@@ -55,7 +55,7 @@ const server=http.createServer((req,res)=>{
   const cdp=await context.newCDPSession(page);assert.deepEqual((await cdp.send('Page.getAppManifest')).errors,[]);
   await page.evaluate(()=>{window.readingSentinel='untouched';return caches.open('unrelated-app-cache');});
   await context.setOffline(true);
-  const offline=await context.newPage();await offline.goto(base+'?from=homescreen');await ready(offline);
+  const offline=await context.newPage();await offline.goto(base+'?from=homescreen');await ready(offline);await offline.waitForSelector('.group-card');
   assert.equal(await offline.locator('.group-card').count(),6);
   for(const img of await offline.locator('.group-art').all())await img.scrollIntoViewIfNeeded();
   await offline.waitForFunction(()=>[...document.querySelectorAll('.group-art')].every(i=>i.complete&&i.naturalWidth===1200));
