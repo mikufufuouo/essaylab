@@ -6,4 +6,4 @@
 
 `groups.json` 保存素材群的标题、概括与有序成员 ID，不复制正文。完整概念作为一级入口，二级展示其各部分；独立素材直接打开。当前共 6 个群、10 条独立阅读素材，群内共 18 个部分。
 
-`index.json` 是生成的文件名与素材群索引。新增素材或修改群后运行 `scripts/materials.py render` 更新索引与 Markdown；页面刷新后读取各张素材原文件。详情见 [Zotero批注整理](../Zotero批注整理.md)。
+`index.json` 是生成的文件名与素材群索引。新增素材或修改群后运行 `scripts/materials.py render` 更新索引与 Markdown；页面刷新后读取各张素材原文件。详情见 Zotero批注整理（本地文件 `../Zotero批注整理.md`）。

@@ -2,6 +2,7 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),http=require('node:http');
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..'),dist=path.join(root,'dist');
+const expectedGroupCount=JSON.parse(fs.readFileSync(path.join(root,'materials','groups.json'),'utf8')).material_groups.length;
 const original=JSON.parse(fs.readFileSync(path.join(dist,'release.json')));
 const workerTemplate=fs.readFileSync(path.join(root,'pwa/sw-template.js'),'utf8');
 const sha=bytes=>crypto.createHash('sha256').update(bytes).digest('hex');
@@ -47,7 +48,7 @@ const server=http.createServer((req,res)=>{
   });}
   const announce=p=>p.evaluate(()=>navigator.serviceWorker.controller.postMessage({type:'CLIENT_RELEASE',release:document.querySelector('meta[name="essaylab-release"]').content}));
   await page.goto(base);await ready(page);await page.waitForSelector('.group-card');
-  assert.equal(await page.locator('.group-card').count(),6);assert.equal(await active(page),versions.A.id);
+  assert.equal(await page.locator('.group-card').count(),expectedGroupCount);assert.equal(await active(page),versions.A.id);
   const cached=await page.evaluate(async()=>{const name=(await caches.keys()).find(name=>name.includes(':release:'));return(await(await caches.open(name)).keys()).map(r=>r.url);});
   for(const file of versions.A.inventory)assert.ok(cached.includes(new URL(file.url,base).href),file.url+' precached');
   const manifest=await(await fetch(base+'manifest.webmanifest')).json();
@@ -56,14 +57,14 @@ const server=http.createServer((req,res)=>{
   await page.evaluate(()=>{window.readingSentinel='untouched';return caches.open('unrelated-app-cache');});
   await context.setOffline(true);
   const offline=await context.newPage();await offline.goto(base+'?from=homescreen');await ready(offline);await offline.waitForSelector('.group-card');
-  assert.equal(await offline.locator('.group-card').count(),6);
+  assert.equal(await offline.locator('.group-card').count(),expectedGroupCount);
   for(const img of await offline.locator('.group-art').all())await img.scrollIntoViewIfNeeded();
   await offline.waitForFunction(()=>[...document.querySelectorAll('.group-art')].every(i=>i.complete&&i.naturalWidth===1200));
   await offline.getByRole('button',{name:'现代的铁笼',exact:true}).click();assert.equal(await offline.locator('.directory-row').count(),4);
   await offline.locator('.directory-row .entry-title').first().click();await offline.locator('#material-detail').waitFor({state:'visible'});
   assert.ok((await offline.locator('#material-detail').innerText()).length>100);
   await offline.close();await context.setOffline(false);
-  console.log('PASS full precache, manifest, offline cold launch, six images and reading');
+  console.log('PASS full precache, manifest, offline cold launch, group images and reading');
 
   current=versions.B;await page.getByRole('button',{name:'现代的铁笼',exact:true}).click();
   await update(page);await until(async()=>await active(page)===versions.B.id,'B activates');
@@ -95,11 +96,11 @@ const server=http.createServer((req,res)=>{
   await context.setOffline(true);
   const stop=await context.newCDPSession(next);await stop.send('ServiceWorker.enable');await stop.send('ServiceWorker.stopAllWorkers');
   const fresh=await context.newPage();await fresh.goto(base+'unknown/deep/link');await ready(fresh);
-  assert.equal(new URL(fresh.url()).pathname,'/lab/');assert.equal(await fresh.locator('html').getAttribute('data-build'),'E');assert.equal(await fresh.locator('.group-card').count(),6);
+  assert.equal(new URL(fresh.url()).pathname,'/lab/');assert.equal(await fresh.locator('html').getAttribute('data-build'),'E');assert.equal(await fresh.locator('.group-card').count(),expectedGroupCount);
   assert.equal(await fresh.evaluate(async()=>(await fetch('./releases/missing/data.json')).status),503);
   await fresh.evaluate(async()=>{const n=(await caches.keys()).find(n=>n.endsWith(document.querySelector('meta[name="essaylab-release"]').content));await(await caches.open(n)).delete(new URL('index.html',location.href));});
   await fresh.reload();assert.ok((await fresh.locator('body').innerText()).includes('本地资料暂未准备完整'));
-  await context.setOffline(false);await fresh.reload();await ready(fresh);assert.equal(await fresh.locator('.group-card').count(),6);
+  await context.setOffline(false);await fresh.reload();await ready(fresh);assert.equal(await fresh.locator('.group-card').count(),expectedGroupCount);
   await next.close();assert.deepEqual(errors,[]);await context.close();
   console.log('PASS worker restart, deep-link/subpath fallback, non-HTML failures and cache repair');
 

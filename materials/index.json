@@ -31,6 +31,17 @@
     "MAT-ZOTERO-6LF72SCC-029.json",
     "MAT-ZOTERO-6LF72SCC-030.json",
     "MAT-ZOTERO-6LF72SCC-031.json",
+    "MAT-ZOTERO-6LF72SCC-032.json",
+    "MAT-ZOTERO-6LF72SCC-033.json",
+    "MAT-ZOTERO-6LF72SCC-034.json",
+    "MAT-ZOTERO-6LF72SCC-035.json",
+    "MAT-ZOTERO-6LF72SCC-036.json",
+    "MAT-ZOTERO-6LF72SCC-037.json",
+    "MAT-ZOTERO-6LF72SCC-038.json",
+    "MAT-ZOTERO-6LF72SCC-039.json",
+    "MAT-ZOTERO-6LF72SCC-040.json",
+    "MAT-ZOTERO-6LF72SCC-041.json",
+    "MAT-ZOTERO-6LF72SCC-042.json",
     "MAT-b415b1ad810e90be.json"
   ],
   "material_groups": [
@@ -92,6 +103,45 @@
       "material_ids": [
         "MAT-ZOTERO-6LF72SCC-013",
         "MAT-ZOTERO-6LF72SCC-030"
+      ]
+    },
+    {
+      "id": "GRP-faith",
+      "title": "信仰的终极关怀",
+      "summary": "从人为什么需要终极信念，到为什么“信”与“真”的关系会在现代成为难题。",
+      "material_ids": [
+        "MAT-ZOTERO-6LF72SCC-032",
+        "MAT-ZOTERO-6LF72SCC-033"
+      ]
+    },
+    {
+      "id": "GRP-nietzsche-nihilism",
+      "title": "尼采：虚无与自我创造",
+      "summary": "从“上帝死了”和形而上学批判出发，理解尼采如何以超人和积极虚无主义回应意义危机，也看到其价值标准难题。",
+      "material_ids": [
+        "MAT-ZOTERO-6LF72SCC-034",
+        "MAT-ZOTERO-6LF72SCC-035",
+        "MAT-ZOTERO-6LF72SCC-036",
+        "MAT-ZOTERO-6LF72SCC-037",
+        "MAT-ZOTERO-6LF72SCC-038"
+      ]
+    },
+    {
+      "id": "GRP-nietzsche-perspectivism",
+      "title": "尼采的视角主义",
+      "summary": "先理解视角如何构成事实与客观性，再讨论后真相的分裂风险，以及开放和谦逊的可能。",
+      "material_ids": [
+        "MAT-ZOTERO-6LF72SCC-039",
+        "MAT-ZOTERO-6LF72SCC-040"
+      ]
+    },
+    {
+      "id": "GRP-freud",
+      "title": "弗洛伊德：无意识与欲望",
+      "summary": "从无意识和人格结构理解理性的边界，再看精神分析如何改变现代文化中对欲望和人性的理解。",
+      "material_ids": [
+        "MAT-ZOTERO-6LF72SCC-041",
+        "MAT-ZOTERO-6LF72SCC-042"
       ]
     }
   ]
