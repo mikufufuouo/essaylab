@@ -14,3 +14,12 @@ sources/*
 !sources/paragraphs.json
 tmp/
 试运行/
+
+# Local maintenance instructions and the disposable single-file export.
+Codex整理指令.md
+PDF批注导入.md
+Zotero批注整理.md
+日常整理SOP.md
+素材数据规范.md
+工作流.md
+EssayLab-最新版.html

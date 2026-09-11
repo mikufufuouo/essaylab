@@ -315,6 +315,75 @@
               }
             }
           }
+        },
+        "reading": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "text",
+            "highlight_ranges",
+            "method",
+            "file_sha256",
+            "page_start",
+            "page_end"
+          ],
+          "properties": {
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "method": {
+              "const": "pdf_rects"
+            },
+            "file_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "page_start": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "page_end": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "highlight_ranges": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "start",
+                  "end",
+                  "annotation_keys",
+                  "color"
+                ],
+                "properties": {
+                  "start": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "end": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "annotation_keys": {
+                    "type": "array",
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "color": {
+                    "type": "string",
+                    "pattern": "^#[a-fA-F0-9]{6}$"
+                  }
+                }
+              }
+            }
+          }
         }
       },
       "dependentRequired": {

@@ -402,7 +402,144 @@
         "method": "pdf_text"
       }
     ],
-    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。 “宇宙秩序”后原书还有未高亮的（cosmos），因此此处保留摘录间隔；补充正文显示原词及完整标点。"
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。 “宇宙秩序”后原书还有未高亮的（cosmos），因此此处保留摘录间隔；补充正文显示原词及完整标点。",
+    "reading": {
+      "text": "第一个命题，也是韦伯被人引用最多的一个术语，叫作“世界的祛魅”，也有人翻译成“除魅”（disenchantment）。\n\n这个词字面的意思就是“世界被祛除了魅惑性、神秘性”，人对自然世界的认识发生了改变。换句话说，以前人对自然的认识中有一种神秘性，后来被去除了。\n\n魅惑的古代世界\n\n这种神秘性原初是怎么形成的呢？其实很好理解。你想想那些生活在前现代社会的古人，就会发现，无论是在哪个文明中，古人都相信有各种神仙、鬼怪、精灵。不只是人有灵魂，动物也有灵性，石头草木也有灵，万物都有灵。古希腊的那些神灵你肯定听说过。中国也有各种神仙，在道教里面，最高规格的普天大醮仪式中，会恭请3600位神仙。日本的神道教说有800万神灵。印度教中说有3300万神灵。其实这些也不是确切的数量，它所传达的是世界一切现象的背后都有神灵。\n\n你可能会说，这不就是迷信吗？对，但是说到底，为什么会这样呢？一个到处都是神灵的世界对那个时代的人到底意味着什么呢？\n\n意义非常重大。它意味着人和世界之间是可以建立起某种联系的，甚至是可以沟通和互动的。漫天神灵，就意味着到处是人类问题的解决方案。渔船出海，祭奠一下妈祖；打仗出征，到神庙去占卜一下；生不出孩子，去求送子观音。虽然未必有用，但至少有路可走，心里是安稳的。\n\n这些冥冥之中难以言说的神秘事物，组成了古代精神极为重要的一部分，让人类与整个宇宙紧密相连为一个整体，构成宇宙秩序（cosmos）。古代人从这种整体秩序中确立了生存的意义，获得所谓“安身立命”的根据。在这个意义上，古代的人类是“嵌入”在整体宇宙\n\n \n\n之中的。",
+      "highlight_ranges": [
+        {
+          "start": 0,
+          "end": 29,
+          "annotation_keys": [
+            "82ZERLJB"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 29,
+          "end": 57,
+          "annotation_keys": [
+            "HGMFBPTP"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 61,
+          "end": 91,
+          "annotation_keys": [
+            "D9VY88A8"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 91,
+          "end": 122,
+          "annotation_keys": [
+            "427ZHKBF"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 122,
+          "end": 130,
+          "annotation_keys": [
+            "7Z556ULI"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 390,
+          "end": 416,
+          "annotation_keys": [
+            "RWHLXY9E"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 419,
+          "end": 447,
+          "annotation_keys": [
+            "HMNERU4R"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 448,
+          "end": 479,
+          "annotation_keys": [
+            "XDCRWWZD"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 479,
+          "end": 510,
+          "annotation_keys": [
+            "RM9PPZL5"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 510,
+          "end": 541,
+          "annotation_keys": [
+            "WHUV7E6H"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 541,
+          "end": 542,
+          "annotation_keys": [
+            "QETABX89"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 545,
+          "end": 574,
+          "annotation_keys": [
+            "3JCP8EFZ"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 574,
+          "end": 601,
+          "annotation_keys": [
+            "HS9L5TYY"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 609,
+          "end": 633,
+          "annotation_keys": [
+            "W4FUJTGK"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 633,
+          "end": 666,
+          "annotation_keys": [
+            "6NPCSXYY"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 671,
+          "end": 674,
+          "annotation_keys": [
+            "I4G3A3GG"
+          ],
+          "color": "#ffd400"
+        }
+      ],
+      "method": "pdf_rects",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "page_start": 32,
+      "page_end": 33
+    }
   },
   "reader_note": null,
   "analysis": {

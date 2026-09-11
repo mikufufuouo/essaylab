@@ -134,7 +134,40 @@
         "method": "pdf_text"
       }
     ],
-    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。"
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。",
+    "reading": {
+      "text": "没有这么简单。韦伯清醒地看到，铁笼一方面囚禁了人的灵性，但另一方面也保护了我们。\n\n \n\n没有这个铁笼，就没有现代优越的物质条件，以及建立在物质基础上的文明。铁笼虽然冷酷无情，但它让整个社会高效地运转，创造出巨量的工作机会，ᨀ供空前丰富的物质和文化产品，在大范围内解决了那些困扰人类数千年的问题：贫困、匮乏、奴役、疾病，等等。",
+      "highlight_ranges": [
+        {
+          "start": 15,
+          "end": 29,
+          "annotation_keys": [
+            "7LBVFEHU"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 29,
+          "end": 40,
+          "annotation_keys": [
+            "7KA9S7HS"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 45,
+          "end": 163,
+          "annotation_keys": [
+            "9P88YJYC"
+          ],
+          "color": "#ffd400"
+        }
+      ],
+      "method": "pdf_rects",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "page_start": 47,
+      "page_end": 48
+    }
   },
   "reader_note": null,
   "analysis": {

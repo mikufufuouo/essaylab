@@ -132,7 +132,48 @@
         "method": "pdf_text"
       }
     ],
-    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。"
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。",
+    "reading": {
+      "text": "韦伯认为，这是生命意义的问题，超出了科学的边界。科学永远无法回答：我们做出什么样的选择才是“值得”的，我们过什么样的生活才是“有意义”的，我们生命的“目的”究竟是什么。科学也许可以给出最优的“方案”，但永远无法教给我们一个最优的“选择”。",
+      "highlight_ranges": [
+        {
+          "start": 0,
+          "end": 29,
+          "annotation_keys": [
+            "DY8TAVM8"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 29,
+          "end": 61,
+          "annotation_keys": [
+            "RBELMBEU"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 61,
+          "end": 94,
+          "annotation_keys": [
+            "TS66B2P5"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 94,
+          "end": 118,
+          "annotation_keys": [
+            "KDW98TKU"
+          ],
+          "color": "#ffd400"
+        }
+      ],
+      "method": "pdf_rects",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "page_start": 30,
+      "page_end": 30
+    }
   },
   "reader_note": null,
   "analysis": {

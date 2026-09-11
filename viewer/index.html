@@ -50,6 +50,19 @@ main{padding-top:44px}h2{font-size:32px;font-weight:600;line-height:1.45}.page-h
 @media(max-width:600px){.collection-section[aria-label="素材群"]>.collection-grid{gap:20px}.group-cover{padding:24px;min-height:0;background:#f1eee5}.has-art .group-art{height:100%;object-fit:fill}.group-copy{min-height:270px}.has-art .group-copy{width:59%}.group-card h3{font-size:22px;line-height:1.5;margin-bottom:14px}.group-card .sub{font-size:15px;line-height:1.8;margin-bottom:20px}.group-card .book-label{font-size:13px}.group-search{padding-left:20px;padding-right:20px}}
 @media(max-width:380px){.group-cover{padding:20px}.has-art .group-copy{width:60%}.group-card h3{font-size:21px}.group-card .sub{font-size:14px}}
 @media(forced-colors:active){.group-art{display:none}.has-art .group-copy{width:auto}.group-cover{border:1px solid CanvasText;background:Canvas}.group-card .sub,.group-card .book-label{color:CanvasText}}
+
+/* One paper passage; only the unmarked words fold away. */
+.source-paper{overflow-anchor:none}.source-paper .original{line-height:2.1}
+.source-paper mark{color:inherit;background:var(--highlight,#eee4ae);padding:.08em 0;box-decoration-break:clone;-webkit-box-decoration-break:clone;border-radius:2px}
+.source-paper .source-gap{color:var(--ink)}
+.source-paper:not(.is-expanded) .gap-words{display:none}
+.source-paper:not(.is-expanded) .source-gap::after{content:' ··· ';color:#9a9d90;font:14px/2.2 -apple-system,sans-serif;letter-spacing:.15em}
+.source-paper:not(.is-expanded) .source-gap.paragraph-gap{display:block;margin:5px 0}
+.source-paper.is-expanded .gap-words{animation:paper-reveal .25s ease-out}
+.source-toggle{display:block;margin-top:16px;color:var(--meta);font-size:14px}
+.source-toggle-top{margin:0 0 16px}.source-paper h3{display:flex;align-items:baseline;justify-content:space-between;gap:16px}
+@keyframes paper-reveal{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.source-paper.is-expanded .gap-words{animation:none}}
 </style>
 </head>
 <body>
@@ -112,7 +125,7 @@ main{padding-top:44px}h2{font-size:32px;font-weight:600;line-height:1.45}.page-h
  <details class="more-section"><summary>主题索引</summary><div id="theme-grid" class="grid"></div></details>
  <details class="more-section"><summary>怎样继续积累</summary><div class="reading">
   <p>在 Zotero 里照常高亮，留下想法时写一条备注。同步后告诉 AI 整理这次批注即可。</p>
-  <p>一个完整概念以素材群呈现，点进去回读各个部分；相关片段放在同一张素材卡里，重复划线去重，必要上下文另列。颜色按你的习惯保留，不要求分类或重新标注。</p>
+  <p>一个完整概念以素材群呈现，点进去回读各个部分；相关片段放在同一张素材卡里，重复划线去重，展开即可在原文中回读高光。颜色按你的习惯保留，不要求分类或重新标注。</p>
   <p>日常只需回看摘录、概括与出处。已有的论证解读可以展开，但不用为每张卡填写主题、论证用途或关联题目。</p>
   <p>真正写某道题时，再请 AI 从库里找材料，并检查为什么适用、哪里不适用。查不到合适材料也是正常结果。</p>
  </div></details>
@@ -225,7 +238,7 @@ function mount(DATA){
  function renderMaterials(){
   const q=$('material-search').value.trim().toLocaleLowerCase(),book=$('book-filter').value;
   const eligible=allMaterials.filter(m=>(m.collection_role!=='technical_test'||$('show-tests').checked)&&(!book||(m.capture.source.title||'来源待补')===book));
-  const matches=m=>q.split(/\s+/).every(term=>[titleOf(m),summaryOf(m),m.capture.text_original,m.capture.source.title,m.capture.source.author,m.reader_note,...(m.capture.segments||[]).map(s=>s.comment),...(m.capture.context_excerpts||[]).map(c=>c.text)].join(' ').toLocaleLowerCase().includes(term));
+  const matches=m=>q.split(/\s+/).every(term=>[titleOf(m),summaryOf(m),m.capture.text_original,m.capture.reading?.text,m.capture.source.title,m.capture.source.author,m.reader_note,...(m.capture.segments||[]).map(s=>s.comment),...(m.capture.context_excerpts||[]).map(c=>c.text)].join(' ').toLocaleLowerCase().includes(term));
   const single=eligible.filter(m=>!memberGroup.has(m.id)&&matches(m));
   const foundGroups=groups.filter(g=>g.material_ids.some(id=>eligible.some(m=>m.id===id))&&(q.split(/\s+/).every(term=>(g.title+' '+g.summary).toLocaleLowerCase().includes(term))||g.material_ids.some(id=>eligible.some(m=>m.id===id&&matches(m)))));
   $('material-count').textContent=`${q||book?'找到 ':''}${foundGroups.length} 个素材群 · ${single.length} 条独立素材`;
@@ -233,7 +246,7 @@ function mount(DATA){
   $('toggle-material-filters').textContent=book?'筛选 · 1':'筛选';
   $('test-visibility-note').hidden=!$('show-tests').checked;
   const context=m=>{
-   const texts=[m.capture.text_original,...(m.capture.context_excerpts||[]).map(c=>c.text),m.reader_note,...(m.capture.segments||[]).map(s=>s.comment),summaryOf(m)].filter(Boolean);
+   const texts=[m.capture.text_original,m.capture.reading?.text,...(m.capture.context_excerpts||[]).map(c=>c.text),m.reader_note,...(m.capture.segments||[]).map(s=>s.comment),summaryOf(m)].filter(Boolean);
    const terms=q.split(/\s+/).filter(Boolean);
    const text=texts.find(t=>terms.some(term=>t.toLocaleLowerCase().includes(term)));
    if(!text)return '';
@@ -249,6 +262,22 @@ function mount(DATA){
   $('material-list').innerHTML=section('素材群',groupCards)+section('独立素材',single.map(m=>card(m)).join(''))||'<div class="empty">没有找到素材。可以减少关键词或选择全部来源。</div>';
 
  }
+ function sourceReading(c,zotero){
+  const reading=c.reading;
+  if(!reading)return `<section class="reader-section"><h3>摘录 ${zotero}</h3><div class="original">${esc(compact(c.text_original))}</div>${c.segments?'<p class="mini">原文尚未还原，可在 Zotero 中回读。</p>':''}</section>`;
+  // Stored offsets count Unicode code points, including characters outside the BMP.
+  const chars=Array.from(reading.text),parts=[];
+  const colors={'#ffd400':'#eee4ae','#2ea8e5':'#d8e6e9','#5fb236':'#dfe7ce','#ff6666':'#efdad2','#a28ae5':'#e4ddec','#e56eee':'#eddaea','#f19837':'#efdfc7'};
+  let cursor=0,hasContext=false;
+  const gap=(start,end)=>{if(end<=start)return;const text=chars.slice(start,end).join('');if(!text.trim()){parts.push(esc(text));return;}hasContext=true;parts.push(`<span class="source-gap${text.includes('\n')?' paragraph-gap':''}"><span class="gap-words" hidden>${esc(text)}</span></span>`);};
+  for(const range of reading.highlight_ranges){
+   gap(cursor,range.start);
+   parts.push(`<mark style="--highlight:${colors[range.color.toLowerCase()]||'#e5e5d8'}">${esc(chars.slice(range.start,range.end).join(''))}</mark>`);
+   cursor=range.end;
+  }
+  gap(cursor,chars.length);
+  return `<section class="reader-section source-paper"><h3>原文中的高光 ${zotero}</h3>${hasContext?'<button class="quiet-button source-toggle source-toggle-top" aria-expanded="false" aria-controls="source-passage">展开原文</button>':''}<div id="source-passage" class="original">${parts.join('')}</div>${hasContext?'<button class="quiet-button source-toggle" aria-expanded="false" aria-controls="source-passage">展开原文</button>':''}</section>`;
+ }
  function showMaterial(id){
   const m=materialById.get(id);if(!m)return;
   listScroll=window.scrollY;lastMaterialId=id;
@@ -259,10 +288,8 @@ function mount(DATA){
   let out=`<button class="back" id="back-materials">← ${activeGroup?esc(groupById.get(activeGroup).title):'返回素材库'}</button><p class="source-line">${esc(source.author||'作者待补')} ｜ ${esc(source.title||'来源待补')} ｜ ${esc(pageLabel(m))}</p><h2 id="reader-title" tabindex="-1">${esc(titleOf(m))}</h2>`;
   if(!activeGroup&&memberGroup.has(id)){const g=groupById.get(memberGroup.get(id));out+=`<p class="group-reference"><button class="quiet-button" data-group="${esc(g.id)}">所属素材群：${esc(g.title)} →</button></p>`;}
   if(summaryOf(m))out+=`<p class="lede"><span class="mini">一句话概括 · AI 整理</span><br>${esc(summaryOf(m))}</p>`;
-  out+=`<section class="reader-section"><h3>摘录 ${zotero}</h3><div class="original">${esc(compact(c.text_original))}</div>${c.segments?'<p class="mini">重复划线已合并；段间可能有未划出的文字。</p>':''}</section>`;
+  out+=sourceReading(c,zotero);
   if(m.reader_note||comments.length)out+=`<section class="reader-section"><h3>我的备注</h3>${m.reader_note?`<p class="reader-note">${esc(m.reader_note)}</p>`:''}${comments.map(s=>`<p class="reader-note">${esc(s.comment)} <span class="mini">（页码标签 ${esc(s.page_label)}）</span></p>`).join('')}</section>`;
-  const contexts=c.context_excerpts||[];
-  if(contexts.length||c.context_before||c.context_after)out+=`<details class="reader-section"><summary>需要时，回看上下文</summary><div><p class="mini">以下来自原书正文，补充摘录之间的语境。</p>${c.context_before?`<blockquote>${esc(compact(c.context_before))}</blockquote>`:''}${contexts.map(x=>`<p class="mini">PDF 第 ${x.page_index+1} 页</p><blockquote>${esc(compact(x.text))}</blockquote>`).join('')}${c.context_after?`<blockquote>${esc(compact(c.context_after))}</blockquote>`:''}</div></details>`;
   if(a.paraphrase||(a.argument_structure||[]).length||(a.argument_uses||[]).length)out+=`<details class="reader-section"><summary>已有解读（可选）</summary><div><p class="mini">这些是 AI 的理解和使用建议，可不同意，也不要求每张素材都具备。</p>${a.paraphrase?`<p>${esc(a.paraphrase)}</p>`:''}
    ${(a.argument_structure||[]).map(s=>`<div class="review-item"><h4>${esc(s.role)}</h4><p>${esc(s.summary)}</p></div>`).join('')}
    ${(a.argument_uses||[]).map(u=>`<div class="review-item"><h4>一种可能的用法</h4><p>${esc(u.claim)}</p><p class="sub">${esc(u.reasoning)}</p>${u.limits?.length?`<p class="mini">使用边界</p><ul class="sub">${u.limits.map(l=>`<li>${esc(l)}</li>`).join('')}</ul>`:''}</div>`).join('')}</div></details>`;
@@ -271,6 +298,17 @@ function mount(DATA){
   $('reader-title').focus({preventScroll:true});window.scrollTo({top:0});
  }
  on(document,'click',e=>{
+  const toggle=e.target.closest('.source-toggle');
+  if(toggle){
+   const paper=toggle.closest('.source-paper'),open=toggle.getAttribute('aria-expanded')!=='true';
+   const anchor=[...paper.querySelectorAll('mark')].find(mark=>mark.getBoundingClientRect().bottom>0)||paper.querySelector('mark');
+   const before=anchor.getBoundingClientRect().top;
+   paper.classList.toggle('is-expanded',open);
+   paper.querySelectorAll('.gap-words').forEach(words=>words.hidden=!open);
+   paper.querySelectorAll('.source-toggle').forEach(button=>{button.setAttribute('aria-expanded',String(open));button.textContent=open?'收起原文':'展开原文';});
+   window.scrollBy?.(0,anchor.getBoundingClientRect().top-before);
+   return;
+  }
   if(e.target.closest('#clear-material-filter')){$('book-filter').value='';renderMaterials();$('toggle-material-filters').focus();return;}
   const hit=e.target.closest('[data-hit]');if(hit){showMaterial(hit.dataset.hit);return;}
   const entry=e.target.closest('.material-card');

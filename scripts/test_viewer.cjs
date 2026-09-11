@@ -20,6 +20,7 @@ async function page(filename, hosted = false, failMaterials = false) {
     runScripts: 'dangerously', virtualConsole,
     beforeParse(window) {
       window.scrollTo = () => {};
+      window.scrollBy = () => {};
       window.fetch = async url => {
         requests.push(url);
         if (failMaterials && url.includes('/materials/')) return {ok:false};
@@ -112,6 +113,22 @@ async function run() {
   assert.match($('reader-title').textContent, /利益如何被定义/);
   assert.ok(![...$('material-detail').querySelectorAll('details')].some(x=>x.open));
   assert.ok($('material-detail').querySelector('.original').textContent.includes('“性价比最优”原则，“名牌消费”'));
+  const paper=$('material-detail').querySelector('.source-paper');
+  const marks=[...paper.querySelectorAll('mark')];
+  const toggle=paper.querySelector('.source-toggle');
+  const reading=records.find(m=>m.id==='MAT-ZOTERO-6LF72SCC-001').capture.reading;
+  assert.ok(marks.length>0);
+  assert.ok([...paper.querySelectorAll('.gap-words')].every(x=>x.hidden));
+  assert.equal(toggle.getAttribute('aria-expanded'),'false');
+  toggle.click();
+  assert.equal(toggle.textContent,'收起原文');
+  assert.equal(paper.querySelector('.original').textContent,reading.text,'展开逐字呈现同一份原文');
+  assert.ok([...paper.querySelectorAll('.gap-words')].every(x=>!x.hidden));
+  assert.equal(paper.querySelector('mark'),marks[0],'展开保留原来的高光节点');
+  toggle.click();
+  assert.ok([...paper.querySelectorAll('.gap-words')].every(x=>x.hidden));
+  assert.equal(paper.querySelector('mark'),marks[0]);
+  assert.ok(!$('material-detail').textContent.includes('需要时，回看上下文'));
   assert.ok(!$('material-detail').textContent.includes('PR-0045'), '关联题不进入默认素材详情');
   $('back-materials').click();
   assert.equal($('material-search').value, '名牌');

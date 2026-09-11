@@ -418,7 +418,152 @@
         "method": "pdf_text"
       }
     ],
-    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。"
+    "context_note": "2026-09-10 重整：补充正文来自本地 PDF，与高亮分区保存；段间空隙表示原文不连续或保留句段边界。原始批注文字、颜色、位置和备注不改。PDF 及批注中的异常字形仍保留，未以猜测改写；需准确逐字引文时仍应核对可靠版本。",
+    "reading": {
+      "text": "祛魅的第一个阶段叫“宗教的理性化”，就是驱逐原始宗教中的各种巫术，用哲学理性来论证宗教的合理性，论证它的救赎意义。就好像中国人也会区分江湖迷信和真正的佛法高僧，祛魅的第一个阶段就是去除那些装神弄鬼的事情，让宗教走到理性思辨的道路上来。在这个阶段，祛魅并没有瓦解宗教，反而使宗教获得了理性化的发展。\n\n说到这儿，你就能明白为什么那么多科学家都是虔诚的教徒。比如牛顿，再比如发现了遗传定律的孟德尔（他本身就是一个神父）。还有明清时期来到中国的那些耶稣会传教士，利玛窦、汤若望等，他们的科学素养都很高，也给中国带来了很多科学知识和科学仪器。他们都重视理性，追求理性的发展。\n\n但是祛魅作为一种理性化的取向，要考问的是所有超验的、神秘的东西，这个逻辑链条一旦展开，是不会停止的。所以袪魅的第二阶段很快就转向了宗教本身。\n\n我们知道，现代科学是理性化活动最典型的体现，依靠冷静的观察、可靠的证据、严谨的逻辑和清晰的论证。科学得出来的结论，是可观察、可检验、可质疑、可反驳、可修正的，它在根本上抵制一切神秘和超验之物。这个逻辑发展下去，最后还是会挑战宗教的精神主导地位。到尼采喊出来“上帝死了”这句话的时候，这个挑战也就基本完成了。\n\n好了。现在世界上没有什么神秘的东西了。日食，就是一个天体现象，既不是什么皇帝失德，上天示警，也不是什么天狗食日；\n\n水，就是H2O这种分子，世界上没有什么神水圣水；你爱上一个人，不是什么前世因果，而是你体内荷尔蒙的变化。自然世界客观化了，不再具有神性和灵性了，成为可以用冷冰冰的\n\n \n\n因果规律解释的物理世界了。",
+      "highlight_ranges": [
+        {
+          "start": 0,
+          "end": 30,
+          "annotation_keys": [
+            "B4B3TVRD"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 30,
+          "end": 61,
+          "annotation_keys": [
+            "KNHP36ZY"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 61,
+          "end": 92,
+          "annotation_keys": [
+            "7VWHYQMC"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 92,
+          "end": 122,
+          "annotation_keys": [
+            "WZ4SJ6ZQ"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 123,
+          "end": 147,
+          "annotation_keys": [
+            "8DA7NBP4"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 285,
+          "end": 314,
+          "annotation_keys": [
+            "HVKV77A6"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 314,
+          "end": 345,
+          "annotation_keys": [
+            "5KPP3WIG"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 345,
+          "end": 354,
+          "annotation_keys": [
+            "8ZGDGMGY"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 357,
+          "end": 385,
+          "annotation_keys": [
+            "CIU8MS2Z"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 385,
+          "end": 416,
+          "annotation_keys": [
+            "C54WSXL2"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 416,
+          "end": 447,
+          "annotation_keys": [
+            "NSQQ2K9G"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 447,
+          "end": 477,
+          "annotation_keys": [
+            "UCA3QB2C"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 477,
+          "end": 508,
+          "annotation_keys": [
+            "77J3UCHZ"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 508,
+          "end": 509,
+          "annotation_keys": [
+            "HLYXEWV6"
+          ],
+          "color": "#5fb236"
+        },
+        {
+          "start": 512,
+          "end": 530,
+          "annotation_keys": [
+            "PQE6CNTX"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 622,
+          "end": 651,
+          "annotation_keys": [
+            "GHUR63DK"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 656,
+          "end": 668,
+          "annotation_keys": [
+            "YBZ92DVU"
+          ],
+          "color": "#ffd400"
+        }
+      ],
+      "method": "pdf_rects",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "page_start": 33,
+      "page_end": 34
+    }
   },
   "reader_note": null,
   "analysis": {

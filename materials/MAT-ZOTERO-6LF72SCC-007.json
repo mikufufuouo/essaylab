@@ -186,7 +186,64 @@
         "text": "现代工商业因此而发展，但新的问题出现了。理性计算的逻辑会一直向前推进，导向一些我们不喜欢的后果，比如“工作996，生病ICU”，人变成了工业链条上可磨损的零件。",
         "method": "pdf_text"
       }
-    ]
+    ],
+    "reading": {
+      "text": "自然的秩序被打破了，我们建立起了理性的新秩序，这就是古今之变的第三点。\n\n现代工商业因此而发展，但新的问题出现了。理性计算的逻辑会一直向前推进，导向一些我们不喜欢的后果，比如“工作996，生病ICU”，人变成了工业链条上可磨损的零件。\n\n个人主观价值绝对提升，自然秩序被打破，理性秩序建立，这些都是古今之变的一部分。简单地说，古今之变，就是自然变成了不自然。\n\n这并不是说客观世界从自然变成了不自然，而是说我们看待世界的方式改变了。古代人相信有一个外在于人的自然秩序，这个秩序有它自\n\n \n\n身的目的和意义。但现在我们不再相信有什么上天注定的意义，我们相信意义是由人赋予的。",
+      "highlight_ranges": [
+        {
+          "start": 0,
+          "end": 34,
+          "annotation_keys": [
+            "LAFI2GUZ"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 119,
+          "end": 148,
+          "annotation_keys": [
+            "B248UPIJ"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 148,
+          "end": 178,
+          "annotation_keys": [
+            "42RSCIX9"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 181,
+          "end": 210,
+          "annotation_keys": [
+            "ZHF6T332"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 210,
+          "end": 215,
+          "annotation_keys": [
+            "7Z54TGR3"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 254,
+          "end": 286,
+          "annotation_keys": [
+            "TI3CFQ25"
+          ],
+          "color": "#ffd400"
+        }
+      ],
+      "method": "pdf_rects",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "page_start": 22,
+      "page_end": 23
+    }
   },
   "reader_note": null,
   "analysis": {

@@ -318,7 +318,146 @@
         "text": "这种“正义”是指，每个事物都有自己确定的意义。我们应该依照这个意义行事。而这个意义是自然给定的，也就是理所当然的。",
         "method": "pdf_text"
       }
-    ]
+    ],
+    "reading": {
+      "text": "**第二个故事是一个思想实验1，我把它简化了一下。两个孩子在一起玩，他们开始争抢玩具中的一支笛子。如果要你来评断，你认为把笛子判给谁才算公正呢？\n\n你可能会说，很简单，这堆玩具的主人是谁，笛子就属于谁。但是如果让亚里士多德来评判，你猜他会怎么说？他会说，谁把笛子吹得更好听，笛子就应该属于谁。\n\n你会不会觉得亚里士多德好像跑题了：我们在讨论所有权，和好不好听有什么关系呢？\n\n亚里士多德并没有跑题，这个答案来自他的哲学观点。他相信存在一套自然秩序，在这套秩序中，“万物都有自己的目的”。笛子作为乐器存在的目的，就是奏出优美的音乐，所以谁能更好地实现笛子的目的，谁就应当成为笛子的主人。这就是“正义”。\n\n这种“正义”是指，每个事物都有自己确定的意义。我们应该依照这个意义行事。而这个意义是自然给定的，也就是理所当然的。\n\n欧洲过去还有人说，贵族的血液是蓝色的，现在听上去很荒谬，但过去为什么会有人听信这么荒谬的说法呢？因为人们相信贵族的血统比平民更高贵，既然如此，血液的颜色不同也就没什么好奇怪的。\n\n \n\n但我们现代人不太相信什么自然给定的意义了，哪有什么“天生如此”的事情呢？我们现在相信的是“我命由我不由天”。没错，我们抛弃了自然秩序这个神话，得到了自由。\n\n这并不是没有代价的。如果所有人都相信一个共同的神话，我们就有了关于好坏对错的共同标准。但失去了共同神话，无论是上帝也好，传统也好，天道也好，我们就会遇到一个问题：在价值与价值之间很难区分高低优劣，每一种价值都有自己的道理，彼此冲突的观念，常常谁也说服不了谁。\n\n共同的神话束缚了我们，却也让我们有了共同的准则。摆脱这个神话之后，我们有了自由，却又陷入混乱和茫然之中。\n\n这就是古今之变的第二点，人们观念中的自然秩序被理性给打破了。",
+      "highlight_ranges": [
+        {
+          "start": 25,
+          "end": 71,
+          "annotation_keys": [
+            "B4IC27Z7"
+          ],
+          "color": "#2ea8e5"
+        },
+        {
+          "start": 74,
+          "end": 145,
+          "annotation_keys": [
+            "B4IC27Z7"
+          ],
+          "color": "#2ea8e5"
+        },
+        {
+          "start": 148,
+          "end": 185,
+          "annotation_keys": [
+            "B4IC27Z7"
+          ],
+          "color": "#2ea8e5"
+        },
+        {
+          "start": 188,
+          "end": 232,
+          "annotation_keys": [
+            "B4IC27Z7"
+          ],
+          "color": "#2ea8e5"
+        },
+        {
+          "start": 232,
+          "end": 238,
+          "annotation_keys": [
+            "B4IC27Z7",
+            "HCKWSIXU"
+          ],
+          "color": "#2ea8e5"
+        },
+        {
+          "start": 238,
+          "end": 241,
+          "annotation_keys": [
+            "HCKWSIXU"
+          ],
+          "color": "#2ea8e5"
+        },
+        {
+          "start": 241,
+          "end": 279,
+          "annotation_keys": [
+            "MK6VR43K"
+          ],
+          "color": "#2ea8e5"
+        },
+        {
+          "start": 280,
+          "end": 299,
+          "annotation_keys": [
+            "MK6VR43K"
+          ],
+          "color": "#2ea8e5"
+        },
+        {
+          "start": 490,
+          "end": 530,
+          "annotation_keys": [
+            "QXBELIPU"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 533,
+          "end": 592,
+          "annotation_keys": [
+            "QXBELIPU"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 593,
+          "end": 661,
+          "annotation_keys": [
+            "QXBELIPU"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 664,
+          "end": 671,
+          "annotation_keys": [
+            "3XKFASJL",
+            "QXBELIPU"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 671,
+          "end": 693,
+          "annotation_keys": [
+            "3XKFASJL"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 693,
+          "end": 715,
+          "annotation_keys": [
+            "HRC6LCA4"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 718,
+          "end": 746,
+          "annotation_keys": [
+            "EHQG3LMI"
+          ],
+          "color": "#ffd400"
+        },
+        {
+          "start": 746,
+          "end": 747,
+          "annotation_keys": [
+            "7II9JD6Z"
+          ],
+          "color": "#ffd400"
+        }
+      ],
+      "method": "pdf_rects",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "page_start": 21,
+      "page_end": 22
+    }
   },
   "reader_note": null,
   "analysis": {

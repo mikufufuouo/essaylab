@@ -2,6 +2,7 @@
 """Import real manually copied excerpts; validate JSON; render disposable Markdown views."""
 import argparse
 import hashlib
+import html
 import json
 import re
 from pathlib import Path
@@ -99,6 +100,23 @@ def validate_material(value, root=ROOT):
                 raise ValueError("删去的文字未被相邻来源覆盖，不能当作重叠删除")
         if value["capture"]["text_original"] != reading_text(segments):
             raise ValueError("组合原文必须来自去重后的来源片段，不能补写")
+    reading = value['capture'].get('reading')
+    if reading:
+        previous_end = 0
+        covered = set()
+        for span in reading['highlight_ranges']:
+            if not previous_end <= span['start'] < span['end'] <= len(reading['text']):
+                raise ValueError('高光范围越界、重叠或顺序错误')
+            if not set(span['annotation_keys']) <= set(keys):
+                raise ValueError('高光引用了未知批注')
+            covered.update(span['annotation_keys'])
+            previous_end = span['end']
+        if covered != set(keys):
+            raise ValueError('连续原文缺少来源高光')
+        if reading['file_sha256'] != value['capture']['source']['file_sha256']:
+            raise ValueError('连续原文的 PDF 指纹不匹配')
+        if (reading['page_start'], reading['page_end']) != (min(s['page_index'] for s in segments), max(s['page_index'] for s in segments)):
+            raise ValueError('连续原文页码与批注不匹配')
     contexts = value['capture'].get('context_excerpts', [])
     context_keys = {x['id'] for x in contexts}
     if len(context_keys) != len(contexts):
@@ -188,10 +206,20 @@ def markdown(value):
     out += f"# {value.get('title', value['id'])}\n\n此 Markdown 是自动生成的阅读副本。修订请交给 Codex 更新同名 JSON，再生成本页。\n\n"
     if c.get("segments"):
         cleaned = any('display_text' in s or 'join_previous' in s for s in c['segments'])
-        out += ('## 摘录（重叠已去除；段间可能有未划出的文字）\n\n' if cleaned else
+        out += ('## 原文中的高光\n\n' if c.get('reading') else '## 摘录（重叠已去除；段间可能有未划出的文字）\n\n' if cleaned else
                 '## 来源片段（不代表连续原文）\n\n')
         out += f"组合理由（AI）：{c['grouping_reason']}\n\n[原始读取快照](../{c['raw_snapshot']})\n\n"
-        out += '\n'.join('> ' + line for line in compact_layout(c['text_original']).splitlines()) + '\n\n'
+        if c.get('reading'):
+            reading = c['reading']
+            cursor, pieces = 0, []
+            for span in reading['highlight_ranges']:
+                pieces.append(html.escape(reading['text'][cursor:span['start']]))
+                pieces.append('<mark>' + html.escape(reading['text'][span['start']:span['end']]) + '</mark>')
+                cursor = span['end']
+            pieces.append(html.escape(reading['text'][cursor:]))
+            out += '<div style="white-space:pre-wrap">' + ''.join(pieces).replace(' \n', '&#32;\n') + '</div>\n\n'
+        else:
+            out += '\n'.join('> ' + line for line in compact_layout(c['text_original']).splitlines()) + '\n\n'
         out += '<details>\n<summary>批注来源、颜色与去重记录</summary>\n\n'
         for segment in c['segments']:
             out += f"- {segment['annotation_key']} · 页码标签 {segment['page_label']} · {segment['color']}"
@@ -217,7 +245,7 @@ def markdown(value):
     for label, key in [("原始前文", "context_before"), ("原始后文", "context_after"), ("整理者的上下文说明", "context_note")]:
         if c.get(key):
             out += f"{label}：{c[key]}\n\n"
-    if c.get('context_excerpts'):
+    if c.get('context_excerpts') and not c.get('reading'):
         out += '## 补充上下文（来自 PDF 正文，不是你的高亮）\n\n'
         for context in c['context_excerpts']:
             out += f"### {context['id']} · PDF 第 {context['page_index'] + 1} 页\n\n"

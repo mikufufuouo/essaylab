@@ -80,7 +80,32 @@
         "text": "“现代化真的好吗？”我突然发现，自己过去从来没有想过这个问题！我甚至并不明白“现代”这个词的确切含义，也没有思考过现代化的进程会带来怎样的问题，更不要谈怎么样才能去改良它了。",
         "method": "pdf_text"
       }
-    ]
+    ],
+    "reading": {
+      "text": "“现代化真的好吗？”我突然发现，自己过去从来没有想过这个问题！我甚至并不明白“现代”这个词的确切含义，也没有思考过现代化的进程会带来怎样的问题，更不要谈怎么样才能去改良它了。我就像一条生活在水里的鱼，却从来没有反思过我生活的这片水。",
+      "highlight_ranges": [
+        {
+          "start": 87,
+          "end": 92,
+          "annotation_keys": [
+            "SWTPGZ7D"
+          ],
+          "color": "#ff6666"
+        },
+        {
+          "start": 92,
+          "end": 115,
+          "annotation_keys": [
+            "7BW7RW69"
+          ],
+          "color": "#ff6666"
+        }
+      ],
+      "method": "pdf_rects",
+      "file_sha256": "ee95f96bd9e3ea963ccb3dc6a372f460df5b543fe03eaae370ace7bbdf5bac95",
+      "page_start": 10,
+      "page_end": 10
+    }
   },
   "reader_note": null,
   "analysis": {
